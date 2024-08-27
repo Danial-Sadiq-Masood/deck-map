@@ -23,6 +23,8 @@ const mapDataFormat = mapData.map(
     })
 )
 
+console.log('a');
+
 const LocationAggregatorMap = ({
     data = [
         {
