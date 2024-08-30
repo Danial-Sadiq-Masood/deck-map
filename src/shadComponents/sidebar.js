@@ -61,14 +61,15 @@ export default function CardDemo({ className, ...props }) {
                 </div>
                 <div className=" flex flex-col items-center space-x-4 rounded-md border p-4">
                     <div className="flex gap-3 flex-col">
-                        <div className="flex items-start space-x-2">
-                            <Switch onCheckedChange={(checked) => props.ptiToggle(checked)} id="toggle-pti" />
-                            <Label htmlFor="airplane-mode">PTI Polling Station Results</Label>
-                        </div>
-                        <div className="flex items-start space-x-2">
-                            <Switch onCheckedChange={(checked) => props.nonPTIToggle(checked)} id="toggle-pti" />
-                            <Label htmlFor="airplane-mode">Non-PTI Polling Station Results</Label>
-                        </div>
+                        {
+                        props.toggles
+                            .map(d => (
+                                <div className="flex items-start space-x-2">
+                                    <Switch onCheckedChange={(checked) => d[1](checked)} checked={d[0]} id="toggle-pti" />
+                                    <Label htmlFor="airplane-mode">{d[2]}</Label>
+                                </div>
+                            ))
+                        }
                     </div>
                 </div>
                 <div className="flex flex-col gap-0 items-stretch rounded-md border">

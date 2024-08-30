@@ -5,8 +5,7 @@ import React, { useState } from 'react'
 
 import Map, { NavigationControl } from 'react-map-gl'
 import DeckGL from '@deck.gl/react'
-import { ColumnLayer, GeoJsonLayer, GridCellLayer, TextLayer } from '@deck.gl/layers';
-import {FillStyleExtension} from '@deck.gl/extensions';
+import { SolidPolygonLayer, GeoJsonLayer, GridCellLayer, TextLayer } from '@deck.gl/layers';
 import { CPUGridLayer } from '@deck.gl/aggregation-layers';
 import "mapbox-gl/dist/mapbox-gl.css"
 import mapData from './mapData.js';
@@ -18,6 +17,7 @@ import { circle } from "@turf/circle";
 import { destination } from "@turf/destination";
 import { booleanOverlap } from "@turf/boolean-overlap";
 import * as turf from "@turf/turf";
+import * as d3 from "d3";
 
 
 
@@ -30,9 +30,9 @@ import {
     material,
     INITIAL_VIEW_STATE,
     colorRange,
+    partyColors
 } from "../lib/mapconfig.js";
-import { SearchParamsContext } from 'next/dist/shared/lib/hooks-client-context.shared-runtime.js';
-import { WindSong } from 'next/font/google/index.js';
+import { MapView } from 'deck.gl';
 
 const circles = mapData.map(d => circle([d.lng, d.lat], 0.2))
 
@@ -109,29 +109,45 @@ const mapDataFormat = filterSeats(128, res128)
     .map(
         d => ({
             centroid: d.coords,
-            value: Number.parseInt(d["riggingAdvantage"]),
+            value: d["Final Votes"],
             ps: d["Polling Station"],
-            winner: d.Winner,
-            seat : d.seat
+            winner: d.Winner
         })
     )
-    .filter(d => Number.isInteger(d.value))
-    .filter(d => d.value >= 0)
 
 // Call the function and update your map
 //const updatedSquares = resolveOverlaps(circles);
 
-console.log(mapDataFormat);
+//console.log(updatedSquares);
+
+const seatAverage = {
+    128 : {
+        na : 82.5,
+        pa : 46.6
+    },
+    130 : {
+        na : 66.2,
+        pa : 39.7
+    }
+}
+
+const polyLayer = seatOutlines.features
+    .filter(d => d.properties.seat == 128 || d.properties.seat == 130)
 
 const LocationAggregatorMap = ({
-    
+    extensionKey = "Final Votes",
+    data = [
+        {
+            centroid: [74.3587, 31.5204],
+            value: 1400
+        },
+        {
+            centroid: [74.3697, 31.5334],
+            value: 800
+        }
+    ],
+    valKey
 }) => {
-
-    const partyColors = {
-        'pti': [255, 87, 51],
-        'pmln': [156, 39, 230],
-        'ipp': [76, 208, 224]
-    }
 
     const layers = [
         /*new ColumnLayer({
@@ -168,42 +184,77 @@ const LocationAggregatorMap = ({
             pointType: 'circle+text',
             pickable: true,
 
-            getFillColor: f => { return [
-                    ...partyColors[f.properties.winner], 
-                    f.properties.seat == 128 || f.properties.seat == 130 ? 230 : 40
-                ] 
-            },
+            getFillColor: f => { return [...partyColors[f.properties.winner], 70] },
             getLineColor: f => {
                 const hex = f.properties.color;
                 // convert to RGB
-                return [250, 250, 250, 
-                    f.properties.seat == 128 || f.properties.seat == 130 ? 100 : 40
-                ];
+                return [250, 250, 250, 120];
             },
-            getLineWidth: f => f.properties.seat == 128 || f.properties.seat == 130 ? 200  : 40,
+            getLineWidth: 40,
             lineCapRounded: true,
             lineWidthMinPixels: 1,
             getPointRadius: 4
         }),
+        new SolidPolygonLayer({
+            id: 'solidpolylayer',
+            data: polyLayer,
+            elevationScale : 10,
+            extruded : true,
+            getPolygon : (d) => d.geometry.coordinates,
+            getElevation : d => {
+                if(seatAverage[d.properties.seat]){
+                    return seatAverage[d.properties.seat][valKey]
+                }else{
+                    return 0
+                }
+            },
+            stroked: true,
+            filled: true,
+            pointType: 'circle+text',
+            pickable: true,
+            wireframe : true,
+            getFillColor: f => { 
+                if(f.properties.winner !== 'pti'){
+                    return [255,174,155, 200]
+                }else{
+                    return [127,157,255, 200]
+                } 
+            },
+            getLineColor: f => {
+                const hex = f.properties.color;
+                // convert to RGB
+                return [250, 250, 250, 200];
+            },
+            getLineWidth: 80,
+            lineCapRounded: true,
+            lineWidthMinPixels: 1,
+            transitions : {
+                getElevation : {
+                    duration : 1000,
+                    easing : d3.easeCubicOut
+                }
+            },
+            updateTriggers : {
+                getElevation : [valKey]
+            }
+        }),
         new TextLayer({
             id: 'TextLayer',
             data: textLayerData,
-            getPosition: d => d.centroid,
+            getPosition: d => [d.centroid[0], d.centroid[1], 1200],
             getText: d => d.seat,
             getPixelOffset: [0, 0],
             getAlignmentBaseline: 'center',
-            getColor: [0, 0, 0, 200],
-            getSize: f => f.seat == 'NA-128' || f.seat == 'NA-130' ? 800 : 500,
+            getColor: [255,255,255,255],
+            getSize: 500,
+            sizeMinPixels : 10,
             sizeScale: 1,
             getTextAnchor: 'middle',
             pickable: true,
-            //background : true,
-            //getBackgroundColor : [255,255,255,255],
             getAlignmentBaseline: "bottom",
             sizeUnits: 'meters',
             fontFamily: 'sans-serif',
             fontWeight: 900,
-            //outlineWidth : 2,
             outlineColor: [250, 250, 250, 250],
             fontSettings: {
                 radius: 5
@@ -228,9 +279,10 @@ const LocationAggregatorMap = ({
         <div>
             <DeckGL
                 layers={layers}
-                effects={[lightingEffect]}
+                //effects={[lightingEffect]}
                 initialViewState={INITIAL_VIEW_STATE}
                 controller={true}
+                //views={new MapView({})}
             /*getTooltip={(obj) => {
                 console.log(obj);
                 return "hello"

@@ -15,10 +15,7 @@ const HomePage = () => {
       </div>
       <div className='flex'>
         <CardDemo 
-          showPTI={showPTI}
-          showNonPTI={showNonPTI}
-          ptiToggle={setShowPTI} 
-          nonPTIToggle={setShowNonPTI} 
+          toggles={[[showPTI, setShowPTI, 'PTI Polling Stations Turnout'], [showNonPTI, setShowNonPTI, 'Non-PTI Polling Stations Turnout']]}
         />
       </div>
     </div>
