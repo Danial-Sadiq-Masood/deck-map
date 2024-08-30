@@ -56,3 +56,9 @@ export const colorRange = [
   [254, 173, 84],
   [209, 55, 78],
 ];
+
+export const partyColors = {
+  'pti': [48, 80, 230],
+  'pmln': [230, 80, 48],
+  'ipp': [230, 80, 48]
+}

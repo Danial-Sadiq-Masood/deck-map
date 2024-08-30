@@ -29,6 +29,7 @@ import {
     material,
     INITIAL_VIEW_STATE,
     colorRange,
+    partyColors
 } from "../lib/mapconfig.js";
 import { MapView } from 'deck.gl';
 
@@ -132,12 +133,6 @@ const LocationAggregatorMap = ({
     ]
 }) => {
 
-    const partyColors = {
-        'pti': [255, 87, 51],
-        'pmln': [156, 39, 230],
-        'ipp': [76, 208, 224]
-    }
-
     const layers = [
         /*new ColumnLayer({
             id: 'ColumnLayer',
@@ -173,7 +168,7 @@ const LocationAggregatorMap = ({
             pointType: 'circle+text',
             pickable: true,
 
-            getFillColor: f => { return [...partyColors[f.properties.winner], 130] },
+            getFillColor: f => { return [...partyColors[f.properties.winner], 70] },
             getLineColor: f => {
                 const hex = f.properties.color;
                 // convert to RGB
