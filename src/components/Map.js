@@ -3,11 +3,25 @@
 
 import React, { useState } from 'react'
 
-import Map, {NavigationControl}  from 'react-map-gl'
+import Map, { NavigationControl } from 'react-map-gl'
 import DeckGL from '@deck.gl/react'
-import {ColumnLayer} from '@deck.gl/layers';
+import { ColumnLayer, GeoJsonLayer, GridCellLayer, } from '@deck.gl/layers';
+import { CPUGridLayer } from '@deck.gl/aggregation-layers';
 import "mapbox-gl/dist/mapbox-gl.css"
 import mapData from './mapData.js';
+import seatOutlines from './with_seat.geo.json';
+import res128 from './res128.json';
+import { simplify } from "@turf/simplify";
+import { circle } from "@turf/circle";
+import { destination } from "@turf/destination";
+import { booleanOverlap } from "@turf/boolean-overlap";
+import * as turf from "@turf/turf";
+
+
+
+//const simmpleSeatOutlines = simplify(seatOutlines, {mutate : true, tolerance : 0.007})
+
+console.log(seatOutlines);
 // import map config
 import {
     lightingEffect,
@@ -15,31 +29,72 @@ import {
     INITIAL_VIEW_STATE,
     colorRange,
 } from "../lib/mapconfig.js";
+import { SearchParamsContext } from 'next/dist/shared/lib/hooks-client-context.shared-runtime.js';
 
-const mapDataFormat = mapData.map(
+const circles = mapData.map(d => circle([d.lng, d.lat], 0.2))
+
+const squareSize = 0.2; // in meters
+
+function resolveOverlaps(circles) {
+    const maxIterations = 1;
+
+    for (let iteration = 0; iteration < maxIterations; iteration++) {
+        circles.forEach((circle, i) => {
+            circles.forEach((otherCircle, j) => {
+                if (otherCircle === circle) {
+                    return;
+                }
+                if (booleanOverlap(circle, otherCircle)) {
+                    console.log('overlap', circle, otherCircle, i, j);
+                }
+            })
+        });
+    }
+
+    return squares;
+}
+
+const filterSeats = () => {
+    const seatOutline = seatOutlines.features
+        .filter(d => d.properties.seat == 128)[0];
+
+    const poly = turf.polygon(seatOutline.geometry.coordinates)
+    const correctSeats = res128.filter(d => {
+        return turf.booleanPointInPolygon([d.coords.lng, d.coords.lat], poly)
+    })
+    return correctSeats;
+}
+
+//window.filterSeats = filterSeats;
+
+const mapDataFormat = filterSeats().map(
     d => ({
-        centroid : [d.lng, d.lat],
-        value : Math.floor(Math.random() * 1000)
+        centroid: [d.coords.lng, d.coords.lat],
+        value: Math.floor(Math.random() * 1000),
+        winner : d.Winner
     })
 )
 
-console.log('a');
+// Call the function and update your map
+//const updatedSquares = resolveOverlaps(circles);
+
+//console.log(updatedSquares);
 
 const LocationAggregatorMap = ({
     data = [
         {
-            centroid : [74.3587, 31.5204],
-            value : 1400
+            centroid: [74.3587, 31.5204],
+            value: 1400
         },
         {
-            centroid : [74.3697, 31.5334],
-            value : 800
+            centroid: [74.3697, 31.5334],
+            value: 800
         }
     ]
 }) => {
 
     const layers = [
-        new ColumnLayer({
+        /*new ColumnLayer({
             id: 'ColumnLayer',
             data: mapDataFormat,
             diskResolution: 6,
@@ -47,30 +102,89 @@ const LocationAggregatorMap = ({
             radius: 100,
             elevationScale: 1,
             getElevation: (d) => d.value,
-            getFillColor: (d) => [48, 128, d.value * 255, 200],
+            getFillColor: (d) => [48, 128, d.value * 255, 250],
             getPosition: (d) => d.centroid,
             pickable: true
-        })
-      ];
+        }),*/
+        new CPUGridLayer({
+            id: 'CPUGridLayer',
+            data: mapDataFormat,
+            extruded: true,
+            getPosition: d => d.centroid,
+            getColorWeight: 0,
+            colorRange : [[10,10,250,180]],
+            getElevationWeight: d => d.value,
+            elevationScale: 4,
+            cellSize: 200,
+            pickable: true
+        }),
+        /*new GridCellLayer({
+            id: 'GridCellLayer',
+            data: mapDataFormat,
+
+            cellSize: 200,
+            extruded: true,
+            elevationScale: 1,
+            getElevation: d => d.value,
+            getFillColor: d => [48, 128, d.value * 255, 170],
+            getPosition: d => d.centroid,
+            pickable: true
+        }),*/
+        new GeoJsonLayer({
+            id: 'GeoJsonLayer',
+            data: seatOutlines,
+            //extruded : true,
+            //getElevation : d => Math.random() * 1000,
+            //stroked: true,
+            filled: true,
+            pointType: 'circle+text',
+            pickable: true,
+
+            getFillColor: f => [Math.random() * 250, Math.random() * 250, Math.random() * 250, 70],
+            getLineColor: f => {
+                const hex = f.properties.color;
+                // convert to RGB
+                return [0, 0, 0, 10];
+            },
+            getLineWidth: 40,
+            lineCapRounded: true,
+            lineWidthMinPixels: 1,
+            getPointRadius: 4,
+            getText: f => f.properties.name,
+            getTextSize: 12
+        }),
+        /*new PolygonLayer({
+            id: 'PolygonLayer',
+            data: 'https://raw.githubusercontent.com/visgl/deck.gl-data/master/website/sf-zipcodes.json',
+
+            getPolygon: d => d.contour,
+            getElevation: d => d.population / d.area / 10,
+            getFillColor: d => [d.population / d.area / 60, 140, 0],
+            getLineColor: [255, 255, 255],
+            getLineWidth: 20,
+            lineWidthMinPixels: 1,
+            pickable: true
+        }),*/
+    ];
 
 
-return (
-    <div>
-        <DeckGL
-            layers={layers}
-            effects={[lightingEffect]}
-            initialViewState={INITIAL_VIEW_STATE}
-            controller={true}
-        >
-            <Map
+    return (
+        <div>
+            <DeckGL
+                layers={layers}
+                effects={[lightingEffect]}
+                initialViewState={INITIAL_VIEW_STATE}
                 controller={true}
-                mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN}
-                mapStyle="mapbox://styles/petherem/cl2hdvc6r003114n2jgmmdr24"
             >
-            </Map>
-        </DeckGL>
-    </div>
-);
+                <Map
+                    controller={true}
+                    mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN}
+                    mapStyle="mapbox://styles/mapbox/streets-v12"
+                >
+                </Map>
+            </DeckGL>
+        </div>
+    );
 };
 
 export default LocationAggregatorMap;

@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@turf/simplify": "^7.1.0",
+    "@turf/turf": "^7.1.0",
+    "d3": "^7.9.0",
     "deck.gl": "^9.0.27",
     "mapbox-gl": "^3.6.0",
     "next": "14.2.6",
