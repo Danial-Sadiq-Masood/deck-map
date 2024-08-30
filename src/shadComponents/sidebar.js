@@ -18,10 +18,10 @@ import Image from "next/image"
 
 export default function CardDemo({ className, ...props }) {
     return (
-        <Card className={cn("w-full p-2 min-w-[300px]", className)} {...props}>
+        <Card className={cn("w-full p-2 min-w-[300px] h-fit", className)} {...props}>
             <CardContent className="p-2 grid gap-2">
                 <div className=" flex flex-col items-start space-x-4 rounded-md border p-3">
-                    <div className="flex-1 space-y-1">
+                    <div className="flex-1">
                         <p className="text-sm font-medium leading-none">
                             PML-N
                         </p>
@@ -34,7 +34,7 @@ export default function CardDemo({ className, ...props }) {
                     </div>
                 </div>
                 <div className=" flex flex-col items-start space-x-4 rounded-md border p-3">
-                    <div className="flex-1 space-y-1">
+                    <div className="flex-1">
                         <p className="text-sm font-medium leading-none">
                             IPP
                         </p>
@@ -47,7 +47,7 @@ export default function CardDemo({ className, ...props }) {
                     </div>
                 </div>
                 <div className=" flex flex-col items-start space-x-4 rounded-md border p-3">
-                    <div className="flex-1 space-y-1">
+                    <div className="flex-1">
                         <p className="text-sm font-medium leading-none">
                             PTI
                         </p>
