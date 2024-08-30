@@ -5,7 +5,7 @@ import React, { useState } from 'react'
 
 import Map, { NavigationControl } from 'react-map-gl'
 import DeckGL from '@deck.gl/react'
-import { ColumnLayer, GeoJsonLayer, GridCellLayer, } from '@deck.gl/layers';
+import { ColumnLayer, GeoJsonLayer, GridCellLayer, TextLayer} from '@deck.gl/layers';
 import { CPUGridLayer } from '@deck.gl/aggregation-layers';
 import "mapbox-gl/dist/mapbox-gl.css"
 import mapData from './mapData.js';
@@ -82,10 +82,22 @@ const filterSeats = () => {
         ...res128[i],
         coords: d.geometry.coordinates
     }))
-    .filter(d => {
-        return turf.booleanPointInPolygon(d.coords, poly)
-    });
+        .filter(d => {
+            return turf.booleanPointInPolygon(d.coords, poly)
+        });
 }
+
+const getTextLayerData = () => {
+
+    return seatOutlines.features
+        .map(d => ({
+            centroid : turf.centroid(turf.polygon(d.geometry.coordinates)).geometry.coordinates,
+            seat : d.properties.seat
+        }));
+}
+
+const textLayerData = getTextLayerData();
+console.log(textLayerData)
 
 //window.filterSeats = filterSeats;
 
@@ -93,8 +105,8 @@ const mapDataFormat = filterSeats().map(
     d => ({
         centroid: d.coords,
         value: d["Final Votes"],
-        ps : d["Polling Station"],
-        winner : d.Winner
+        ps: d["Polling Station"],
+        winner: d.Winner
     })
 )
 
@@ -115,6 +127,12 @@ const LocationAggregatorMap = ({
         }
     ]
 }) => {
+
+    const partyColors = {
+        'pti': [255, 87, 51],
+        'pmln': [156, 39, 230],
+        'ipp': [76, 208, 224]
+    }
 
     const layers = [
         /*new ColumnLayer({
@@ -141,6 +159,27 @@ const LocationAggregatorMap = ({
             cellSize: 50,
             pickable: true
         }),*/
+        new GeoJsonLayer({
+            id: 'GeoJsonLayer',
+            data: seatOutlines,
+            //extruded : true,
+            //getElevation : d => Math.random() * 1000,
+            stroked: true,
+            filled: true,
+            pointType: 'circle+text',
+            pickable: true,
+
+            getFillColor: f => { return [...partyColors[f.properties.winner], 130] },
+            getLineColor: f => {
+                const hex = f.properties.color;
+                // convert to RGB
+                return [250, 250, 250, 120];
+            },
+            getLineWidth: 40,
+            lineCapRounded: true,
+            lineWidthMinPixels: 1,
+            getPointRadius: 4
+        }),
         new GridCellLayer({
             id: 'GridCellLayer',
             data: mapDataFormat,
@@ -153,29 +192,23 @@ const LocationAggregatorMap = ({
             getPosition: d => d.centroid,
             pickable: true
         }),
-        new GeoJsonLayer({
-            id: 'GeoJsonLayer',
-            data: seatOutlines,
-            //extruded : true,
-            //getElevation : d => Math.random() * 1000,
-            //stroked: true,
-            filled: true,
-            pointType: 'circle+text',
+        /*new TextLayer({
+            id: 'TextLayer',
+            data: textLayerData,
+            getPosition: d => d.centroid,
+            getText: d => `NA-${d.seat}`,
+            getPixelOffset : [0,0],
+            getAlignmentBaseline: 'center',
+            getColor: [0,0,0, 200],
+            getSize: 500,
+            sizeScale : 1,
+            getTextAnchor: 'middle',
             pickable: true,
-
-            getFillColor: f => [Math.random() * 250, Math.random() * 250, Math.random() * 250, 70],
-            getLineColor: f => {
-                const hex = f.properties.color;
-                // convert to RGB
-                return [0, 0, 0, 10];
-            },
-            getLineWidth: 40,
-            lineCapRounded: true,
-            lineWidthMinPixels: 1,
-            getPointRadius: 4,
-            getText: f => f.properties.name,
-            getTextSize: 12
-        }),
+            background : true,
+            getBackgroundColor : [255,255,255,255],
+            getAlignmentBaseline : "bottom",
+            sizeUnits : 'meters',
+        })*/
         /*new PolygonLayer({
             id: 'PolygonLayer',
             data: 'https://raw.githubusercontent.com/visgl/deck.gl-data/master/website/sf-zipcodes.json',
@@ -191,27 +224,27 @@ const LocationAggregatorMap = ({
     ];
 
 
-    return (
-        <div>
-            <DeckGL
-                layers={layers}
-                effects={[lightingEffect]}
-                initialViewState={INITIAL_VIEW_STATE}
+return (
+    <div>
+        <DeckGL
+            layers={layers}
+            effects={[lightingEffect]}
+            initialViewState={INITIAL_VIEW_STATE}
+            controller={true}
+        /*getTooltip={(obj) => {
+            console.log(obj);
+            return "hello"
+        }}*/
+        >
+            <Map
                 controller={true}
-                /*getTooltip={(obj) => {
-                    console.log(obj);
-                    return "hello"
-                }}*/
+                mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN}
+                mapStyle="mapbox://styles/mapbox/standard"
             >
-                <Map
-                    controller={true}
-                    mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN}
-                    mapStyle="mapbox://styles/mapbox/streets-v12"
-                >
-                </Map>
-            </DeckGL>
-        </div>
-    );
+            </Map>
+        </DeckGL>
+    </div>
+);
 };
 
 export default LocationAggregatorMap;

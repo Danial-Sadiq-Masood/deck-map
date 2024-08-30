@@ -17,10 +17,17 @@ export const pointLight2 = new PointLight({
   position: [-3.807751, 54.104682, 8000],
 });
 
+export const pointLight3 = new PointLight({
+  color: [255, 255, 255],
+  intensity: 0.8,
+  position: [3.807751, -54.104682, 8000],
+});
+
 export const lightingEffect = new LightingEffect({
   ambientLight,
   pointLight1,
   pointLight2,
+  pointLight3
 });
 
 export const material = {
