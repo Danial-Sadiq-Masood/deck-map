@@ -5,12 +5,13 @@ import React, { useState } from 'react'
 
 import Map, { NavigationControl } from 'react-map-gl'
 import DeckGL from '@deck.gl/react'
-import { ColumnLayer, GeoJsonLayer, GridCellLayer, TextLayer} from '@deck.gl/layers';
+import { ColumnLayer, GeoJsonLayer, GridCellLayer, TextLayer } from '@deck.gl/layers';
 import { CPUGridLayer } from '@deck.gl/aggregation-layers';
 import "mapbox-gl/dist/mapbox-gl.css"
 import mapData from './mapData.js';
 import seatOutlines from './with_seat.geo.json';
 import res128 from './res128.json';
+import res130 from './res130.json';
 import { simplify } from "@turf/simplify";
 import { circle } from "@turf/circle";
 import { destination } from "@turf/destination";
@@ -55,17 +56,17 @@ function resolveOverlaps(circles) {
     return squares;
 }
 
-const filterSeats = () => {
+const filterSeats = (seat, data) => {
     const seatOutline = seatOutlines.features
-        .filter(d => d.properties.seat == 128)[0];
+        .filter(d => d.properties.seat == seat)[0];
 
     const poly = turf.polygon(seatOutline.geometry.coordinates)
     const bbox = turf.bbox(poly);
-    const correctSeats = res128.filter(d => {
+    const correctSeats = data.filter(d => {
         return turf.booleanPointInPolygon([d.coords.lng, d.coords.lat], poly)
     })
 
-    let randomcoords = turf.randomPoint(res128.length, { bbox: bbox })
+    let randomcoords = turf.randomPoint(data.length, { bbox: bbox })
 
     var voronoiPolygons = turf.voronoi(randomcoords, { bbox: bbox });
 
@@ -79,7 +80,7 @@ const filterSeats = () => {
     //correctSeats.forEach((d,i) => d.coords = centers[i].geometry.coordinates)
 
     return centers.map((d, i) => ({
-        ...res128[i],
+        ...data[i],
         coords: d.geometry.coordinates
     }))
         .filter(d => {
@@ -92,8 +93,8 @@ const getTextLayerData = () => {
 
     return seatOutlines.features
         .map(d => ({
-            centroid : turf.centroid(turf.polygon(d.geometry.coordinates)).geometry.coordinates,
-            seat : d.properties.seat == 128 || d.properties.seat == 130 ? '' : 'NA-' + d.properties.seat
+            centroid: turf.centroid(turf.polygon(d.geometry.coordinates)).geometry.coordinates,
+            seat: d.properties.seat == 128 || d.properties.seat == 130 ? '' : 'NA-' + d.properties.seat
         }));
 }
 
@@ -102,14 +103,16 @@ console.log(textLayerData)
 
 //window.filterSeats = filterSeats;
 
-const mapDataFormat = filterSeats().map(
-    d => ({
-        centroid: d.coords,
-        value: d["Final Votes"],
-        ps: d["Polling Station"],
-        winner: d.Winner
-    })
-)
+const mapDataFormat = filterSeats(128, res128)
+    .concat(filterSeats(130, res130))
+    .map(
+        d => ({
+            centroid: d.coords,
+            value: d["Final Votes"],
+            ps: d["Polling Station"],
+            winner: d.Winner
+        })
+    )
 
 // Call the function and update your map
 //const updatedSquares = resolveOverlaps(circles);
@@ -198,23 +201,23 @@ const LocationAggregatorMap = ({
             data: textLayerData,
             getPosition: d => d.centroid,
             getText: d => d.seat,
-            getPixelOffset : [0,0],
+            getPixelOffset: [0, 0],
             getAlignmentBaseline: 'center',
-            getColor: [0,0,0, 200],
+            getColor: [0, 0, 0, 200],
             getSize: 500,
-            sizeScale : 1,
+            sizeScale: 1,
             getTextAnchor: 'middle',
             pickable: true,
             //background : true,
             //getBackgroundColor : [255,255,255,255],
-            getAlignmentBaseline : "bottom",
-            sizeUnits : 'meters',
-            fontFamily : 'sans-serif',
-            fontWeight : 900,
+            getAlignmentBaseline: "bottom",
+            sizeUnits: 'meters',
+            fontFamily: 'sans-serif',
+            fontWeight: 900,
             //outlineWidth : 2,
-            outlineColor : [250,250,250,250],
-            fontSettings : {
-                radius : 5
+            outlineColor: [250, 250, 250, 250],
+            fontSettings: {
+                radius: 5
             }
         })
         /*new PolygonLayer({
@@ -232,27 +235,27 @@ const LocationAggregatorMap = ({
     ];
 
 
-return (
-    <div>
-        <DeckGL
-            layers={layers}
-            effects={[lightingEffect]}
-            initialViewState={INITIAL_VIEW_STATE}
-            controller={true}
-        /*getTooltip={(obj) => {
-            console.log(obj);
-            return "hello"
-        }}*/
-        >
-            <Map
+    return (
+        <div>
+            <DeckGL
+                layers={layers}
+                effects={[lightingEffect]}
+                initialViewState={INITIAL_VIEW_STATE}
                 controller={true}
-                mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN}
-                mapStyle="mapbox://styles/mapbox/standard"
+            /*getTooltip={(obj) => {
+                console.log(obj);
+                return "hello"
+            }}*/
             >
-            </Map>
-        </DeckGL>
-    </div>
-);
+                <Map
+                    controller={true}
+                    mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN}
+                    mapStyle="mapbox://styles/mapbox/standard"
+                >
+                </Map>
+            </DeckGL>
+        </div>
+    );
 };
 
 export default LocationAggregatorMap;
