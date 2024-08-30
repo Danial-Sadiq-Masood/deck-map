@@ -30,6 +30,7 @@ import {
     colorRange,
 } from "../lib/mapconfig.js";
 import { SearchParamsContext } from 'next/dist/shared/lib/hooks-client-context.shared-runtime.js';
+import { WindSong } from 'next/font/google/index.js';
 
 const circles = mapData.map(d => circle([d.lng, d.lat], 0.2))
 
@@ -59,18 +60,40 @@ const filterSeats = () => {
         .filter(d => d.properties.seat == 128)[0];
 
     const poly = turf.polygon(seatOutline.geometry.coordinates)
+    const bbox = turf.bbox(poly);
     const correctSeats = res128.filter(d => {
         return turf.booleanPointInPolygon([d.coords.lng, d.coords.lat], poly)
     })
-    return correctSeats;
+
+    let randomcoords = turf.randomPoint(res128.length, { bbox: bbox })
+
+    var voronoiPolygons = turf.voronoi(randomcoords, { bbox: bbox });
+
+    console.log(voronoiPolygons);
+
+    const centers = voronoiPolygons.features
+        .map(d => turf.centroid(turf.polygon(d.geometry.coordinates)))
+
+    console.log(centers);
+
+    //correctSeats.forEach((d,i) => d.coords = centers[i].geometry.coordinates)
+
+    return centers.map((d, i) => ({
+        ...res128[i],
+        coords: d.geometry.coordinates
+    }))
+    .filter(d => {
+        return turf.booleanPointInPolygon(d.coords, poly)
+    });
 }
 
 //window.filterSeats = filterSeats;
 
 const mapDataFormat = filterSeats().map(
     d => ({
-        centroid: [d.coords.lng, d.coords.lat],
-        value: Math.floor(Math.random() * 1000),
+        centroid: d.coords,
+        value: d["Final Votes"],
+        ps : d["Polling Station"],
         winner : d.Winner
     })
 )
@@ -106,7 +129,7 @@ const LocationAggregatorMap = ({
             getPosition: (d) => d.centroid,
             pickable: true
         }),*/
-        new CPUGridLayer({
+        /*new CPUGridLayer({
             id: 'CPUGridLayer',
             data: mapDataFormat,
             extruded: true,
@@ -115,21 +138,21 @@ const LocationAggregatorMap = ({
             colorRange : [[10,10,250,180]],
             getElevationWeight: d => d.value,
             elevationScale: 4,
-            cellSize: 200,
+            cellSize: 50,
             pickable: true
-        }),
-        /*new GridCellLayer({
+        }),*/
+        new GridCellLayer({
             id: 'GridCellLayer',
             data: mapDataFormat,
 
-            cellSize: 200,
+            cellSize: 100,
             extruded: true,
             elevationScale: 1,
             getElevation: d => d.value,
-            getFillColor: d => [48, 128, d.value * 255, 170],
+            getFillColor: d => d.winner === 'pti' ? [48, 80, 230, 170] : [230, 80, 48, 170],
             getPosition: d => d.centroid,
             pickable: true
-        }),*/
+        }),
         new GeoJsonLayer({
             id: 'GeoJsonLayer',
             data: seatOutlines,
@@ -175,6 +198,10 @@ const LocationAggregatorMap = ({
                 effects={[lightingEffect]}
                 initialViewState={INITIAL_VIEW_STATE}
                 controller={true}
+                /*getTooltip={(obj) => {
+                    console.log(obj);
+                    return "hello"
+                }}*/
             >
                 <Map
                     controller={true}
