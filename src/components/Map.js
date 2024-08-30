@@ -110,6 +110,7 @@ const mapDataFormat = filterSeats(128, res128)
         d => ({
             centroid: d.coords,
             value: d["Final Votes"],
+            advantage : Number.parseInt(d['riggingAdvantage']) || 0,
             ps: d["Polling Station"],
             winner: d.Winner
         })
@@ -121,7 +122,7 @@ const mapDataFormat = filterSeats(128, res128)
 //console.log(updatedSquares);
 
 const LocationAggregatorMap = ({
-    extensionKey = "Final Votes",
+    valKey,
     data = [
         {
             centroid: [74.3587, 31.5204],
@@ -189,15 +190,17 @@ const LocationAggregatorMap = ({
             extruded: true,
             elevationScale: 1,
             getElevation: d => {
+                console.log(d)
                 if(d.winner === 'pti'){
                     if(showPTI){
-                        return d.value
+                        let val = d[valKey];
+                        return Math.max(val, 0);
                     }else{
                         return 0;
                     }
                 }else{
                     if(showNonPTI){
-                        return d.value
+                        return d[valKey]
                     }else{
                         return 0;
                     }
@@ -213,7 +216,7 @@ const LocationAggregatorMap = ({
                 }
             },
             updateTriggers : {
-                getElevation : [showNonPTI, showPTI]
+                getElevation : [showNonPTI, showPTI, valKey]
             }
         }),
         new TextLayer({
@@ -245,8 +248,7 @@ const LocationAggregatorMap = ({
             sizeUnits: 'meters',
             fontFamily: 'sans-serif',
             fontWeight: 900,
-            outlineWidth : 2,
-            outlineColor: [200, 200, 200, 255],
+            //outlineWidth : 2,
             fontSettings: {
                 radius: 5,
                 sdf : true
