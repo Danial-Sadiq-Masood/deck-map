@@ -62,17 +62,17 @@ export default function CardDemo({ className, ...props }) {
                 <div className=" flex flex-col items-center space-x-4 rounded-md border p-4">
                     <div className="flex gap-3 flex-col">
                         <div className="flex items-start space-x-2">
-                            <Switch id="toggle-pti" />
+                            <Switch onCheckedChange={(checked) => props.ptiToggle(checked)} id="toggle-pti" />
                             <Label htmlFor="airplane-mode">PTI Polling Station Results</Label>
                         </div>
                         <div className="flex items-start space-x-2">
-                            <Switch id="toggle-pti" />
+                            <Switch onCheckedChange={(checked) => props.nonPTIToggle(checked)} id="toggle-pti" />
                             <Label htmlFor="airplane-mode">Non-PTI Polling Station Results</Label>
                         </div>
                     </div>
                 </div>
                 <div className="flex flex-col gap-0 items-stretch rounded-md border">
-                    <div className="flex items-center space-x-4 border-b">
+                    <div className="flex items-center gap-2 border-b">
                         <div className="shrink-0">
                             <Image src="/deck-map/nonptitile.png" width={40} height={40} />
                         </div>
@@ -80,7 +80,7 @@ export default function CardDemo({ className, ...props }) {
                             Seat won by PML-N or IPP
                         </p>
                     </div>
-                    <div className=" flex items-center space-x-4 border-b">
+                    <div className=" flex items-center gap-2 border-b">
                         <div className="shrink-0">
                             <Image src="/deck-map/ptitile.png" width={40} height={40} />
                         </div>
@@ -92,7 +92,7 @@ export default function CardDemo({ className, ...props }) {
                         <div className="shrink-0 h-[40px] w-[40px] bg-[#5270d1]">
                         </div>
                         <p className="text-xs italic">
-                            Polling Station won by IPP or PML-N
+                            Polling Station won by PML-N or IPP
                         </p>
                     </div>
                     <div className=" flex items-center gap-2">

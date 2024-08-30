@@ -17,6 +17,7 @@ import { circle } from "@turf/circle";
 import { destination } from "@turf/destination";
 import { booleanOverlap } from "@turf/boolean-overlap";
 import * as turf from "@turf/turf";
+import * as d3 from "d3";
 
 
 
@@ -94,7 +95,7 @@ const getTextLayerData = () => {
     return seatOutlines.features
         .map(d => ({
             centroid: turf.centroid(turf.polygon(d.geometry.coordinates)).geometry.coordinates,
-            seat: d.properties.seat == 128 || d.properties.seat == 130 ? '' : 'NA-' + d.properties.seat
+            seat: 'NA-' + d.properties.seat
         }));
 }
 
@@ -130,7 +131,9 @@ const LocationAggregatorMap = ({
             centroid: [74.3697, 31.5334],
             value: 800
         }
-    ]
+    ],
+    showPTI,
+    showNonPTI
 }) => {
 
     const layers = [
@@ -182,14 +185,36 @@ const LocationAggregatorMap = ({
         new GridCellLayer({
             id: 'GridCellLayer',
             data: mapDataFormat,
-
             cellSize: 100,
             extruded: true,
             elevationScale: 1,
-            getElevation: d => d.value,
+            getElevation: d => {
+                if(d.winner === 'pti'){
+                    if(showPTI){
+                        return d.value
+                    }else{
+                        return 0;
+                    }
+                }else{
+                    if(showNonPTI){
+                        return d.value
+                    }else{
+                        return 0;
+                    }
+                }
+            },
             getFillColor: d => d.winner === 'pti' ? [48, 80, 230, 170] : [230, 80, 48, 170],
             getPosition: d => d.centroid,
-            pickable: true
+            pickable: true,
+            transitions : {
+                getElevation : {
+                    duration : 2000,
+                    easing : d3.easeCubicOut
+                }
+            },
+            updateTriggers : {
+                getElevation : [showNonPTI, showPTI]
+            }
         }),
         new TextLayer({
             id: 'TextLayer',
@@ -198,8 +223,19 @@ const LocationAggregatorMap = ({
             getText: d => d.seat,
             getPixelOffset: [0, 0],
             getAlignmentBaseline: 'center',
-            getColor: [0, 0, 0, 200],
+            getColor: d => {
+                if(d.seat === 'NA-128' || d.seat === 'NA-130'){
+                    if(!showNonPTI && !showPTI){
+                        return [0,0,0,255]
+                    }else{
+                        return [0,0,0,0]
+                    }
+                }else{
+                    return [0,0,0,255]
+                }
+            },
             getSize: 500,
+            sizeMinPixels : 10,
             sizeScale: 1,
             getTextAnchor: 'middle',
             pickable: true,
@@ -213,6 +249,15 @@ const LocationAggregatorMap = ({
             outlineColor: [250, 250, 250, 250],
             fontSettings: {
                 radius: 5
+            },
+            transitions : {
+                getColor : {
+                    duration : 2000,
+                    easing : d3.easeCubicOut
+                }
+            },
+            updateTriggers : {
+                getColor : [showNonPTI, showPTI]
             }
         })
         /*new PolygonLayer({
