@@ -43,7 +43,8 @@ export const INITIAL_VIEW_STATE = {
   zoom: 12,
   minZoom: 5,
   maxZoom: 15,
-  pitch: 80.5,
+  pitch: 60,
+  maxPitch : 80,
   bearing: -27
 };
 
