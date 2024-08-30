@@ -89,10 +89,11 @@ const filterSeats = () => {
 
 const getTextLayerData = () => {
 
+
     return seatOutlines.features
         .map(d => ({
             centroid : turf.centroid(turf.polygon(d.geometry.coordinates)).geometry.coordinates,
-            seat : d.properties.seat
+            seat : d.properties.seat == 128 || d.properties.seat == 130 ? '' : 'NA-' + d.properties.seat
         }));
 }
 
@@ -192,11 +193,11 @@ const LocationAggregatorMap = ({
             getPosition: d => d.centroid,
             pickable: true
         }),
-        /*new TextLayer({
+        new TextLayer({
             id: 'TextLayer',
             data: textLayerData,
             getPosition: d => d.centroid,
-            getText: d => `NA-${d.seat}`,
+            getText: d => d.seat,
             getPixelOffset : [0,0],
             getAlignmentBaseline: 'center',
             getColor: [0,0,0, 200],
@@ -204,11 +205,18 @@ const LocationAggregatorMap = ({
             sizeScale : 1,
             getTextAnchor: 'middle',
             pickable: true,
-            background : true,
-            getBackgroundColor : [255,255,255,255],
+            //background : true,
+            //getBackgroundColor : [255,255,255,255],
             getAlignmentBaseline : "bottom",
             sizeUnits : 'meters',
-        })*/
+            fontFamily : 'sans-serif',
+            fontWeight : 900,
+            //outlineWidth : 2,
+            outlineColor : [250,250,250,250],
+            fontSettings : {
+                radius : 5
+            }
+        })
         /*new PolygonLayer({
             id: 'PolygonLayer',
             data: 'https://raw.githubusercontent.com/visgl/deck.gl-data/master/website/sf-zipcodes.json',
