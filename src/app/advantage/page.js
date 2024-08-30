@@ -1,10 +1,10 @@
 import React from 'react'
-import LocationAggregatorMap from '../../components/Map'
+import LocationAggregatorMap from '../../components/advantageMap'
 
 const HomePage = () => {
   return (
     <div className="relative min-h-screen">
-      <LocationAggregatorMap />
+      <LocationAggregatorMap/>
     </div>
   )
 }

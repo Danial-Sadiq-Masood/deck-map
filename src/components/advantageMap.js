@@ -108,29 +108,22 @@ const mapDataFormat = filterSeats(128, res128)
     .map(
         d => ({
             centroid: d.coords,
-            value: d["Final Votes"],
+            value: Number.parseInt(d["riggingAdvantage"]),
             ps: d["Polling Station"],
-            winner: d.Winner
+            winner: d.Winner,
+            seat : d.seat
         })
     )
+    .filter(d => Number.isInteger(d.value))
+    .filter(d => d.value >= 0)
 
 // Call the function and update your map
 //const updatedSquares = resolveOverlaps(circles);
 
-//console.log(updatedSquares);
+console.log(mapDataFormat);
 
 const LocationAggregatorMap = ({
-    extensionKey = "Final Votes",
-    data = [
-        {
-            centroid: [74.3587, 31.5204],
-            value: 1400
-        },
-        {
-            centroid: [74.3697, 31.5334],
-            value: 800
-        }
-    ]
+    
 }) => {
 
     const partyColors = {

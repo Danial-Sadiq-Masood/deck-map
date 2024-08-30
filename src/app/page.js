@@ -4,7 +4,7 @@ import LocationAggregatorMap from '../components/Map'
 const HomePage = () => {
   return (
     <div className="relative min-h-screen">
-      <LocationAggregatorMap />
+      <LocationAggregatorMap extensionKey='Final Votes'/>
     </div>
   )
 }
