@@ -4,6 +4,9 @@ const nextConfig = {
     output: "export", 
     experimental : {
         addDir : true
+    },
+    images : {
+        unoptimized : true
     }
 };
 
