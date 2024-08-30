@@ -226,12 +226,12 @@ const LocationAggregatorMap = ({
             getColor: d => {
                 if(d.seat === 'NA-128' || d.seat === 'NA-130'){
                     if(!showNonPTI && !showPTI){
-                        return [0,0,0,255]
+                        return [255,255,255,255]
                     }else{
-                        return [0,0,0,0]
+                        return [255,255,255,0]
                     }
                 }else{
-                    return [0,0,0,255]
+                    return [255,255,255,255]
                 }
             },
             getSize: 500,
@@ -245,10 +245,11 @@ const LocationAggregatorMap = ({
             sizeUnits: 'meters',
             fontFamily: 'sans-serif',
             fontWeight: 900,
-            //outlineWidth : 2,
-            outlineColor: [250, 250, 250, 250],
+            outlineWidth : 2,
+            outlineColor: [200, 200, 200, 255],
             fontSettings: {
-                radius: 5
+                radius: 5,
+                sdf : true
             },
             transitions : {
                 getColor : {
