@@ -63,8 +63,8 @@ export default function CardDemo({ className, ...props }) {
                     <div className="flex gap-3 flex-col">
                         {
                         props.toggles
-                            .map(d => (
-                                <div className="flex items-start space-x-2">
+                            .map((d,i) => (
+                                <div key={i} className="flex items-start space-x-2">
                                     <Switch onCheckedChange={(checked) => d[1](checked)} checked={d[0]} id="toggle-pti" />
                                     <Label htmlFor="airplane-mode">{d[2]}</Label>
                                 </div>
