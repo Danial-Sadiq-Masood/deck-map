@@ -294,7 +294,7 @@ const LocationAggregatorMap = ({
                 <Map
                     controller={true}
                     mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN}
-                    mapStyle="mapbox://styles/mapbox/standard"
+                    mapStyle="mapbox://styles/mapbox/light-v11"
                 >
                 </Map>
             </DeckGL>
