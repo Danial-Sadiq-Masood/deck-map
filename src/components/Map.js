@@ -12,6 +12,7 @@ import mapData from './mapData.js';
 import seatOutlines from './with_seat.geo.json';
 import res128 from './res128.json';
 import res130 from './res130.json';
+import mapDataFixed from './seatDataFixed.json';
 import { simplify } from "@turf/simplify";
 import { circle } from "@turf/circle";
 import { destination } from "@turf/destination";
@@ -23,7 +24,6 @@ import * as d3 from "d3";
 
 //const simmpleSeatOutlines = simplify(seatOutlines, {mutate : true, tolerance : 0.007})
 
-console.log(seatOutlines);
 // import map config
 import {
     lightingEffect,
@@ -71,7 +71,7 @@ const filterSeats = (seat, data) => {
 
     var voronoiPolygons = turf.voronoi(randomcoords, { bbox: bbox });
 
-    console.log(voronoiPolygons);
+    //console.log(voronoiPolygons);
 
     const centers = voronoiPolygons.features
         .map(d => turf.centroid(turf.polygon(d.geometry.coordinates)))
@@ -104,7 +104,7 @@ console.log(textLayerData)
 
 //window.filterSeats = filterSeats;
 
-const mapDataFormat = filterSeats(128, res128)
+/*const mapDataFormat = filterSeats(128, res128)
     .concat(filterSeats(130, res130))
     .map(
         d => ({
@@ -116,10 +116,13 @@ const mapDataFormat = filterSeats(128, res128)
         })
     )
 
+console.log(mapDataFormat, 'mapData');
+
 // Call the function and update your map
 //const updatedSquares = resolveOverlaps(circles);
 
 //console.log(updatedSquares);
+*/
 
 const LocationAggregatorMap = ({
     valKey,
@@ -185,23 +188,22 @@ const LocationAggregatorMap = ({
         }),
         new GridCellLayer({
             id: 'GridCellLayer',
-            data: mapDataFormat,
+            data: mapDataFixed,
             cellSize: 100,
             extruded: true,
             elevationScale: 1,
             getElevation: d => {
-                console.log(d)
-                if(d.winner === 'pti'){
-                    if(showPTI){
+                if (d.winner === 'pti') {
+                    if (showPTI) {
                         let val = d[valKey];
                         return Math.max(val, 0);
-                    }else{
+                    } else {
                         return 0;
                     }
-                }else{
-                    if(showNonPTI){
+                } else {
+                    if (showNonPTI) {
                         return d[valKey]
-                    }else{
+                    } else {
                         return 0;
                     }
                 }
@@ -209,14 +211,14 @@ const LocationAggregatorMap = ({
             getFillColor: d => d.winner === 'pti' ? [48, 80, 230, 170] : [230, 80, 48, 170],
             getPosition: d => d.centroid,
             pickable: true,
-            transitions : {
-                getElevation : {
-                    duration : 2000,
-                    easing : d3.easeCubicOut
+            transitions: {
+                getElevation: {
+                    duration: 2000,
+                    easing: d3.easeCubicOut
                 }
             },
-            updateTriggers : {
-                getElevation : [showNonPTI, showPTI, valKey]
+            updateTriggers: {
+                getElevation: [showNonPTI, showPTI, valKey]
             }
         }),
         new TextLayer({
@@ -227,18 +229,18 @@ const LocationAggregatorMap = ({
             getPixelOffset: [0, 0],
             getAlignmentBaseline: 'center',
             getColor: d => {
-                if(d.seat === 'NA-128' || d.seat === 'NA-130'){
-                    if(!showNonPTI && !showPTI){
-                        return [255,255,255,255]
-                    }else{
-                        return [255,255,255,0]
+                if (d.seat === 'NA-128' || d.seat === 'NA-130') {
+                    if (!showNonPTI && !showPTI) {
+                        return [255, 255, 255, 255]
+                    } else {
+                        return [255, 255, 255, 0]
                     }
-                }else{
-                    return [255,255,255,255]
+                } else {
+                    return [255, 255, 255, 255]
                 }
             },
             getSize: 500,
-            sizeMinPixels : 10,
+            sizeMinPixels: 10,
             sizeScale: 1,
             getTextAnchor: 'middle',
             pickable: true,
@@ -251,16 +253,16 @@ const LocationAggregatorMap = ({
             //outlineWidth : 2,
             fontSettings: {
                 radius: 5,
-                sdf : true
+                sdf: true
             },
-            transitions : {
-                getColor : {
-                    duration : 2000,
-                    easing : d3.easeCubicOut
+            transitions: {
+                getColor: {
+                    duration: 2000,
+                    easing: d3.easeCubicOut
                 }
             },
-            updateTriggers : {
-                getColor : [showNonPTI, showPTI]
+            updateTriggers: {
+                getColor: [showNonPTI, showPTI]
             }
         })
         /*new PolygonLayer({
@@ -285,7 +287,7 @@ const LocationAggregatorMap = ({
                 //effects={[lightingEffect]}
                 initialViewState={INITIAL_VIEW_STATE}
                 controller={true}
-                //views={new MapView({})}
+            //views={new MapView({})}
             /*getTooltip={(obj) => {
                 console.log(obj);
                 return "hello"
