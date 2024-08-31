@@ -282,7 +282,7 @@ const LocationAggregatorMap = ({
         <div>
             <DeckGL
                 layers={layers}
-                effects={[lightingEffect]}
+                //effects={[lightingEffect]}
                 initialViewState={INITIAL_VIEW_STATE}
                 controller={true}
                 //views={new MapView({})}
@@ -294,7 +294,7 @@ const LocationAggregatorMap = ({
                 <Map
                     controller={true}
                     mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN}
-                    mapStyle="mapbox://styles/mapbox/light-v11"
+                    mapStyle="mapbox://styles/mapbox/standard"
                 >
                 </Map>
             </DeckGL>
