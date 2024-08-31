@@ -176,7 +176,7 @@ const LocationAggregatorMap = ({
             getLineColor: f => {
                 const hex = f.properties.color;
                 // convert to RGB
-                return [250, 250, 250, 120];
+                return [0, 0, 0, 60];
             },
             getLineWidth: 40,
             lineCapRounded: true,
