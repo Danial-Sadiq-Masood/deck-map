@@ -44,7 +44,7 @@ import data from './mergedData.json'
 
 import BarChart from './barChart'
 
-const tableData = data.map((d, i) => ({...d, index : i}))
+const tableData = data.map((d, i) => ({ ...d, index: i }))
 
 const barChartData = tableData
     .map((d, i) => (
@@ -88,16 +88,19 @@ export const columns = [
     {
         accessorKey: "name",
         id: "ps",
+        size : 50,
         header: ({ column }) => {
             return (
-                <Button
-                    variant="ghost"
-                    className="px-2"
-                    onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
-                >
-                    Polling Station
-                    <CaretSortIcon className="ml-2 h-4 w-4" />
-                </Button>
+                <div>
+                    <Button
+                        variant="ghost"
+                        className="px-2"
+                        onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
+                    >
+                        Polling Station
+                        <CaretSortIcon className="ml-2 h-4 w-4" />
+                    </Button>
+                </div>
             )
         },
         cell: ({ row }) => <div className="pl-2 capitalize">{row.getValue("ps")}</div>,
@@ -165,7 +168,7 @@ export default function DataTableDemo() {
             columnFilters,
             columnVisibility,
             rowSelection,
-        },
+        }
     })
 
     return (
@@ -186,8 +189,9 @@ export default function DataTableDemo() {
                         {table.getHeaderGroups().map((headerGroup) => (
                             <TableRow key={headerGroup.id}>
                                 {headerGroup.headers.map((header) => {
+                                    console.log(header.getSize())
                                     return (
-                                        <TableHead key={header.id}>
+                                        <TableHead className="max-w-[50%] min-w-[15%]" key={header.id}>
                                             {header.isPlaceholder
                                                 ? null
                                                 : flexRender(
@@ -208,7 +212,7 @@ export default function DataTableDemo() {
                                     data-state={row.getIsSelected() && "selected"}
                                 >
                                     {row.getVisibleCells().map((cell) => (
-                                        <TableCell key={cell.id}>
+                                        <TableCell className="max-w-[500px]" key={cell.id}>
                                             {flexRender(
                                                 cell.column.columnDef.cell,
                                                 cell.getContext()
