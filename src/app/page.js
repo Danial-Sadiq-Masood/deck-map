@@ -25,8 +25,8 @@ const HomePage = () => {
       <div className='flex'>
         <CardDemo 
           toggles={[
-            [showPTI, setShowPTI, 'PTI Polling Stations Turnout'],
-            [showNonPTI, setShowNonPTI, 'Non-PTI Polling Stations Turnout'],
+            [showPTI, setShowPTI, 'PTI Won Polling Stations Data'],
+            [showNonPTI, setShowNonPTI, 'Non-PTI Won Polling Stations Data'],
             [valKey == 'advantage', flipValKey, 'Voter Turnout / Rigging Advantage']
 
           ]}
