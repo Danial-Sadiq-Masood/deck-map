@@ -41,9 +41,8 @@ const chartConfig = {
     },
 }
 
-const colors = ['#67C6E3', '#378CE7', '#5356FF']
 
-export default function Component({ data }) {
+export default function Component({ data, colors }) {
 
     return (
         <Card className="p-2 pt-[20px] pr-[20px] max-w-[450px] flex justify-center">

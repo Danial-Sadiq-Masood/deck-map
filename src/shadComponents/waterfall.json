@@ -1,6 +1,6 @@
 [
     {
-        "index": 399,
+        "index": 0,
         "seat": 130,
         "psno": "1",
         "ptiVotesECP": 469,
@@ -44,11 +44,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Office of Deputy District Education Officer 7-Praim Nagar Sanda Road Lahore - (Male 1)"
+        }
     },
     {
-        "index": 400,
+        "index": 1,
         "seat": 130,
         "psno": "2",
         "ptiVotesECP": 388,
@@ -92,11 +91,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "PS-2 Allied School Sanda Campus Prem Nagar Naseer ud din road Lahore (Male)"
+        }
     },
     {
-        "index": 401,
+        "index": 2,
         "seat": 130,
         "psno": "3",
         "ptiVotesECP": 272,
@@ -140,11 +138,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "CDG Boys High School, (Care Adopted School (English Medium), Islam Pura, Lahore (Female-I)"
+        }
     },
     {
-        "index": 402,
+        "index": 3,
         "seat": 130,
         "psno": "4",
         "ptiVotesECP": 258,
@@ -188,11 +185,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "CDG Boys High School, (Care Adopted School (English Medium), Islam Pura, Lahore (Female-II)"
+        }
     },
     {
-        "index": 403,
+        "index": 4,
         "seat": 130,
         "psno": "5",
         "ptiVotesECP": 429,
@@ -236,11 +232,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Wazeer Model Girls Middle School Millat Road Sanda Kalan Lahore. () (Male-"
+        }
     },
     {
-        "index": 404,
+        "index": 5,
         "seat": 130,
         "psno": "6",
         "ptiVotesECP": 380,
@@ -284,11 +279,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Wazeer Model Girls Middle School Millat Road Sanda Kalan Lahore. () (Male- II)"
+        }
     },
     {
-        "index": 405,
+        "index": 6,
         "seat": 130,
         "psno": "7",
         "ptiVotesECP": 286,
@@ -332,11 +326,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Wazeer Model Girls Middle School Millat Road Sanda Kalan Lahore. ()"
+        }
     },
     {
-        "index": 406,
+        "index": 7,
         "seat": 130,
         "psno": "8",
         "ptiVotesECP": 345,
@@ -354,7 +347,7 @@
                 },
                 {
                     "name": "Removed Votes",
-                    "votes": 0,
+                    "votes": 10,
                     "offset": 335
                 },
                 {
@@ -380,11 +373,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Wazeer Model Girls Middle School Millat Road Sanda Kalan Lahore. () (Female-II)"
+        }
     },
     {
-        "index": 407,
+        "index": 8,
         "seat": 130,
         "psno": "9",
         "ptiVotesECP": 171,
@@ -402,7 +394,7 @@
                 },
                 {
                     "name": "Removed Votes",
-                    "votes": 0,
+                    "votes": -6,
                     "offset": 177
                 },
                 {
@@ -428,11 +420,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Abdali Grammer School, Sanda Branch Sanda Road, Lahore ()"
+        }
     },
     {
-        "index": 408,
+        "index": 9,
         "seat": 130,
         "psno": "11",
         "ptiVotesECP": 169,
@@ -476,11 +467,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "AV Girls High School Millat Road, Sanda Road, Lahore "
+        }
     },
     {
-        "index": 409,
+        "index": 10,
         "seat": 130,
         "psno": "12",
         "ptiVotesECP": 446,
@@ -524,11 +514,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "AV Girls High School Millat Road, Sanda Road, Lahore "
+        }
     },
     {
-        "index": 410,
+        "index": 11,
         "seat": 130,
         "psno": "13",
         "ptiVotesECP": 334,
@@ -572,11 +561,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Allied School, Al-Mansoor Campus, Sanda Road, Lahore (Male-I)"
+        }
     },
     {
-        "index": 411,
+        "index": 12,
         "seat": 130,
         "psno": "14",
         "ptiVotesECP": 330,
@@ -620,11 +608,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Allied School, Al-Mansoor Campus, Sanda Road, Lahore (Male-II)"
+        }
     },
     {
-        "index": 413,
+        "index": 14,
         "seat": 130,
         "psno": "17",
         "ptiVotesECP": 286,
@@ -668,11 +655,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "allied school al mansoor campus sanda road Lahore Male-III"
+        }
     },
     {
-        "index": 414,
+        "index": 15,
         "seat": 130,
         "psno": "18",
         "ptiVotesECP": 153,
@@ -690,7 +676,7 @@
                 },
                 {
                     "name": "Removed Votes",
-                    "votes": 0,
+                    "votes": -225,
                     "offset": 378
                 },
                 {
@@ -716,11 +702,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Naveed Public High School. Aziz Din Road, Sanda Kalan Dar St Lahore (Ground Floor)"
+        }
     },
     {
-        "index": 415,
+        "index": 16,
         "seat": 130,
         "psno": "19",
         "ptiVotesECP": 155,
@@ -764,11 +749,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Office of Union Council 64-Sanda Road Praim Nager Lahore."
+        }
     },
     {
-        "index": 416,
+        "index": 17,
         "seat": 130,
         "psno": "20",
         "ptiVotesECP": 357,
@@ -812,11 +796,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Hassaan Grammer High School Muslim Road Sanda Khurd, Lahore (Female)"
+        }
     },
     {
-        "index": 417,
+        "index": 18,
         "seat": 130,
         "psno": "21",
         "ptiVotesECP": 332,
@@ -860,11 +843,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Halley College Banking and Finacne PU, Jain Mandar Lahore (Male) (Male-I)"
+        }
     },
     {
-        "index": 418,
+        "index": 19,
         "seat": 130,
         "psno": "22",
         "ptiVotesECP": 297,
@@ -908,11 +890,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Halley College Banking and Finacne PU, Jain Mandar Lahore (Male) (Male-II)"
+        }
     },
     {
-        "index": 419,
+        "index": 20,
         "seat": 130,
         "psno": "23",
         "ptiVotesECP": 241,
@@ -956,11 +937,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Halley College Banking and Finacne PU,"
+        }
     },
     {
-        "index": 420,
+        "index": 21,
         "seat": 130,
         "psno": "24",
         "ptiVotesECP": 70,
@@ -978,7 +958,7 @@
                 },
                 {
                     "name": "Removed Votes",
-                    "votes": 0,
+                    "votes": -108,
                     "offset": 178
                 },
                 {
@@ -1004,11 +984,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Halley College Banking and Finacne PU, Jain Mandar Lahore (Male) (Female-II)"
+        }
     },
     {
-        "index": 421,
+        "index": 22,
         "seat": 130,
         "psno": "25",
         "ptiVotesECP": 248,
@@ -1052,11 +1031,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Lady Meclegon Girls Higher Secondary School Charch Road, Lahore (Male-I)"
+        }
     },
     {
-        "index": 422,
+        "index": 23,
         "seat": 130,
         "psno": "26",
         "ptiVotesECP": 204,
@@ -1100,11 +1078,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Lady Meclegon Girls Higher Secondary School Charch Road, Lahore (Male-II)"
+        }
     },
     {
-        "index": 423,
+        "index": 24,
         "seat": 130,
         "psno": "27",
         "ptiVotesECP": 323,
@@ -1148,11 +1125,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Lady Meclegon Girls Higher Secondary School Charch Road, Lahore (Female)"
+        }
     },
     {
-        "index": 424,
+        "index": 25,
         "seat": 130,
         "psno": "28",
         "ptiVotesECP": 136,
@@ -1196,11 +1172,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Lady Meclegon Girls Higher Secondary School Charch Road, Lahore (Combined)"
+        }
     },
     {
-        "index": 426,
+        "index": 27,
         "seat": 130,
         "psno": "30",
         "ptiVotesECP": 236,
@@ -1244,11 +1219,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Carthederal High School Qeen Road Lahore (Combined-I)"
+        }
     },
     {
-        "index": 427,
+        "index": 28,
         "seat": 130,
         "psno": "32",
         "ptiVotesECP": 255,
@@ -1292,11 +1266,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Carthederal High School Qeen Road Lahore (Combined-II)"
+        }
     },
     {
-        "index": 428,
+        "index": 29,
         "seat": 130,
         "psno": "33",
         "ptiVotesECP": 330,
@@ -1340,11 +1313,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City District Govt. Middle School, Muslim Colony, Raj Grah, Lahore (Male)"
+        }
     },
     {
-        "index": 429,
+        "index": 30,
         "seat": 130,
         "psno": "34",
         "ptiVotesECP": 257,
@@ -1388,11 +1360,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City District Govt. Middle School, Muslim Colony, Raj Grah, Lahore (Female)"
+        }
     },
     {
-        "index": 430,
+        "index": 31,
         "seat": 130,
         "psno": "35",
         "ptiVotesECP": 426,
@@ -1436,11 +1407,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City District Govt. Middle School, Muslim Colony, Raj Grah, Lahore (Combined)"
+        }
     },
     {
-        "index": 431,
+        "index": 32,
         "seat": 130,
         "psno": "36",
         "ptiVotesECP": 275,
@@ -1484,11 +1454,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Office of The Director General Housing & Town Planning Agency 145/146 Rewaz Garden Lahore (1st Floor) (Combined)"
+        }
     },
     {
-        "index": 432,
+        "index": 33,
         "seat": 130,
         "psno": "37",
         "ptiVotesECP": 517,
@@ -1532,11 +1501,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Office of The Director General Housing & Town Planning Agency 145/146 Rewaz Garden Lahore (1st Floor) (Male-I)"
+        }
     },
     {
-        "index": 433,
+        "index": 34,
         "seat": 130,
         "psno": "38",
         "ptiVotesECP": 350,
@@ -1580,11 +1548,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Office of The Director General Housing & Town Planning Agency 145/146 Rewaz Garden Lahore (1st Floor) (Female-I)"
+        }
     },
     {
-        "index": 434,
+        "index": 35,
         "seat": 130,
         "psno": "39",
         "ptiVotesECP": 231,
@@ -1628,11 +1595,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Office of The Director General Housing & Town Planning Agency 145/146 Rewaz Garden Lahore (1st Floor) (Female-I)"
+        }
     },
     {
-        "index": 435,
+        "index": 36,
         "seat": 130,
         "psno": "40",
         "ptiVotesECP": 474,
@@ -1676,11 +1642,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Office of The Director General Housing & Town Planning Agency 145/146 Rewaz Garden Lahore (1st Floor) (Male-II)"
+        }
     },
     {
-        "index": 436,
+        "index": 37,
         "seat": 130,
         "psno": "41",
         "ptiVotesECP": 208,
@@ -1724,11 +1689,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Office of The Director General Housing & Town Planning Agency 145/146 Rewaz Garden Lahore (1st Floor) (Female-II)"
+        }
     },
     {
-        "index": 437,
+        "index": 38,
         "seat": 130,
         "psno": "42",
         "ptiVotesECP": 584,
@@ -1772,11 +1736,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "CDGL Junior Model School Rewaz Garden Near Masjid Baitul Mukarram Lahore () (Male)"
+        }
     },
     {
-        "index": 438,
+        "index": 39,
         "seat": 130,
         "psno": "43",
         "ptiVotesECP": 245,
@@ -1794,7 +1757,7 @@
                 },
                 {
                     "name": "Removed Votes",
-                    "votes": 0,
+                    "votes": -250,
                     "offset": 495
                 },
                 {
@@ -1820,11 +1783,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "CDGL Junior Model School Rewaz Garden Near Masjid Baitul Mukarram Lahore () (Female)"
+        }
     },
     {
-        "index": 439,
+        "index": 40,
         "seat": 130,
         "psno": "44",
         "ptiVotesECP": 264,
@@ -1868,11 +1830,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt Islamia College Civil Line Lahore (Male)"
+        }
     },
     {
-        "index": 440,
+        "index": 41,
         "seat": 130,
         "psno": "45",
         "ptiVotesECP": 538,
@@ -1916,11 +1877,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "GGHS Dave Samj Road, Lahore (Male) (Male-I)"
+        }
     },
     {
-        "index": 441,
+        "index": 42,
         "seat": 130,
         "psno": "46",
         "ptiVotesECP": 209,
@@ -1964,11 +1924,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt Islamia High School Sanat Nagar Dave Samaj Road Lahore"
+        }
     },
     {
-        "index": 442,
+        "index": 43,
         "seat": 130,
         "psno": "47",
         "ptiVotesECP": 328,
@@ -2012,11 +1971,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "GGHS Dave Samj Road, Lahore (Male) (Male-II)"
+        }
     },
     {
-        "index": 443,
+        "index": 44,
         "seat": 130,
         "psno": "50",
         "ptiVotesECP": 239,
@@ -2060,11 +2018,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Univeristy of Education Opp MAO College Lahore "
+        }
     },
     {
-        "index": 444,
+        "index": 45,
         "seat": 130,
         "psno": "53",
         "ptiVotesECP": 189,
@@ -2108,11 +2065,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Univeristy of Education Opp MAO College Lahore  (Male-II)"
+        }
     },
     {
-        "index": 446,
+        "index": 47,
         "seat": 130,
         "psno": "56",
         "ptiVotesECP": 396,
@@ -2156,11 +2112,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Milli Darul Atfal Girls High School, Raj Garh, Lahore  (Male-I)"
+        }
     },
     {
-        "index": 447,
+        "index": 48,
         "seat": 130,
         "psno": "57",
         "ptiVotesECP": 282,
@@ -2204,11 +2159,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt Duff & Defective Hearing Models High School for Girls, Dirber Street Rajgarh Lahore (Female-I)"
+        }
     },
     {
-        "index": 448,
+        "index": 49,
         "seat": 130,
         "psno": "58",
         "ptiVotesECP": 348,
@@ -2252,11 +2206,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Milli Darul Atfal Girls High School, Raj Garh, Lahore  (Male-II)"
+        }
     },
     {
-        "index": 449,
+        "index": 50,
         "seat": 130,
         "psno": "59",
         "ptiVotesECP": 537,
@@ -2300,11 +2253,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Milli Darul Atfal Girls High School, Raj Garh, Lahore  (Male-III)"
+        }
     },
     {
-        "index": 450,
+        "index": 51,
         "seat": 130,
         "psno": "61",
         "ptiVotesECP": 383,
@@ -2348,11 +2300,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt Duff & Defective Hearing Models High School for Girls, Dirber Street Rajgarh Lahore (Female-III)"
+        }
     },
     {
-        "index": 451,
+        "index": 52,
         "seat": 130,
         "psno": "62",
         "ptiVotesECP": 432,
@@ -2396,11 +2347,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt Duff & Defective Hearing Models High School for Girls, Dirber Street Rajgarh Lahore (Combined)"
+        }
     },
     {
-        "index": 452,
+        "index": 53,
         "seat": 130,
         "psno": "63",
         "ptiVotesECP": 603,
@@ -2444,11 +2394,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City. Distt. Govt. Boys High School Care adopted School, Islampura Lahore  (Male)"
+        }
     },
     {
-        "index": 453,
+        "index": 54,
         "seat": 130,
         "psno": "64",
         "ptiVotesECP": 498,
@@ -2492,11 +2441,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City. Distt. Govt. Boys High School Care adopted School, Islampura Lahore (Female)"
+        }
     },
     {
-        "index": 454,
+        "index": 55,
         "seat": 130,
         "psno": "65",
         "ptiVotesECP": 681,
@@ -2540,11 +2488,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt M.I. Happy High School NationalTown, Jannah Road N/B Sanda Road Lahore  () (Male)"
+        }
     },
     {
-        "index": 455,
+        "index": 56,
         "seat": 130,
         "psno": "66",
         "ptiVotesECP": 604,
@@ -2588,11 +2535,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt M.I. Happy High School NationalTown, Jannah Road N/B Sanda Road Lahore  () (Female)"
+        }
     },
     {
-        "index": 456,
+        "index": 57,
         "seat": 130,
         "psno": "67",
         "ptiVotesECP": 522,
@@ -2636,11 +2582,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "CDG Junior Model Grils Middle School Peaple Park Ahmad Din Scheme Islampura Lahore (Male)"
+        }
     },
     {
-        "index": 457,
+        "index": 58,
         "seat": 130,
         "psno": "68",
         "ptiVotesECP": 483,
@@ -2684,11 +2629,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "CDG Junior Model Grils Middle School Peaple Park Ahmad Din Scheme Islampura Lahore (Female)"
+        }
     },
     {
-        "index": 459,
+        "index": 60,
         "seat": 130,
         "psno": "70",
         "ptiVotesECP": 300,
@@ -2732,11 +2676,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt Vocational Training Institute for Woman Dave Samaj Road Sanat Nagar Lahore (Ground Floor) (Combined)"
+        }
     },
     {
-        "index": 460,
+        "index": 61,
         "seat": 130,
         "psno": "71",
         "ptiVotesECP": 409,
@@ -2780,11 +2723,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt Vocational Training Institute for Woman Dave Samaj Road Sanat Nagar Lahore (Ground Floor) (Male)"
+        }
     },
     {
-        "index": 461,
+        "index": 62,
         "seat": 130,
         "psno": "72",
         "ptiVotesECP": 272,
@@ -2828,11 +2770,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt Vocational Training Institute for Woman Dave Samaj Road Sanat Nagar Lahore (Ground Floor) (Female)"
+        }
     },
     {
-        "index": 462,
+        "index": 63,
         "seat": 130,
         "psno": "73",
         "ptiVotesECP": 668,
@@ -2876,11 +2817,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Islamaia High School, Sanat Nagar Dev Samaj Raod, Lahore "
+        }
     },
     {
-        "index": 463,
+        "index": 64,
         "seat": 130,
         "psno": "74",
         "ptiVotesECP": 481,
@@ -2924,11 +2864,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Pak Turk International School and College  Lahore (Male)"
+        }
     },
     {
-        "index": 464,
+        "index": 65,
         "seat": 130,
         "psno": "75",
         "ptiVotesECP": 350,
@@ -2972,11 +2911,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Pak Turk International School and College  Lahore (Male)    "
+        }
     },
     {
-        "index": 465,
+        "index": 66,
         "seat": 130,
         "psno": "76",
         "ptiVotesECP": 347,
@@ -3020,11 +2958,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. High School for Girls Sanat Nagar Lahore "
+        }
     },
     {
-        "index": 466,
+        "index": 67,
         "seat": 130,
         "psno": "77",
         "ptiVotesECP": 406,
@@ -3068,11 +3005,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt.. High School for Girls Sanat Nagar Lahore "
+        }
     },
     {
-        "index": 468,
+        "index": 69,
         "seat": 130,
         "psno": "79",
         "ptiVotesECP": 339,
@@ -3116,11 +3052,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "CDG Junior Model Grils Middle School Peaple Park Ahmad Din Scheme Islampura Lahore"
+        }
     },
     {
-        "index": 469,
+        "index": 70,
         "seat": 130,
         "psno": "80",
         "ptiVotesECP": 271,
@@ -3164,11 +3099,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt Degree College for women islampura Lahore"
+        }
     },
     {
-        "index": 470,
+        "index": 71,
         "seat": 130,
         "psno": "81",
         "ptiVotesECP": 450,
@@ -3212,11 +3146,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt Chistia High School Behind Civil Secretariat Lahore"
+        }
     },
     {
-        "index": 471,
+        "index": 72,
         "seat": 130,
         "psno": "82",
         "ptiVotesECP": 301,
@@ -3260,11 +3193,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City District Government Girls High School Paisa Akhbar New Anarkali , Lahore () (Male)"
+        }
     },
     {
-        "index": 472,
+        "index": 73,
         "seat": 130,
         "psno": "83",
         "ptiVotesECP": 171,
@@ -3308,11 +3240,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City District Government Girls High School Paisa Akhbar New Anarkali , Lahore () (Female)"
+        }
     },
     {
-        "index": 473,
+        "index": 74,
         "seat": 130,
         "psno": "84",
         "ptiVotesECP": 338,
@@ -3356,11 +3287,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Saint Fransis High School New Anarkali, Lahore  (Male)"
+        }
     },
     {
-        "index": 478,
+        "index": 79,
         "seat": 130,
         "psno": "89",
         "ptiVotesECP": 346,
@@ -3404,11 +3334,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Saleem Model High School Urdu Bazar, Lahore  (Male)"
+        }
     },
     {
-        "index": 479,
+        "index": 80,
         "seat": 130,
         "psno": "90",
         "ptiVotesECP": 224,
@@ -3452,11 +3381,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Saleem Model High School Urdu Bazar, Lahore  (Female)"
+        }
     },
     {
-        "index": 480,
+        "index": 81,
         "seat": 130,
         "psno": "91",
         "ptiVotesECP": 37,
@@ -3474,7 +3402,7 @@
                 },
                 {
                     "name": "Removed Votes",
-                    "votes": 0,
+                    "votes": -367,
                     "offset": 404
                 },
                 {
@@ -3500,11 +3428,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Muslim High School No.2, Civil Line, Lahore (Male)"
+        }
     },
     {
-        "index": 483,
+        "index": 84,
         "seat": 130,
         "psno": "94",
         "ptiVotesECP": 291,
@@ -3548,11 +3475,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "University of Veterinary & Animal Sciencies (Ghorra Hospital) Out Fall Road, Lahore (Male)"
+        }
     },
     {
-        "index": 484,
+        "index": 85,
         "seat": 130,
         "psno": "95",
         "ptiVotesECP": 208,
@@ -3596,11 +3522,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "University of Veterinary & Animal Sciencies (Ghorra Hospital) Out Fall Road, Lahore (Female)"
+        }
     },
     {
-        "index": 490,
+        "index": 91,
         "seat": 130,
         "psno": "101",
         "ptiVotesECP": 273,
@@ -3644,11 +3569,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt Girls High School Naiper Road. Lahore (Combined)"
+        }
     },
     {
-        "index": 491,
+        "index": 92,
         "seat": 130,
         "psno": "102",
         "ptiVotesECP": 231,
@@ -3692,11 +3616,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt Girls High School Naiper Road. Lahore (Male)"
+        }
     },
     {
-        "index": 492,
+        "index": 93,
         "seat": 130,
         "psno": "103",
         "ptiVotesECP": 178,
@@ -3740,11 +3663,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt Girls High School Naiper Road. Lahore (Female)"
+        }
     },
     {
-        "index": 493,
+        "index": 94,
         "seat": 130,
         "psno": "104",
         "ptiVotesECP": 370,
@@ -3788,11 +3710,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Saint Francis High School New Anarkali Lahore "
+        }
     },
     {
-        "index": 494,
+        "index": 95,
         "seat": 130,
         "psno": "105",
         "ptiVotesECP": 437,
@@ -3836,11 +3757,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Islamaia College Civil Lines Lahore "
+        }
     },
     {
-        "index": 495,
+        "index": 96,
         "seat": 130,
         "psno": "106",
         "ptiVotesECP": 356,
@@ -3884,11 +3804,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Pak Turk International School & Colleges, Afgan Park Sant Nagar Lahore Permanent"
+        }
     },
     {
-        "index": 496,
+        "index": 97,
         "seat": 130,
         "psno": "107",
         "ptiVotesECP": 566,
@@ -3932,11 +3851,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Pak Turk International School & Colleges, Afgan Park Sant Nagar Lahore Permanent (Male-II)"
+        }
     },
     {
-        "index": 497,
+        "index": 98,
         "seat": 130,
         "psno": "108",
         "ptiVotesECP": 492,
@@ -3980,11 +3898,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City. District. Govt. Dispensary Afgan Park Nehero Ground Sanat Nagar Lahore"
+        }
     },
     {
-        "index": 498,
+        "index": 99,
         "seat": 130,
         "psno": "109",
         "ptiVotesECP": 587,
@@ -4028,11 +3945,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Jinnah Officer School Haider Road, Islam Pura Lahore (Combined) (Combined-I)"
+        }
     },
     {
-        "index": 499,
+        "index": 100,
         "seat": 130,
         "psno": "110",
         "ptiVotesECP": 210,
@@ -4050,7 +3966,7 @@
                 },
                 {
                     "name": "Removed Votes",
-                    "votes": 0,
+                    "votes": -205,
                     "offset": 415
                 },
                 {
@@ -4076,11 +3992,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Jinnah Officer School Haider Road, Islam Pura Lahore (Combined) (Combined-II)"
+        }
     },
     {
-        "index": 500,
+        "index": 101,
         "seat": 130,
         "psno": "111",
         "ptiVotesECP": 448,
@@ -4124,11 +4039,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Chief Public Girls School Sanda Raod Lahroe (Male)"
+        }
     },
     {
-        "index": 502,
+        "index": 103,
         "seat": 130,
         "psno": "113",
         "ptiVotesECP": 522,
@@ -4172,11 +4086,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Lahore Cambridge School 35-National Park, Sanda Road, Lahore (Male)"
+        }
     },
     {
-        "index": 503,
+        "index": 104,
         "seat": 130,
         "psno": "114",
         "ptiVotesECP": 368,
@@ -4220,11 +4133,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Lahore Cambridge School 35-National Park, Sanda Road, Lahore (Female)"
+        }
     },
     {
-        "index": 504,
+        "index": 105,
         "seat": 130,
         "psno": "115",
         "ptiVotesECP": 337,
@@ -4268,11 +4180,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Pak Public Foundation Girls High School Zahoor Din Road Lahore (Combined)"
+        }
     },
     {
-        "index": 505,
+        "index": 106,
         "seat": 130,
         "psno": "116",
         "ptiVotesECP": 533,
@@ -4316,11 +4227,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Pak Public Foundation Girls High School Zahoor Din Road Lahore (Male)"
+        }
     },
     {
-        "index": 506,
+        "index": 107,
         "seat": 130,
         "psno": "117",
         "ptiVotesECP": 420,
@@ -4364,11 +4274,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Pak Public Foundation Girls High School Zahoor Din Road Lahore (Female)"
+        }
     },
     {
-        "index": 507,
+        "index": 108,
         "seat": 130,
         "psno": "118",
         "ptiVotesECP": 401,
@@ -4412,11 +4321,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City District Govt. Boys High School Sanda Kalan, Lahore (Male-I)"
+        }
     },
     {
-        "index": 508,
+        "index": 109,
         "seat": 130,
         "psno": "119",
         "ptiVotesECP": 288,
@@ -4460,11 +4368,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City District Govt. Boys High School Sanda Kalan, Lahore (Female-I)"
+        }
     },
     {
-        "index": 509,
+        "index": 110,
         "seat": 130,
         "psno": "120",
         "ptiVotesECP": 406,
@@ -4508,11 +4415,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Pak Public Foundation Boys High School"
+        }
     },
     {
-        "index": 510,
+        "index": 111,
         "seat": 130,
         "psno": "121",
         "ptiVotesECP": 179,
@@ -4530,7 +4436,7 @@
                 },
                 {
                     "name": "Removed Votes",
-                    "votes": 0,
+                    "votes": -109,
                     "offset": 288
                 },
                 {
@@ -4556,11 +4462,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Pak Public Foundation Boys High School Zahoor Din Road, Lahore (Female-I)"
+        }
     },
     {
-        "index": 512,
+        "index": 113,
         "seat": 130,
         "psno": "123",
         "ptiVotesECP": 286,
@@ -4604,11 +4509,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Pak Public Foundation Boys High School Zahoor Din Road, Lahore (Female-II)"
+        }
     },
     {
-        "index": 513,
+        "index": 114,
         "seat": 130,
         "psno": "124",
         "ptiVotesECP": 323,
@@ -4652,11 +4556,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Bristal Public Academy Sanda Lahore  (Male) (Male)"
+        }
     },
     {
-        "index": 514,
+        "index": 115,
         "seat": 130,
         "psno": "125",
         "ptiVotesECP": 254,
@@ -4700,11 +4603,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Bristal Public Academy Sanda Lahore  (Male(Male) (Combined)"
+        }
     },
     {
-        "index": 515,
+        "index": 116,
         "seat": 130,
         "psno": "126",
         "ptiVotesECP": 189,
@@ -4748,11 +4650,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Bristal Public Academy Sanda Lahore  (Male) (Female)"
+        }
     },
     {
-        "index": 516,
+        "index": 117,
         "seat": 130,
         "psno": "127",
         "ptiVotesECP": 244,
@@ -4796,11 +4697,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City District Govt. Boys High School Sanda Kalan, Lahore (Male-II)"
+        }
     },
     {
-        "index": 517,
+        "index": 118,
         "seat": 130,
         "psno": "128",
         "ptiVotesECP": 144,
@@ -4844,11 +4744,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Office Union Counsil No.74 Sanda Kalan Lahore"
+        }
     },
     {
-        "index": 519,
+        "index": 120,
         "seat": 130,
         "psno": "131",
         "ptiVotesECP": 212,
@@ -4892,11 +4791,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Shaheen Public School D-2 block, Gulshan Ravi, Lahore (Female)"
+        }
     },
     {
-        "index": 520,
+        "index": 121,
         "seat": 130,
         "psno": "132",
         "ptiVotesECP": 242,
@@ -4940,11 +4838,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Excellence Science and Commerece Joy Shah Road sand kalan lahore (male) (Male)"
+        }
     },
     {
-        "index": 521,
+        "index": 122,
         "seat": 130,
         "psno": "133",
         "ptiVotesECP": 131,
@@ -4988,11 +4885,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Excellence Science and Commerece Joy Shah Road sand kalan lahore (male) (Female)"
+        }
     },
     {
-        "index": 522,
+        "index": 123,
         "seat": 130,
         "psno": "138",
         "ptiVotesECP": 311,
@@ -5036,11 +4932,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "THE CITY GRAMMER SCHOOL ZUBAIR ROAD HASSAN CHOWK SHAM NAGAR(Male)"
+        }
     },
     {
-        "index": 523,
+        "index": 124,
         "seat": 130,
         "psno": "139",
         "ptiVotesECP": 190,
@@ -5084,11 +4979,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "THE CITY GRAMMER SCHOOL ZUBAIR ROAD HASSAN CHOWK SHAM NAGAR(Female)"
+        }
     },
     {
-        "index": 524,
+        "index": 125,
         "seat": 130,
         "psno": "140",
         "ptiVotesECP": 335,
@@ -5132,11 +5026,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "CDGL Junior Model School Riwaz Garden, Lahore"
+        }
     },
     {
-        "index": 525,
+        "index": 126,
         "seat": 130,
         "psno": "141",
         "ptiVotesECP": 305,
@@ -5180,11 +5073,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Deaf And Defective Hearing Models High School for Girls Ram Nagar Raj Nagar, Lahore (Permanent)"
+        }
     },
     {
-        "index": 526,
+        "index": 127,
         "seat": 130,
         "psno": "142",
         "ptiVotesECP": 186,
@@ -5228,11 +5120,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Falcon Secondary School Dilkhusha Park, Lahore (Female)"
+        }
     },
     {
-        "index": 527,
+        "index": 128,
         "seat": 130,
         "psno": "143",
         "ptiVotesECP": 214,
@@ -5276,11 +5167,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Falcon Secondary School Dilkhusha Park, Lahore (Male)"
+        }
     },
     {
-        "index": 528,
+        "index": 129,
         "seat": 130,
         "psno": "144",
         "ptiVotesECP": 174,
@@ -5324,11 +5214,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Welcome Public High School Taj Dilkusha Park Chowk, Lahore"
+        }
     },
     {
-        "index": 529,
+        "index": 130,
         "seat": 130,
         "psno": "145",
         "ptiVotesECP": 400,
@@ -5372,11 +5261,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Kids Grammar School Bilal Park, Sham Nagar (Combined)"
+        }
     },
     {
-        "index": 530,
+        "index": 131,
         "seat": 130,
         "psno": "146",
         "ptiVotesECP": 391,
@@ -5420,11 +5308,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Cradel Public School System Qari Road, Raj Garh,Lahore. (Male)"
+        }
     },
     {
-        "index": 531,
+        "index": 132,
         "seat": 130,
         "psno": "147",
         "ptiVotesECP": 262,
@@ -5468,11 +5355,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Cradel Public School System Qari Road, Raj Garh,Lahore. (Female)"
+        }
     },
     {
-        "index": 532,
+        "index": 133,
         "seat": 130,
         "psno": "148",
         "ptiVotesECP": 457,
@@ -5516,11 +5402,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City District Govt. Boys High School Sanda Kalan, Lahore (Male-III)"
+        }
     },
     {
-        "index": 533,
+        "index": 134,
         "seat": 130,
         "psno": "149",
         "ptiVotesECP": 254,
@@ -5564,11 +5449,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Cam Grammer School Mohammadi Park Raj Gharh Lahore (Combined)"
+        }
     },
     {
-        "index": 534,
+        "index": 135,
         "seat": 130,
         "psno": "150",
         "ptiVotesECP": 256,
@@ -5612,11 +5496,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City District Govt. Boys High School Sanda Kalan, Lahore (Female-II)"
+        }
     },
     {
-        "index": 535,
+        "index": 136,
         "seat": 130,
         "psno": "151",
         "ptiVotesECP": 204,
@@ -5660,11 +5543,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "NAVEED GRAMMER HIGH SCHOOL AZIZ DIN ROAD LAHORE"
+        }
     },
     {
-        "index": 536,
+        "index": 137,
         "seat": 130,
         "psno": "154",
         "ptiVotesECP": 301,
@@ -5708,11 +5590,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Honey & Suny High School, Sanda Road, Sanda Khurd, Lahore (Male)"
+        }
     },
     {
-        "index": 537,
+        "index": 138,
         "seat": 130,
         "psno": "155",
         "ptiVotesECP": 260,
@@ -5756,11 +5637,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Honey & Suny High School, Sanda Road, Sanda Khurd, Lahore (Combined-I)"
+        }
     },
     {
-        "index": 538,
+        "index": 139,
         "seat": 130,
         "psno": "156",
         "ptiVotesECP": 227,
@@ -5804,11 +5684,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Honey & Suny High School, Sanda Road, Sanda Khurd, Lahore (Female)"
+        }
     },
     {
-        "index": 539,
+        "index": 140,
         "seat": 130,
         "psno": "157",
         "ptiVotesECP": 256,
@@ -5852,11 +5731,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Honey & Suny High School, Sanda Road, Sanda Khurd, Lahore (Combined-II)"
+        }
     },
     {
-        "index": 540,
+        "index": 141,
         "seat": 130,
         "psno": "158",
         "ptiVotesECP": 273,
@@ -5900,11 +5778,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City District Govt. Girls High School Sanda Kalan Lahore (Permanent) (Combined)"
+        }
     },
     {
-        "index": 541,
+        "index": 142,
         "seat": 130,
         "psno": "159",
         "ptiVotesECP": 364,
@@ -5948,11 +5825,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City District Govt. Girls High School Sanda Kalan Lahore (Permanent) (Male)"
+        }
     },
     {
-        "index": 542,
+        "index": 143,
         "seat": 130,
         "psno": "160",
         "ptiVotesECP": 279,
@@ -5996,11 +5872,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City District Govt. Girls High School Sanda Kalan Lahore (Permanent) (Female)"
+        }
     },
     {
-        "index": 543,
+        "index": 144,
         "seat": 130,
         "psno": "161",
         "ptiVotesECP": 436,
@@ -6044,11 +5919,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Oxford Lycetuff School-23, D2, Gulshan Ravi Lahore"
+        }
     },
     {
-        "index": 545,
+        "index": 146,
         "seat": 130,
         "psno": "163",
         "ptiVotesECP": 309,
@@ -6092,11 +5966,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "KIPS campus E block Gulshan Ravi Road (Male) (Male-II)"
+        }
     },
     {
-        "index": 546,
+        "index": 147,
         "seat": 130,
         "psno": "164",
         "ptiVotesECP": 122,
@@ -6140,11 +6013,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Lahore Public School Farid Road, Lahore (Female-I)"
+        }
     },
     {
-        "index": 547,
+        "index": 148,
         "seat": 130,
         "psno": "165",
         "ptiVotesECP": 373,
@@ -6188,11 +6060,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Lahore Public School Farid Road, Lahore (Female-II)"
+        }
     },
     {
-        "index": 548,
+        "index": 149,
         "seat": 130,
         "psno": "166",
         "ptiVotesECP": 365,
@@ -6236,11 +6107,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Lahore Public School Farid Road, Lahore (Female-III)"
+        }
     },
     {
-        "index": 549,
+        "index": 150,
         "seat": 130,
         "psno": "167",
         "ptiVotesECP": 252,
@@ -6284,11 +6154,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Lahore Public School Farid Road, Lahore (Combined)"
+        }
     },
     {
-        "index": 550,
+        "index": 151,
         "seat": 130,
         "psno": "169",
         "ptiVotesECP": 426,
@@ -6332,11 +6201,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Model Girls High School E-Block G/Ravi Lahore   (Male)"
+        }
     },
     {
-        "index": 552,
+        "index": 153,
         "seat": 130,
         "psno": "171",
         "ptiVotesECP": 225,
@@ -6380,11 +6248,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "American Lycetuff Junior and Upper E Blolck Gulshan Ravi Lahore (Male) (Male)"
+        }
     },
     {
-        "index": 553,
+        "index": 154,
         "seat": 130,
         "psno": "172",
         "ptiVotesECP": 149,
@@ -6428,11 +6295,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "American Lycetuff Junior and Upper E Blolck Gulshan Ravi Lahore (Male) (Female)"
+        }
     },
     {
-        "index": 554,
+        "index": 155,
         "seat": 130,
         "psno": "174",
         "ptiVotesECP": 298,
@@ -6476,11 +6342,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "American Lycetuff DNK Touheed Park Branch Lahore (Male)"
+        }
     },
     {
-        "index": 555,
+        "index": 156,
         "seat": 130,
         "psno": "175",
         "ptiVotesECP": 231,
@@ -6524,11 +6389,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "American Lycetuff DNK Touheed Park Branch Lahore (Female)"
+        }
     },
     {
-        "index": 556,
+        "index": 157,
         "seat": 130,
         "psno": "176",
         "ptiVotesECP": 338,
@@ -6572,11 +6436,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Education for all Gulshan Ravi Lahore (Male)"
+        }
     },
     {
-        "index": 557,
+        "index": 158,
         "seat": 130,
         "psno": "177",
         "ptiVotesECP": 278,
@@ -6620,11 +6483,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Education for all Gulshan Ravi Lahore (Female)"
+        }
     },
     {
-        "index": 558,
+        "index": 159,
         "seat": 130,
         "psno": "178",
         "ptiVotesECP": 278,
@@ -6668,11 +6530,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Pak Lyecum School System 25 Civic Center Moon Market Gulshan Ravi,Lahore (Male)"
+        }
     },
     {
-        "index": 559,
+        "index": 160,
         "seat": 130,
         "psno": "179",
         "ptiVotesECP": 219,
@@ -6716,11 +6577,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Pak Lyecum School System 25 Civic Center Moon Market Gulshan Ravi,Lahore (Female)"
+        }
     },
     {
-        "index": 560,
+        "index": 161,
         "seat": 130,
         "psno": "180",
         "ptiVotesECP": 449,
@@ -6764,11 +6624,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "LDA Model Girls High School 347 B-Block Gulshah Ravi, Lahore (Combined-II)"
+        }
     },
     {
-        "index": 561,
+        "index": 162,
         "seat": 130,
         "psno": "181",
         "ptiVotesECP": 392,
@@ -6812,11 +6671,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "RANA GRAMMER SCHOOL MOON MARKIT CIVIC CENTER GULSHAN RAVI LAHORE"
+        }
     },
     {
-        "index": 562,
+        "index": 163,
         "seat": 130,
         "psno": "182",
         "ptiVotesECP": 452,
@@ -6860,11 +6718,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City District Government Junior Model School New Chaburji Park, Lahore (Male-I)"
+        }
     },
     {
-        "index": 563,
+        "index": 164,
         "seat": 130,
         "psno": "183",
         "ptiVotesECP": 297,
@@ -6908,11 +6765,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City District Government Junior Model School New Chaburji Park, Lahore (Female- I)"
+        }
     },
     {
-        "index": 564,
+        "index": 165,
         "seat": 130,
         "psno": "184",
         "ptiVotesECP": 399,
@@ -6956,11 +6812,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City District Government Junior Model School New Chaburji Park, Lahore (Male-II)"
+        }
     },
     {
-        "index": 565,
+        "index": 166,
         "seat": 130,
         "psno": "185",
         "ptiVotesECP": 311,
@@ -7004,11 +6859,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City District Government Junior Model School New Chaburji Park, Lahore (Female- II)"
+        }
     },
     {
-        "index": 566,
+        "index": 167,
         "seat": 130,
         "psno": "186",
         "ptiVotesECP": 146,
@@ -7052,11 +6906,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Unique academy A block Chuburgi Park Lahore "
+        }
     },
     {
-        "index": 567,
+        "index": 168,
         "seat": 130,
         "psno": "187",
         "ptiVotesECP": 460,
@@ -7100,11 +6953,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Hassan Grammer High School Milaad chowk New Chuburji Park, Lahore (Comnbined)  (Male)"
+        }
     },
     {
-        "index": 568,
+        "index": 169,
         "seat": 130,
         "psno": "188",
         "ptiVotesECP": 422,
@@ -7148,11 +7000,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Hassan Grammer High School Milaad chowk New Chuburji Park, Lahore (Comnbined)  (Female)"
+        }
     },
     {
-        "index": 569,
+        "index": 170,
         "seat": 130,
         "psno": "189",
         "ptiVotesECP": 590,
@@ -7196,11 +7047,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Pakistan Post Model Girls High School P&T Colony Multan Road Lahore (Male-I)"
+        }
     },
     {
-        "index": 570,
+        "index": 171,
         "seat": 130,
         "psno": "190",
         "ptiVotesECP": 469,
@@ -7244,11 +7094,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Pakistan Post Model Girls High School P&T"
+        }
     },
     {
-        "index": 571,
+        "index": 172,
         "seat": 130,
         "psno": "191",
         "ptiVotesECP": 256,
@@ -7292,11 +7141,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Allied School Gulfishan Colony Lahore  (Male-II)"
+        }
     },
     {
-        "index": 572,
+        "index": 173,
         "seat": 130,
         "psno": "192",
         "ptiVotesECP": 198,
@@ -7340,11 +7188,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Allied School Gulfishan Colony Lahroe (Female-II)"
+        }
     },
     {
-        "index": 573,
+        "index": 174,
         "seat": 130,
         "psno": "193",
         "ptiVotesECP": 396,
@@ -7388,11 +7235,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Inspire School 175-A New chaburji Park Lahore"
+        }
     },
     {
-        "index": 574,
+        "index": 175,
         "seat": 130,
         "psno": "194",
         "ptiVotesECP": 624,
@@ -7436,11 +7282,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Office of the Chief Engineer Highway Lake Road Lahore . (Male)"
+        }
     },
     {
-        "index": 575,
+        "index": 176,
         "seat": 130,
         "psno": "195",
         "ptiVotesECP": 442,
@@ -7458,7 +7303,7 @@
                 },
                 {
                     "name": "Removed Votes",
-                    "votes": 0,
+                    "votes": 20,
                     "offset": 422
                 },
                 {
@@ -7484,11 +7329,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Office of the Chief Engineer Highway Lake Road Lahore . (Female)"
+        }
     },
     {
-        "index": 576,
+        "index": 177,
         "seat": 130,
         "psno": "196",
         "ptiVotesECP": 214,
@@ -7532,11 +7376,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Madrasa-Tul-Banat High School, lake Road Lahore   ()"
+        }
     },
     {
-        "index": 578,
+        "index": 179,
         "seat": 130,
         "psno": "198",
         "ptiVotesECP": 193,
@@ -7580,11 +7423,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Community High School Mazang Road Lahore   (Female)"
+        }
     },
     {
-        "index": 579,
+        "index": 180,
         "seat": 130,
         "psno": "199",
         "ptiVotesECP": 201,
@@ -7628,11 +7470,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City Distt. Govt. Girls High School Muzang adda Lahore  (Male-I)"
+        }
     },
     {
-        "index": 580,
+        "index": 181,
         "seat": 130,
         "psno": "200",
         "ptiVotesECP": 247,
@@ -7676,11 +7517,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City Distt. Govt. Girls High School Muzang adda Lahore  (Male-II)"
+        }
     },
     {
-        "index": 582,
+        "index": 183,
         "seat": 130,
         "psno": "202",
         "ptiVotesECP": 105,
@@ -7698,7 +7538,7 @@
                 },
                 {
                     "name": "Removed Votes",
-                    "votes": 0,
+                    "votes": -140,
                     "offset": 245
                 },
                 {
@@ -7724,11 +7564,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City Distt. Govt. Girls High School Muzang adda Lahore  (Male-II)"
+        }
     },
     {
-        "index": 583,
+        "index": 184,
         "seat": 130,
         "psno": "203",
         "ptiVotesECP": 164,
@@ -7772,11 +7611,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City Distt. Govt. Girls High School Muzang adda Lahore  (Female-I)"
+        }
     },
     {
-        "index": 584,
+        "index": 185,
         "seat": 130,
         "psno": "204",
         "ptiVotesECP": 154,
@@ -7820,11 +7658,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City Distt. Govt. Girls High School Muzang adda Lahore  (Female-II)"
+        }
     },
     {
-        "index": 585,
+        "index": 186,
         "seat": 130,
         "psno": "205",
         "ptiVotesECP": 490,
@@ -7868,11 +7705,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Boys High School Muzang Lahore /Higher Secondary (Male)"
+        }
     },
     {
-        "index": 586,
+        "index": 187,
         "seat": 130,
         "psno": "206",
         "ptiVotesECP": 364,
@@ -7916,11 +7752,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Boys High School Muzang Lahore/ Higher Secondary (Female)"
+        }
     },
     {
-        "index": 587,
+        "index": 188,
         "seat": 130,
         "psno": "207",
         "ptiVotesECP": 147,
@@ -7964,11 +7799,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Middle School Kreshna Gali Gawalmandi Lahore (Combined)"
+        }
     },
     {
-        "index": 588,
+        "index": 189,
         "seat": 130,
         "psno": "208",
         "ptiVotesECP": 338,
@@ -8012,11 +7846,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Government Middle School Kreshna Gali Gawalmandi Road Lahore. (Combined)"
+        }
     },
     {
-        "index": 589,
+        "index": 190,
         "seat": 130,
         "psno": "209",
         "ptiVotesECP": 231,
@@ -8060,11 +7893,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Government Middle School Kreshna Gali Gawalmandi Road Lahore. (Male)"
+        }
     },
     {
-        "index": 590,
+        "index": 191,
         "seat": 130,
         "psno": "210",
         "ptiVotesECP": 135,
@@ -8108,11 +7940,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Government Middle School Kreshna Gali Gawalmandi Road Lahore. (Female)"
+        }
     },
     {
-        "index": 591,
+        "index": 192,
         "seat": 130,
         "psno": "211",
         "ptiVotesECP": 266,
@@ -8156,11 +7987,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Live Stock Complex 16- khawaja Nazim-ud- Din Road. Lahore (Male )"
+        }
     },
     {
-        "index": 593,
+        "index": 194,
         "seat": 130,
         "psno": "213",
         "ptiVotesECP": 224,
@@ -8204,11 +8034,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Live Stock Complex 16- khawaja Nazim-ud- Din Road. Lahore"
+        }
     },
     {
-        "index": 594,
+        "index": 195,
         "seat": 130,
         "psno": "214",
         "ptiVotesECP": 357,
@@ -8252,11 +8081,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Live Stock Complex 16- khawaja Nazim-ud- Din Road. Lahore"
+        }
     },
     {
-        "index": 595,
+        "index": 196,
         "seat": 130,
         "psno": "215",
         "ptiVotesECP": 363,
@@ -8300,11 +8128,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Post Graduate Islamia Collage for Woman Cooper Road. Lahore"
+        }
     },
     {
-        "index": 596,
+        "index": 197,
         "seat": 130,
         "psno": "216",
         "ptiVotesECP": 226,
@@ -8348,11 +8175,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Post Graduate Islamia Collage for Woman Cooper Road. Lahore"
+        }
     },
     {
-        "index": 597,
+        "index": 198,
         "seat": 130,
         "psno": "217",
         "ptiVotesECP": 201,
@@ -8370,7 +8196,7 @@
                 },
                 {
                     "name": "Removed Votes",
-                    "votes": 0,
+                    "votes": -167,
                     "offset": 368
                 },
                 {
@@ -8396,11 +8222,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "King Edward Medical College, Lahore"
+        }
     },
     {
-        "index": 598,
+        "index": 199,
         "seat": 130,
         "psno": "218",
         "ptiVotesECP": 269,
@@ -8444,11 +8269,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "WASA LDA Work Shop Main Out Fall Road Sanat Nagar Lahore"
+        }
     },
     {
-        "index": 599,
+        "index": 200,
         "seat": 130,
         "psno": "219",
         "ptiVotesECP": 444,
@@ -8492,11 +8316,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Technical Training Institute for Women Kamal Ganj Out Fall Road Lahore (Male)"
+        }
     },
     {
-        "index": 600,
+        "index": 201,
         "seat": 130,
         "psno": "220",
         "ptiVotesECP": 253,
@@ -8540,11 +8363,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Technical Training Institute for Women Kamal Ganj Out Fall Road Lahore (Female-I)"
+        }
     },
     {
-        "index": 601,
+        "index": 202,
         "seat": 130,
         "psno": "221",
         "ptiVotesECP": 253,
@@ -8588,11 +8410,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Technical Training Institute for Women Kamal Ganj Out Fall Road Lahore (Female-II)"
+        }
     },
     {
-        "index": 602,
+        "index": 203,
         "seat": 130,
         "psno": "222",
         "ptiVotesECP": 537,
@@ -8636,11 +8457,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Abdali Grammar High School for Girls, Abdali Road, Near Faran Hospital, Lahore (Male-I)"
+        }
     },
     {
-        "index": 603,
+        "index": 204,
         "seat": 130,
         "psno": "223",
         "ptiVotesECP": 328,
@@ -8684,11 +8504,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Abdali Grammar High School for Girls, Abdali Road, Near Faran Hospital, Lahore (Combined)"
+        }
     },
     {
-        "index": 604,
+        "index": 205,
         "seat": 130,
         "psno": "224",
         "ptiVotesECP": 440,
@@ -8732,11 +8551,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Abdali Grammar High School for Girls, Abdali Road, Near Faran Hospital, Lahore (Female)"
+        }
     },
     {
-        "index": 605,
+        "index": 206,
         "seat": 130,
         "psno": "225",
         "ptiVotesECP": 357,
@@ -8754,7 +8572,7 @@
                 },
                 {
                     "name": "Removed Votes",
-                    "votes": 0,
+                    "votes": -18,
                     "offset": 375
                 },
                 {
@@ -8780,11 +8598,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Abdali Grammar High School for Girls, Abdali Road, Near Faran Hospital, Lahore (Male-II)"
+        }
     },
     {
-        "index": 606,
+        "index": 207,
         "seat": 130,
         "psno": "226",
         "ptiVotesECP": 286,
@@ -8828,11 +8645,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "University of Education, Lower Mall Campus Lahore (Female) (Female-I)"
+        }
     },
     {
-        "index": 607,
+        "index": 208,
         "seat": 130,
         "psno": "227",
         "ptiVotesECP": 236,
@@ -8876,11 +8692,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Al-Aziz Model School Near Govt. Meternity Hospital Chohan Road.  (Combined)"
+        }
     },
     {
-        "index": 608,
+        "index": 209,
         "seat": 130,
         "psno": "228",
         "ptiVotesECP": 486,
@@ -8924,11 +8739,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City District Govt. Junior Model M/S Chohan Road Lahore  (Male-I)"
+        }
     },
     {
-        "index": 609,
+        "index": 210,
         "seat": 130,
         "psno": "229",
         "ptiVotesECP": 417,
@@ -8972,11 +8786,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City District Govt. Junior Model M/S Chohan Road Lahore  (Female-I)"
+        }
     },
     {
-        "index": 610,
+        "index": 211,
         "seat": 130,
         "psno": "231",
         "ptiVotesECP": 199,
@@ -9020,11 +8833,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City District Govt. Junior Model M/S Chohan Road Lahore  (Female-II)"
+        }
     },
     {
-        "index": 611,
+        "index": 212,
         "seat": 130,
         "psno": "232",
         "ptiVotesECP": 266,
@@ -9068,11 +8880,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "M.D High School Chohan Road Islam Pura Lahore (Male)"
+        }
     },
     {
-        "index": 612,
+        "index": 213,
         "seat": 130,
         "psno": "233",
         "ptiVotesECP": 337,
@@ -9116,11 +8927,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Al-Aziz Model School Near Govt. Meternity Hospital Chohan Road.  (Combined) (Combined-II)"
+        }
     },
     {
-        "index": 613,
+        "index": 214,
         "seat": 130,
         "psno": "234",
         "ptiVotesECP": 198,
@@ -9164,11 +8974,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "M.D High School Chohan Road Islam Pura Lahore (Female)"
+        }
     },
     {
-        "index": 614,
+        "index": 215,
         "seat": 130,
         "psno": "235",
         "ptiVotesECP": 232,
@@ -9212,11 +9021,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City District Govt. Junior Model M/S Chohan Road Lahore  (Combined)"
+        }
     },
     {
-        "index": 615,
+        "index": 216,
         "seat": 130,
         "psno": "236",
         "ptiVotesECP": 306,
@@ -9260,11 +9068,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Kids Gardenia / Students Acadmy Bilal Street Out Fall Road, Lahore"
+        }
     },
     {
-        "index": 618,
+        "index": 219,
         "seat": 130,
         "psno": "239",
         "ptiVotesECP": 251,
@@ -9308,11 +9115,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. College for Women Band Road Lahore (Male-I)"
+        }
     },
     {
-        "index": 619,
+        "index": 220,
         "seat": 130,
         "psno": "240",
         "ptiVotesECP": 120,
@@ -9356,11 +9162,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. College for Women Band Road Lahore (Female-I)"
+        }
     },
     {
-        "index": 620,
+        "index": 221,
         "seat": 130,
         "psno": "241",
         "ptiVotesECP": 263,
@@ -9404,11 +9209,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. College for Women Band Road Lahore (Male-II)"
+        }
     },
     {
-        "index": 621,
+        "index": 222,
         "seat": 130,
         "psno": "243",
         "ptiVotesECP": 204,
@@ -9452,11 +9256,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. College for Women Band Road Lahore (Combined)"
+        }
     },
     {
-        "index": 622,
+        "index": 223,
         "seat": 130,
         "psno": "244",
         "ptiVotesECP": 267,
@@ -9500,11 +9303,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt Model Middle Girls School Ghow- Shala Band Road Lahore (Combined-I)"
+        }
     },
     {
-        "index": 623,
+        "index": 224,
         "seat": 130,
         "psno": "245",
         "ptiVotesECP": 388,
@@ -9548,11 +9350,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt Model Middle Girls School Ghow- Shala Band Road Lahore (Combined-II)"
+        }
     },
     {
-        "index": 624,
+        "index": 225,
         "seat": 130,
         "psno": "246",
         "ptiVotesECP": 385,
@@ -9596,11 +9397,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Office of UC No. 48, Marzi Pura, 73-Ravi Road Lahore"
+        }
     },
     {
-        "index": 625,
+        "index": 226,
         "seat": 130,
         "psno": "247",
         "ptiVotesECP": 262,
@@ -9644,11 +9444,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. College for Women Band Road Lahore (Female-III)"
+        }
     },
     {
-        "index": 626,
+        "index": 227,
         "seat": 130,
         "psno": "248",
         "ptiVotesECP": 311,
@@ -9666,7 +9465,7 @@
                 },
                 {
                     "name": "Removed Votes",
-                    "votes": 0,
+                    "votes": -175,
                     "offset": 486
                 },
                 {
@@ -9692,11 +9491,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City District Govt. Girls High School Block# 1- Kareem Park Ravi Road Momin Pura Lahore (Male-I)"
+        }
     },
     {
-        "index": 627,
+        "index": 228,
         "seat": 130,
         "psno": "249",
         "ptiVotesECP": 165,
@@ -9740,11 +9538,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City District Govt. Girls High School Block# 1- Kareem Park Ravi Road Momin Pura Lahore (Female-I)"
+        }
     },
     {
-        "index": 628,
+        "index": 229,
         "seat": 130,
         "psno": "250",
         "ptiVotesECP": 184,
@@ -9788,11 +9585,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City District Govt. Girls High School Block# 1- Kareem Park Ravi Road Momin"
+        }
     },
     {
-        "index": 629,
+        "index": 230,
         "seat": 130,
         "psno": "251",
         "ptiVotesECP": 131,
@@ -9836,11 +9632,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City District Govt. Girls High School Block# 1- Kareem Park Ravi Road Momin"
+        }
     },
     {
-        "index": 630,
+        "index": 231,
         "seat": 130,
         "psno": "252",
         "ptiVotesECP": 273,
@@ -9884,11 +9679,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Iqra Tehzeeb Ul Itfal Trust School, Block No. 4, Karim Park, Lahore."
+        }
     },
     {
-        "index": 631,
+        "index": 232,
         "seat": 130,
         "psno": "253",
         "ptiVotesECP": 224,
@@ -9932,11 +9726,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City District Govt. Girls High School Block# 1- Kareem Park Ravi Road Momin Pura Lahore (Male-III)"
+        }
     },
     {
-        "index": 632,
+        "index": 233,
         "seat": 130,
         "psno": "254",
         "ptiVotesECP": 186,
@@ -9980,11 +9773,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "CDG Girls Primary School, Mali Pura Ravi Road Lahore () (Male-I)"
+        }
     },
     {
-        "index": 633,
+        "index": 234,
         "seat": 130,
         "psno": "255",
         "ptiVotesECP": 154,
@@ -10028,11 +9820,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "CDG Girls Primary School, Mali Pura Ravi Road Lahore () (Male-II)"
+        }
     },
     {
-        "index": 635,
+        "index": 236,
         "seat": 130,
         "psno": "257",
         "ptiVotesECP": 127,
@@ -10076,11 +9867,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Punjab Model Girls M/S 138 Block# 2Karim Park Lahore (Female-I)"
+        }
     },
     {
-        "index": 636,
+        "index": 237,
         "seat": 130,
         "psno": "258",
         "ptiVotesECP": 292,
@@ -10124,11 +9914,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Punjab Model Girls M/S 138 Block# 2Karim Park Lahore (Male)"
+        }
     },
     {
-        "index": 637,
+        "index": 238,
         "seat": 130,
         "psno": "259",
         "ptiVotesECP": 184,
@@ -10172,11 +9961,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Punjab Model Girls M/S 138 Block# 2Karim Park Lahore (Female-II)"
+        }
     },
     {
-        "index": 638,
+        "index": 239,
         "seat": 130,
         "psno": "260",
         "ptiVotesECP": 341,
@@ -10220,11 +10008,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "WASA Office Katcha Ravi Road Lahore (Male)"
+        }
     },
     {
-        "index": 639,
+        "index": 240,
         "seat": 130,
         "psno": "261",
         "ptiVotesECP": 225,
@@ -10268,11 +10055,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "WASA Office Katcha Ravi Road Lahore (Female)"
+        }
     },
     {
-        "index": 640,
+        "index": 241,
         "seat": 130,
         "psno": "262",
         "ptiVotesECP": 388,
@@ -10316,11 +10102,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt Model Middle School Bagh Munshi Ladha Kacha Ravi Road Lahore (Ground Floor Hall)"
+        }
     },
     {
-        "index": 641,
+        "index": 242,
         "seat": 130,
         "psno": "263",
         "ptiVotesECP": 264,
@@ -10364,11 +10149,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt Model Middle School Bagh Munshi Ladha Kacha Ravi Road Lahore (Ground Floor Hall)"
+        }
     },
     {
-        "index": 642,
+        "index": 243,
         "seat": 130,
         "psno": "264",
         "ptiVotesECP": 368,
@@ -10412,11 +10196,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt Junior Model School Rattigan Road Lahore  (Male-I)"
+        }
     },
     {
-        "index": 643,
+        "index": 244,
         "seat": 130,
         "psno": "265",
         "ptiVotesECP": 183,
@@ -10460,11 +10243,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt Junior Model School Rattigan Road Lahore  (Female-I)"
+        }
     },
     {
-        "index": 644,
+        "index": 245,
         "seat": 130,
         "psno": "266",
         "ptiVotesECP": 206,
@@ -10508,11 +10290,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt Islamia High School Mohni Road Lahore  (Male)"
+        }
     },
     {
-        "index": 645,
+        "index": 246,
         "seat": 130,
         "psno": "267",
         "ptiVotesECP": 246,
@@ -10556,11 +10337,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City Dist Govt. Boys High School Lhr Shish Mahal Bilal Gang Lahore "
+        }
     },
     {
-        "index": 646,
+        "index": 247,
         "seat": 130,
         "psno": "268",
         "ptiVotesECP": 555,
@@ -10578,7 +10358,7 @@
                 },
                 {
                     "name": "Removed Votes",
-                    "votes": 0,
+                    "votes": 284,
                     "offset": 271
                 },
                 {
@@ -10604,11 +10384,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt Islamia High School Mohni Road Lahore  (Female)"
+        }
     },
     {
-        "index": 647,
+        "index": 248,
         "seat": 130,
         "psno": "269",
         "ptiVotesECP": 317,
@@ -10626,7 +10405,7 @@
                 },
                 {
                     "name": "Removed Votes",
-                    "votes": 0,
+                    "votes": -10,
                     "offset": 327
                 },
                 {
@@ -10652,11 +10431,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Central Model High School #2, Rattigan Road, Lahore  (Male)"
+        }
     },
     {
-        "index": 648,
+        "index": 249,
         "seat": 130,
         "psno": "270",
         "ptiVotesECP": 200,
@@ -10674,7 +10452,7 @@
                 },
                 {
                     "name": "Removed Votes",
-                    "votes": 0,
+                    "votes": -6,
                     "offset": 206
                 },
                 {
@@ -10700,11 +10478,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Central Model High School #2, Rattigan Road, Lahore  (Female)"
+        }
     },
     {
-        "index": 650,
+        "index": 251,
         "seat": 130,
         "psno": "272",
         "ptiVotesECP": 322,
@@ -10748,11 +10525,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Girls Higher Secondary School Ravi Road Lahore (Male-II)"
+        }
     },
     {
-        "index": 651,
+        "index": 252,
         "seat": 130,
         "psno": "273",
         "ptiVotesECP": 156,
@@ -10796,11 +10572,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Girls Higher Secondary School Ravi Road Lahore (Female-I)"
+        }
     },
     {
-        "index": 652,
+        "index": 253,
         "seat": 130,
         "psno": "274",
         "ptiVotesECP": 235,
@@ -10844,11 +10619,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Girls Higher Secondary School Ravi Road Lahore (Female-II)"
+        }
     },
     {
-        "index": 653,
+        "index": 254,
         "seat": 130,
         "psno": "276",
         "ptiVotesECP": 133,
@@ -10892,11 +10666,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Girls Higher Secondary School Ravi Road Lahore (Female-III)"
+        }
     },
     {
-        "index": 654,
+        "index": 255,
         "seat": 130,
         "psno": "277",
         "ptiVotesECP": 450,
@@ -10940,11 +10713,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Farooqi Girls High School Kareem Park Ravi Road Lahore () (Male)"
+        }
     },
     {
-        "index": 655,
+        "index": 256,
         "seat": 130,
         "psno": "278",
         "ptiVotesECP": 324,
@@ -10988,11 +10760,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Farooqi Girls High School Kareem Park Ravi Road Lahore () (Female-I)"
+        }
     },
     {
-        "index": 656,
+        "index": 257,
         "seat": 130,
         "psno": "279",
         "ptiVotesECP": 215,
@@ -11036,11 +10807,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Allied School, block No. 3, Karim Park"
+        }
     },
     {
-        "index": 657,
+        "index": 258,
         "seat": 130,
         "psno": "280",
         "ptiVotesECP": 189,
@@ -11084,11 +10854,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Farooqi Girls High School Kareem Park Ravi Road Lahore () (Female-II)"
+        }
     },
     {
-        "index": 658,
+        "index": 259,
         "seat": 130,
         "psno": "281",
         "ptiVotesECP": 447,
@@ -11132,11 +10901,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Grand Knowledge High School for Boys & Girls Karim Park Qazafi Chowk, Lahore"
+        }
     },
     {
-        "index": 659,
+        "index": 260,
         "seat": 130,
         "psno": "282",
         "ptiVotesECP": 316,
@@ -11180,11 +10948,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Kaswa Public School, Makkah Road, Block No.2 near Wazir Islam Karim Park, Lahore"
+        }
     },
     {
-        "index": 660,
+        "index": 261,
         "seat": 130,
         "psno": "283",
         "ptiVotesECP": 13,
@@ -11202,7 +10969,7 @@
                 },
                 {
                     "name": "Removed Votes",
-                    "votes": 0,
+                    "votes": -350,
                     "offset": 363
                 },
                 {
@@ -11228,11 +10995,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "The Vision Grammar School, Qaddafi Chowk Karim Park"
+        }
     },
     {
-        "index": 661,
+        "index": 262,
         "seat": 130,
         "psno": "284",
         "ptiVotesECP": 205,
@@ -11250,7 +11016,7 @@
                 },
                 {
                     "name": "Removed Votes",
-                    "votes": 0,
+                    "votes": -25,
                     "offset": 230
                 },
                 {
@@ -11276,11 +11042,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "CDG Dastkari School for Women, Momin Pura, Yasin Road, Lahore"
+        }
     },
     {
-        "index": 662,
+        "index": 263,
         "seat": 130,
         "psno": "285",
         "ptiVotesECP": 133,
@@ -11324,11 +11089,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Star Light High School Main Road, Lahore "
+        }
     },
     {
-        "index": 663,
+        "index": 264,
         "seat": 130,
         "psno": "286",
         "ptiVotesECP": 140,
@@ -11372,11 +11136,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City Distt. Govt. Boys High School Block # 4 Moman Pura Karim park Lahore (Combined)"
+        }
     },
     {
-        "index": 664,
+        "index": 265,
         "seat": 130,
         "psno": "287",
         "ptiVotesECP": 336,
@@ -11420,11 +11183,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City Distt. Govt. Boys High School Block # 4 Moman Pura Karim park Lahore (Male)"
+        }
     },
     {
-        "index": 665,
+        "index": 266,
         "seat": 130,
         "psno": "288",
         "ptiVotesECP": 252,
@@ -11468,11 +11230,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City Distt. Govt. Boys High School Block # 4 Moman Pura Karim park Lahore (Female)"
+        }
     },
     {
-        "index": 666,
+        "index": 267,
         "seat": 130,
         "psno": "289",
         "ptiVotesECP": 407,
@@ -11516,11 +11277,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Allied School Yadgar Campus 193 Karim Park Road, Lahore "
+        }
     },
     {
-        "index": 667,
+        "index": 268,
         "seat": 130,
         "psno": "290",
         "ptiVotesECP": 229,
@@ -11564,11 +11324,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Shinnig High School for Boys Gali No.4 Amin Park, Lahore (Female)"
+        }
     },
     {
-        "index": 668,
+        "index": 269,
         "seat": 130,
         "psno": "291",
         "ptiVotesECP": 374,
@@ -11612,11 +11371,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Primary School, Manzoor Park Band Road Lahore (Male-I)"
+        }
     },
     {
-        "index": 669,
+        "index": 270,
         "seat": 130,
         "psno": "292",
         "ptiVotesECP": 184,
@@ -11660,11 +11418,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Primary School, Manzoor Park Band Road Lahore (Female-I)"
+        }
     },
     {
-        "index": 671,
+        "index": 272,
         "seat": 130,
         "psno": "294",
         "ptiVotesECP": 195,
@@ -11708,11 +11465,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Primary School, Manzoor Park Band Road Lahore (Male-II)"
+        }
     },
     {
-        "index": 672,
+        "index": 273,
         "seat": 130,
         "psno": "295",
         "ptiVotesECP": 84,
@@ -11756,11 +11512,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Primary School, Manzoor Park Band Road Lahore (Female-II)"
+        }
     },
     {
-        "index": 673,
+        "index": 274,
         "seat": 130,
         "psno": "296",
         "ptiVotesECP": 324,
@@ -11804,11 +11559,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Punjab Public High school street no.22 Chaudhary Park Rashid Chaowl Lahore."
+        }
     },
     {
-        "index": 675,
+        "index": 276,
         "seat": 130,
         "psno": "298",
         "ptiVotesECP": 151,
@@ -11852,11 +11606,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Pakeeza School Street No.10 Amin Park Chaudhary Park (Male)"
+        }
     },
     {
-        "index": 676,
+        "index": 277,
         "seat": 130,
         "psno": "299",
         "ptiVotesECP": 255,
@@ -11900,11 +11653,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City Public Girls High School Chowk Ara Hassan Shah Ameer Road, Bilal  Gang Lahore ( Female)."
+        }
     },
     {
-        "index": 677,
+        "index": 278,
         "seat": 130,
         "psno": "300",
         "ptiVotesECP": 115,
@@ -11922,7 +11674,7 @@
                 },
                 {
                     "name": "Removed Votes",
-                    "votes": 0,
+                    "votes": -305,
                     "offset": 420
                 },
                 {
@@ -11948,11 +11700,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Shinnig High School for Boys Gali No.4 Amin Park, Lahore (Male-II)"
+        }
     },
     {
-        "index": 679,
+        "index": 280,
         "seat": 130,
         "psno": "302",
         "ptiVotesECP": 464,
@@ -11996,11 +11747,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City District Govt Girls High School Bilal Gunj (Shesh Mahal Road) Lahore (Male-I)"
+        }
     },
     {
-        "index": 680,
+        "index": 281,
         "seat": 130,
         "psno": "303",
         "ptiVotesECP": 309,
@@ -12044,11 +11794,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City District Govt Girls High School Bilal Gunj (Shesh Mahal Road) Lahore (Female- I)"
+        }
     },
     {
-        "index": 681,
+        "index": 282,
         "seat": 130,
         "psno": "304",
         "ptiVotesECP": 348,
@@ -12092,11 +11841,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City District Govt Girls High School Bilal Gunj (Shesh Mahal Road) Lahore (Combined)"
+        }
     },
     {
-        "index": 682,
+        "index": 283,
         "seat": 130,
         "psno": "305",
         "ptiVotesECP": 266,
@@ -12140,11 +11888,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City District Govt Girls High School Bilal Gunj (Shesh Mahal Road) Lahore (Male-II)"
+        }
     },
     {
-        "index": 683,
+        "index": 284,
         "seat": 130,
         "psno": "306",
         "ptiVotesECP": 142,
@@ -12188,11 +11935,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City District Govt Girls High School Bilal Gunj (Shesh Mahal Road) Lahore (Female- II)"
+        }
     },
     {
-        "index": 684,
+        "index": 285,
         "seat": 130,
         "psno": "307",
         "ptiVotesECP": 146,
@@ -12236,11 +11982,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Al Hafiz Girls High School Qaddafi Road Bilal Gang Lahroe "
+        }
     },
     {
-        "index": 685,
+        "index": 286,
         "seat": 130,
         "psno": "308",
         "ptiVotesECP": 346,
@@ -12284,11 +12029,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Al Hafiz Girls High School Qaddafi Road Bilal Gang Lahroe  (Male)"
+        }
     },
     {
-        "index": 686,
+        "index": 287,
         "seat": 130,
         "psno": "309",
         "ptiVotesECP": 187,
@@ -12332,11 +12076,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Al Hafiz Girls High School Qaddafi Road Bilal Gang Lahroe (Female)"
+        }
     },
     {
-        "index": 687,
+        "index": 288,
         "seat": 130,
         "psno": "310",
         "ptiVotesECP": 341,
@@ -12380,11 +12123,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City Dist. Govt. Girls Elementary School Ibrahim Road Lahore (Ground Floor)"
+        }
     },
     {
-        "index": 688,
+        "index": 289,
         "seat": 130,
         "psno": "311",
         "ptiVotesECP": 186,
@@ -12428,11 +12170,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City Distt. Govt. Dispensary Ibrahim Road Near Munshi Hospital Band Road Lahore."
+        }
     },
     {
-        "index": 689,
+        "index": 290,
         "seat": 130,
         "psno": "312",
         "ptiVotesECP": 180,
@@ -12476,11 +12217,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Dispensory Filter Clinic, Bilal Gunj, Lahore.(Female)"
+        }
     },
     {
-        "index": 690,
+        "index": 291,
         "seat": 130,
         "psno": "313",
         "ptiVotesECP": 357,
@@ -12524,11 +12264,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "University of Education, Lower Mall Campus Lahore (Female) (Male-I)"
+        }
     },
     {
-        "index": 691,
+        "index": 292,
         "seat": 130,
         "psno": "314",
         "ptiVotesECP": 421,
@@ -12572,11 +12311,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "University of Education, Lower Mall Campus Lahore (Female) (Male-II)"
+        }
     },
     {
-        "index": 692,
+        "index": 293,
         "seat": 130,
         "psno": "315",
         "ptiVotesECP": 321,
@@ -12620,11 +12358,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "University of Education, Lower Mall Campus Lahore (Female) (Female-II)"
+        }
     },
     {
-        "index": 694,
+        "index": 295,
         "seat": 130,
         "psno": "317",
         "ptiVotesECP": 378,
@@ -12668,11 +12405,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Girls Middle School Block no.3 karim park Ravi Road.Lahore (Male)"
+        }
     },
     {
-        "index": 695,
+        "index": 296,
         "seat": 130,
         "psno": "318",
         "ptiVotesECP": 208,
@@ -12690,7 +12426,7 @@
                 },
                 {
                     "name": "Removed Votes",
-                    "votes": 0,
+                    "votes": -212,
                     "offset": 420
                 },
                 {
@@ -12716,11 +12452,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Central Model School Lower Mall Lahore () (Combined-I)"
+        }
     },
     {
-        "index": 696,
+        "index": 297,
         "seat": 130,
         "psno": "319",
         "ptiVotesECP": 256,
@@ -12764,11 +12499,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Central Model School Lower Mall Lahore () (Female-I)"
+        }
     },
     {
-        "index": 697,
+        "index": 298,
         "seat": 130,
         "psno": "320",
         "ptiVotesECP": 404,
@@ -12812,11 +12546,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Central Model School Lower Mall Lahore () (Combined-II)"
+        }
     },
     {
-        "index": 698,
+        "index": 299,
         "seat": 130,
         "psno": "321",
         "ptiVotesECP": 305,
@@ -12860,11 +12593,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Muhammadia Girls School, Mohni Road, Lahore"
+        }
     },
     {
-        "index": 699,
+        "index": 300,
         "seat": 130,
         "psno": "322",
         "ptiVotesECP": 186,
@@ -12908,11 +12640,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Central Model School Lower Mall Lahore () (Female-II)"
+        }
     },
     {
-        "index": 700,
+        "index": 301,
         "seat": 130,
         "psno": "323",
         "ptiVotesECP": 278,
@@ -12956,11 +12687,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt Junior Model School Rattigan Road Lahore  (Male-II)"
+        }
     },
     {
-        "index": 701,
+        "index": 302,
         "seat": 130,
         "psno": "324",
         "ptiVotesECP": 179,
@@ -13004,11 +12734,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt Junior Model School Rattigan Road Lahore  (Female-II)"
+        }
     },
     {
-        "index": 702,
+        "index": 303,
         "seat": 130,
         "psno": "325",
         "ptiVotesECP": 309,
@@ -13052,11 +12781,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Sun Rise Institute for Blind, Ravi Road, Smadi Gunga Ram, Lahore"
+        }
     },
     {
-        "index": 703,
+        "index": 304,
         "seat": 130,
         "psno": "326",
         "ptiVotesECP": 271,
@@ -13100,11 +12828,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Sun Rise Institute for Blind, Ravi Road, Smadi Gunga Ram, Lahore"
+        }
     },
     {
-        "index": 704,
+        "index": 305,
         "seat": 130,
         "psno": "327",
         "ptiVotesECP": 169,
@@ -13148,11 +12875,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City Public Girls High School Chowk Ara Hasan Shah Amer Road Bilal Gang Lahroe  "
+        }
     },
     {
-        "index": 705,
+        "index": 306,
         "seat": 130,
         "psno": "328",
         "ptiVotesECP": 197,
@@ -13196,11 +12922,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. Sun Rise Institute for Blind, Ravi Road, Smadi Gunga Ram, Lahore (Male)"
+        }
     },
     {
-        "index": 706,
+        "index": 307,
         "seat": 130,
         "psno": "329",
         "ptiVotesECP": 244,
@@ -13244,11 +12969,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "M.W Model Girls High School Rasheed Road Ch. Park Lahore"
+        }
     },
     {
-        "index": 707,
+        "index": 308,
         "seat": 130,
         "psno": "330",
         "ptiVotesECP": 255,
@@ -13292,11 +13016,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City Public Girls High School Chowk Ara Hassan Shah Ameer Road, Bilal  Gang Lahore "
+        }
     },
     {
-        "index": 708,
+        "index": 309,
         "seat": 130,
         "psno": "331",
         "ptiVotesECP": 241,
@@ -13340,11 +13063,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "City Public Girls High School Chowk Ara Hassan Shah Ameer Road, Bilal  Gang Lahore "
+        }
     },
     {
-        "index": 709,
+        "index": 310,
         "seat": 130,
         "psno": "332",
         "ptiVotesECP": 229,
@@ -13388,11 +13110,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Shinning Girls High School Karim Park Ravi Road (Female)"
+        }
     },
     {
-        "index": 710,
+        "index": 311,
         "seat": 130,
         "psno": "335",
         "ptiVotesECP": 223,
@@ -13436,11 +13157,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Rana Girls High School Shumshi St. Ibrahim Road, Lahore"
+        }
     },
     {
-        "index": 711,
+        "index": 312,
         "seat": 130,
         "psno": "336",
         "ptiVotesECP": 216,
@@ -13484,11 +13204,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt.Degree Colledge for Women Bilal Gunj Lahore. (Male) (Male-I)"
+        }
     },
     {
-        "index": 712,
+        "index": 313,
         "seat": 130,
         "psno": "337",
         "ptiVotesECP": 115,
@@ -13532,11 +13251,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt.Degree Colledge for Women Bilal Gunj Lahore. (Male) (Female-I)"
+        }
     },
     {
-        "index": 713,
+        "index": 314,
         "seat": 130,
         "psno": "338",
         "ptiVotesECP": 126,
@@ -13580,11 +13298,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "The Best School, Hafeez Road, Near Mian Munshi Hospital, Lahore (Combined)"
+        }
     },
     {
-        "index": 714,
+        "index": 315,
         "seat": 130,
         "psno": "339",
         "ptiVotesECP": 214,
@@ -13628,11 +13345,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt.Degree Colledge for Women Bilal Gunj Lahore. (Male) (Male-II)"
+        }
     },
     {
-        "index": 715,
+        "index": 316,
         "seat": 130,
         "psno": "340",
         "ptiVotesECP": 114,
@@ -13676,11 +13392,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt.Degree Colledge for Women Bilal Gunj Lahore. (Male) (Female-II)"
+        }
     },
     {
-        "index": 716,
+        "index": 317,
         "seat": 130,
         "psno": "341",
         "ptiVotesECP": 340,
@@ -13724,11 +13439,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "New Muslim Public High School St. No.2 Khokhar Town Shafique Abad Band Road Lahore .(Male)"
+        }
     },
     {
-        "index": 717,
+        "index": 318,
         "seat": 130,
         "psno": "342",
         "ptiVotesECP": 153,
@@ -13772,11 +13486,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Jami Science High School St. No. 08, Main Bazar Shafique Abad Band Road Lahore (Female)"
+        }
     },
     {
-        "index": 718,
+        "index": 319,
         "seat": 130,
         "psno": "343",
         "ptiVotesECP": 39,
@@ -13820,11 +13533,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Jami Science High School St. No. 08, Main Bazar Shafique Abad Band Road Lahore (Combined)"
+        }
     },
     {
-        "index": 719,
+        "index": 320,
         "seat": 130,
         "psno": "344",
         "ptiVotesECP": 340,
@@ -13868,11 +13580,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Foundation for Boys Akram Park, Lahore (Male-I)"
+        }
     },
     {
-        "index": 720,
+        "index": 321,
         "seat": 130,
         "psno": "345",
         "ptiVotesECP": 206,
@@ -13916,11 +13627,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Ali Barkat Social Welfare and Education Foundation for Boys Akram Park, Lahore (Female-I)"
+        }
     },
     {
-        "index": 721,
+        "index": 322,
         "seat": 130,
         "psno": "346",
         "ptiVotesECP": 111,
@@ -13964,11 +13674,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Ali Barkat Social Welfare and Education Foundation for Boys Akram Park, Lahore (Male-II)"
+        }
     },
     {
-        "index": 722,
+        "index": 323,
         "seat": 130,
         "psno": "347",
         "ptiVotesECP": 101,
@@ -14012,11 +13721,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Ali Barkat Social Welfare and Education Foundation for Boys Akram Park, Lahore (Male-III)"
+        }
     },
     {
-        "index": 723,
+        "index": 324,
         "seat": 130,
         "psno": "348",
         "ptiVotesECP": 92,
@@ -14060,11 +13768,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Ali Barkat Social Welfare and Education Foundation for Boys Akram Park, Lahore (Female-II)"
+        }
     },
     {
-        "index": 724,
+        "index": 325,
         "seat": 130,
         "psno": "349",
         "ptiVotesECP": 137,
@@ -14108,11 +13815,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "The Best School, Hafeez Road, Near Mian Munshi Hospital, Lahore (Male)"
+        }
     },
     {
-        "index": 725,
+        "index": 326,
         "seat": 130,
         "psno": "350",
         "ptiVotesECP": 82,
@@ -14156,11 +13862,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "The Best School, Hafeez Road, Near Mian Munshi Hospital, Lahore (Female)"
+        }
     },
     {
-        "index": 726,
+        "index": 327,
         "seat": 130,
         "psno": "351",
         "ptiVotesECP": 209,
@@ -14204,11 +13909,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Haris Public H/S St. No.05 Mehr Nazir Road, Farooq Park Shiblee Town, Lahore (Male)"
+        }
     },
     {
-        "index": 727,
+        "index": 328,
         "seat": 130,
         "psno": "352",
         "ptiVotesECP": 108,
@@ -14252,11 +13956,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Haris Public H/S St. No.05 Mehr Nazir Road, Farooq Park Shiblee Town, Lahore (Female)"
+        }
     },
     {
-        "index": 728,
+        "index": 329,
         "seat": 130,
         "psno": "353",
         "ptiVotesECP": 228,
@@ -14300,11 +14003,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Iqra Public School, Behind Shell Pump Main Bazar shibli town band road lahore.( Male)"
+        }
     },
     {
-        "index": 729,
+        "index": 330,
         "seat": 130,
         "psno": "354",
         "ptiVotesECP": 214,
@@ -14348,11 +14050,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Ahsan-Ul- Madarass School Shiblee Town Band Road, Lahore (Male-I)"
+        }
     },
     {
-        "index": 730,
+        "index": 331,
         "seat": 130,
         "psno": "355",
         "ptiVotesECP": 225,
@@ -14396,11 +14097,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Ahsan-Ul- Madarass School Shiblee Town Band Road, Lahore (Female)"
+        }
     },
     {
-        "index": 731,
+        "index": 332,
         "seat": 130,
         "psno": "356",
         "ptiVotesECP": 219,
@@ -14444,11 +14144,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Ahsan-Ul- Madarass School Shiblee Town Band Road, Lahore (Male-II)"
+        }
     },
     {
-        "index": 732,
+        "index": 333,
         "seat": 130,
         "psno": "357",
         "ptiVotesECP": 152,
@@ -14492,11 +14191,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "The Islamic Public School Umer Colony Band Road Double Sarkan Lahore (Male)"
+        }
     },
     {
-        "index": 733,
+        "index": 334,
         "seat": 130,
         "psno": "358",
         "ptiVotesECP": 156,
@@ -14540,11 +14238,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "The Islamic Public School Umer Colony Band Road Double Sarkan Lahore (Female- I)"
+        }
     },
     {
-        "index": 735,
+        "index": 336,
         "seat": 130,
         "psno": "360",
         "ptiVotesECP": 95,
@@ -14588,11 +14285,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Imran Education School System (old Canadian School) near Almiraj masjid t-5 Band road Lahore (Male)"
+        }
     },
     {
-        "index": 736,
+        "index": 337,
         "seat": 130,
         "psno": "361",
         "ptiVotesECP": 49,
@@ -14636,11 +14332,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Imran Education School System (old Canadian School) near Almiraj masjid t-5 Band road Lahore (Female)"
+        }
     },
     {
-        "index": 737,
+        "index": 338,
         "seat": 130,
         "psno": "362",
         "ptiVotesECP": 477,
@@ -14684,11 +14379,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. College of Technology for Women, 2- Lyton Road, Lahore (Male)"
+        }
     },
     {
-        "index": 738,
+        "index": 339,
         "seat": 130,
         "psno": "363",
         "ptiVotesECP": 303,
@@ -14732,11 +14426,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt. College of Technology for Women, 2- Lyton Road, Lahore (Female)"
+        }
     },
     {
-        "index": 739,
+        "index": 340,
         "seat": 130,
         "psno": "364",
         "ptiVotesECP": 409,
@@ -14780,11 +14473,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt Kulya Tul Binat Degree College Lake Road Lahore (Male)"
+        }
     },
     {
-        "index": 740,
+        "index": 341,
         "seat": 130,
         "psno": "365",
         "ptiVotesECP": 276,
@@ -14828,11 +14520,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt Kulya Tul Binat Degree College Lake Road Lahore (Female)"
+        }
     },
     {
-        "index": 741,
+        "index": 342,
         "seat": 130,
         "psno": "366",
         "ptiVotesECP": 442,
@@ -14876,11 +14567,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Charagh Din Road Main Bazar Mozang Road Lahore (Male)"
+        }
     },
     {
-        "index": 742,
+        "index": 343,
         "seat": 130,
         "psno": "367",
         "ptiVotesECP": 333,
@@ -14924,11 +14614,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt Rafah-e-Ama Girls High School Charagh Din Road Main Bazar Mozang Road Lahore (Female)"
+        }
     },
     {
-        "index": 743,
+        "index": 344,
         "seat": 130,
         "psno": "368",
         "ptiVotesECP": 320,
@@ -14972,11 +14661,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Adbistan Sofia Girls High School Bhawalpur Road Near Mozang Chaungi Lahore (Male)"
+        }
     },
     {
-        "index": 745,
+        "index": 346,
         "seat": 130,
         "psno": "370",
         "ptiVotesECP": 387,
@@ -15020,11 +14708,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Adbistan Sofia Girls High School Bhawalpur Road Near Mozang Chaungi Lahore (Combined)"
+        }
     },
     {
-        "index": 746,
+        "index": 347,
         "seat": 130,
         "psno": "371",
         "ptiVotesECP": 202,
@@ -15042,7 +14729,7 @@
                 },
                 {
                     "name": "Removed Votes",
-                    "votes": 0,
+                    "votes": -213,
                     "offset": 415
                 },
                 {
@@ -15068,11 +14755,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt Fatima Jinnah Medical University Shahra-e- Fatima Jinnah Lahore  (Male)"
+        }
     },
     {
-        "index": 747,
+        "index": 348,
         "seat": 130,
         "psno": "372",
         "ptiVotesECP": 303,
@@ -15116,11 +14802,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Govt Fatima Jinnah Medical University Shahra-e- Fatima Jinnah Lahore (Female)"
+        }
     },
     {
-        "index": 748,
+        "index": 349,
         "seat": 130,
         "psno": "373",
         "ptiVotesECP": 262,
@@ -15164,11 +14849,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Kulya Tul Binnat Digree College Lake Road Muzang Lahore (Male)"
+        }
     },
     {
-        "index": 749,
+        "index": 350,
         "seat": 130,
         "psno": "374",
         "ptiVotesECP": 212,
@@ -15212,11 +14896,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Kulya Tul Binnat Digree College Lake Road Muzang Lahore (Female)"
+        }
     },
     {
-        "index": 750,
+        "index": 351,
         "seat": 130,
         "psno": "375",
         "ptiVotesECP": 399,
@@ -15260,11 +14943,10 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Elite Grammer School 13-A, Bhawalpur Road, Lahore (Male)"
+        }
     },
     {
-        "index": 751,
+        "index": 352,
         "seat": 130,
         "psno": "376",
         "ptiVotesECP": 314,
@@ -15308,7 +14990,6 @@
                     "offset": 0
                 }
             ]
-        },
-        "name": "Kulya Tul Binnat Digree College Lake Road Muzang Lahore ()"
+        }
     }
 ]

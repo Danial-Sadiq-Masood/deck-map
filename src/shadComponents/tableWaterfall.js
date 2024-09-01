@@ -71,10 +71,10 @@ console.log(data)
 export const columns = [
     {
         accessorKey: "seat",
-        header: "Seat",
+        header: () => <div className="pl-4">Seat</div>,
         id: "seat",
         cell: ({ row }) => (
-            <div className="capitalize">{row.getValue("seat")}</div>
+            <div className="pl-4 capitalize">{row.getValue("seat")}</div>
         ),
     },
     {
@@ -132,6 +132,7 @@ export const columns = [
             return (
                 <div className="font-medium">
                     <BarChart
+                        colors={['#67C6E3', '#378CE7', '#5356FF']}
                         data={row.original.chartData.est}
                     />
                 </div>
@@ -145,6 +146,7 @@ export const columns = [
             return (
                 <div className="font-medium">
                     <BarChart
+                        colors={['#E7D37F', '#81A263', '#365E32']}
                         data={row.original.chartData.pti}
                     />
                 </div>

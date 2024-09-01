@@ -19,8 +19,7 @@ const HomePage = () => {
         <div className="w-100 p-8">
             <Card>
                 <CardHeader className="pb-3">
-                    <CardTitle className="text-2xl">Title</CardTitle>
-                    <CardDescription>Description</CardDescription>
+                    <CardTitle className="text-2xl">Polling Station Votes Breakdown</CardTitle>
                 </CardHeader>
                 <CardContent>
                     <DataTable />
