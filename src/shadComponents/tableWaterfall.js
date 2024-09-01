@@ -43,6 +43,7 @@ import {
 import data from './waterfall.json'
 
 import BarChart from './barChart'
+import { max } from "d3"
 
 const tableData = data.map((d, i) => ({ ...d, index: i }))
 
@@ -129,11 +130,13 @@ export const columns = [
         header: () => <div className="">Non PTI Votes Breakdown</div>,
         id: "barChartEst",
         cell: ({row}) => {
+            const maxY = Math.ceil(Math.max(row.original.chartData.est[2].votes,row.original.chartData.pti[0].votes) / 100) * 100;
             return (
                 <div className="font-medium">
                     <BarChart
                         colors={['#67C6E3', '#378CE7', '#5356FF']}
                         data={row.original.chartData.est}
+                        maxY={maxY}
                     />
                 </div>
             )
@@ -143,11 +146,13 @@ export const columns = [
         header: () => <div className="">PTI Votes Breakdown</div>,
         id: "barChartPTI",
         cell: ({row}) => {
+            const maxY = Math.ceil(Math.max(row.original.chartData.est[2].votes,row.original.chartData.pti[0].votes) / 100) * 100;
             return (
                 <div className="font-medium">
                     <BarChart
                         colors={['#E7D37F', '#81A263', '#365E32']}
                         data={row.original.chartData.pti}
+                        maxY={maxY}
                     />
                 </div>
             )

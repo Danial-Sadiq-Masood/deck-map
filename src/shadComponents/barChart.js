@@ -42,7 +42,7 @@ const chartConfig = {
 }
 
 
-export default function Component({ data, colors }) {
+export default function Component({ data, colors, maxY }) {
 
     return (
         <Card className="p-2 pt-[20px] pr-[20px] max-w-[450px] flex justify-center">
@@ -51,7 +51,7 @@ export default function Component({ data, colors }) {
                     margin={{ top: 5, right: 0, bottom: 5, left: 0 }}
                 >
                     <CartesianGrid vertical={true} />
-                    <YAxis type="number" />
+                    <YAxis type="number" domain={[0,maxY]}/>
                     <XAxis type="category" dataKey="name" />
                     <ChartTooltip content={<ChartTooltipContent labelKey="offset"  nameKey="name" hideIndicator hideLabel hide/>} />
                     <Bar isAnimationActive={false}
