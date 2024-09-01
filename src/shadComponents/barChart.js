@@ -1,7 +1,7 @@
 "use client"
 
 import { TrendingUp } from "lucide-react"
-import { Bar, BarChart, CartesianGrid, XAxis, YAxis } from "recharts"
+import { Bar, BarChart, CartesianGrid, XAxis, YAxis, Cell } from "recharts"
 
 import {
     Card,
@@ -27,41 +27,50 @@ const chartData = [
 ]
 
 const chartConfig = {
-    desktop: {
-        label: "Desktop",
-        color: "hsl(var(--chart-1))",
+    votes : {
+        label : 'Votes'
     },
-    mobile: {
-        label: "Mobile",
-        color: "hsl(var(--chart-2))",
+    offset : {
+        label : 'Test'
+    },
+    "Actual Votes" : {
+        label: "Desktop"
+    },
+    "ECP Tampering" : {
+        label: "Mobile"
     },
 }
 
-export default function Component({ data, yKey, dataKeys }) {
+const colors = ['#67C6E3', '#378CE7', '#5356FF']
+
+export default function Component({ data }) {
+
     return (
-        <Card className="p-2 pt-[20px] pr-[20px]">
-            <ChartContainer className="min-h-[100px] w-[250px]" config={chartConfig}>
-                <BarChart layout="vertical" data={data}
+        <Card className="p-2 pt-[20px] pr-[20px] max-w-[450px] flex justify-center">
+            <ChartContainer className="min-h-[300px] w-[400px]" config={chartConfig}>
+                <BarChart data={data}
                     margin={{ top: 5, right: 0, bottom: 5, left: 0 }}
                 >
                     <CartesianGrid vertical={true} />
-                    <XAxis type="number" />
-                    <YAxis type="category" dataKey={yKey} />
-                    <ChartTooltip content={<ChartTooltipContent hideLabel />} />
+                    <YAxis type="number" />
+                    <XAxis type="category" dataKey="name" />
+                    <ChartTooltip content={<ChartTooltipContent labelKey="offset"  nameKey="name" hideIndicator hideLabel hide/>} />
                     <Bar isAnimationActive={false}
-                        dataKey={dataKeys[0]}
-                        fill="var(--color-desktop)"
-                        radius={0}
+                        dataKey="offset"
+                        fill="transparent"
                         barSize={20}
                         stackId='a'
                     />
                     <Bar isAnimationActive={false}
-                        dataKey={dataKeys[1]}
-                        fill="var(--color-mobile)"
-                        radius={[0, 5, 5, 0]}
-                        barSize={20}
+                        dataKey="votes"
+                        barSize={40}
+                        radius={[4,4,0,0]}
                         stackId='a'
-                    />
+                    >
+                        {data.map((item, index) => {
+                            return <Cell key={index} fill={colors[index]} />;
+                        })}
+                    </Bar>
                 </BarChart>
             </ChartContainer>
         </Card>

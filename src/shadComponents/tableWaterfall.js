@@ -40,7 +40,7 @@ import {
     TableRow,
 } from "@/components/ui/table"
 
-import data from './mergedData.json'
+import data from './waterfall.json'
 
 import BarChart from './barChart'
 
@@ -85,7 +85,7 @@ export const columns = [
             <div className="capitalize">{row.getValue("psno")}</div>
         ),
     },
-    {
+    /*{
         accessorKey: "name",
         id: "ps",
         size : 50,
@@ -124,23 +124,33 @@ export const columns = [
 
             return <div className="font-medium">{amount}</div>
         },
-    },
-    /*{
-        header: () => <div className="">Votes Breakdown</div>,
-        id: "barChart",
+    },*/
+    {
+        header: () => <div className="">Non PTI Votes Breakdown</div>,
+        id: "barChartEst",
         cell: ({row}) => {
-            console.log(row)
             return (
                 <div className="font-medium">
                     <BarChart
-                        data={row.original.barData}
-                        dataKeys={['votes', 'riggedVotes']}
-                        yKey="party"
+                        data={row.original.chartData.est}
                     />
                 </div>
             )
         },
-    }*/
+    },
+    {
+        header: () => <div className="">PTI Votes Breakdown</div>,
+        id: "barChartPTI",
+        cell: ({row}) => {
+            return (
+                <div className="font-medium">
+                    <BarChart
+                        data={row.original.chartData.pti}
+                    />
+                </div>
+            )
+        },
+    }
 ]
 
 export default function DataTableDemo() {
@@ -176,9 +186,9 @@ export default function DataTableDemo() {
             <div className="flex items-center py-4">
                 <Input
                     placeholder="Filter Polling Stations..."
-                    value={(table.getColumn("ps")?.getFilterValue()) ?? ""}
+                    value={(table.getColumn("psno")?.getFilterValue()) ?? ""}
                     onChange={(event) =>
-                        table.getColumn("ps")?.setFilterValue(event.target.value)
+                        table.getColumn("psno")?.setFilterValue(event.target.value)
                     }
                     className="max-w-sm"
                 />
