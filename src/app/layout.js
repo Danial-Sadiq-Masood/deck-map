@@ -1,11 +1,12 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Inter as FontSans } from "next/font/google"
- 
+import { PrimeReactProvider, PrimeReactContext } from 'primereact/api';
+
 import { cn } from "@/lib/utils"
 
 const inter = Inter({ subsets: ["latin"] });
- 
+
 const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
@@ -18,16 +19,18 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html>
-      <head />
+    <PrimeReactProvider value={{ unstyled: true }}>
+      <html>
+        <head />
 
-      <body className={cn("min-h-screen bg-[#fbfbfb9e] font-sans antialiased", fontSans.variable)}>
+        <body className={cn("min-h-screen bg-[#fbfbfb9e] font-sans antialiased", fontSans.variable)}>
 
-        <main className="">
-          {children}
-        </main>
+          <main className="">
+            {children}
+          </main>
 
-      </body>
-    </html>
+        </body>
+      </html>
+    </PrimeReactProvider>
   );
 }

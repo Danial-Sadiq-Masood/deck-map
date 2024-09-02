@@ -40,7 +40,7 @@ import {
     TableRow,
 } from "@/components/ui/table"
 
-import data from './mergedData.json'
+import data from './turnout.json'
 
 import BarChart from './barChart'
 
@@ -70,14 +70,6 @@ console.log(data)
 
 export const columns = [
     {
-        accessorKey: "seat",
-        header: "Seat",
-        id: "seat",
-        cell: ({ row }) => (
-            <div className="capitalize">{row.getValue("seat")}</div>
-        ),
-    },
-    {
         accessorKey: "psno",
         header: "PS Number",
         id: "psno",
@@ -88,7 +80,7 @@ export const columns = [
     {
         accessorKey: "name",
         id: "ps",
-        size : 50,
+        size: 50,
         header: ({ column }) => {
             return (
                 <div>
@@ -106,25 +98,37 @@ export const columns = [
         cell: ({ row }) => <div className="pl-2 capitalize">{row.getValue("ps")}</div>,
     },
     {
-        accessorKey: "turnout",
-        id: "turnout",
-        header: () => <div className="">Turnout</div>,
+        accessorKey: "registered",
+        id: "registered",
+        header: () => <div className="">Registered Voters</div>,
         cell: ({ row }) => {
-            const amount = parseInt(row.getValue("turnout"))
+            const amount = parseInt(row.getValue("registered"))
 
             return <div className="font-medium">{amount}</div>
         },
     },
     {
-        accessorKey: "riggingAdvantage",
-        id: "riggingAdvantage",
-        header: () => <div className="">Rigging Advantage</div>,
+        accessorKey: "ecp_turnout",
+        id: "ecp_turnout",
+        header: () => <div className="">ECP Turnout</div>,
         cell: ({ row }) => {
-            const amount = parseInt(row.getValue("riggingAdvantage"))
+            const amount = parseInt(row.getValue("ecp_turnout"))
 
             return <div className="font-medium">{amount}</div>
         },
     },
+    {
+        accessorKey: "ecp_turnout",
+        id: "ecp_turnout",
+        header: () => <div className="">ECP Turnout Percentage</div>,
+        cell: ({ row }) => {
+            const amount = parseInt(row.getValue("ecp_turnout"))
+            const total = parseInt(row.getValue("registered"))
+
+            return <div className="font-medium">{((amount / total) * 100).toFixed(2)} %</div>
+        },
+    }
+    ,
     /*{
         header: () => <div className="">Votes Breakdown</div>,
         id: "barChart",

@@ -30,6 +30,7 @@
     "lucide-react": "^0.437.0",
     "mapbox-gl": "^3.6.0",
     "next": "14.2.6",
+    "primereact": "^10.8.2",
     "react": "^18",
     "react-dom": "^18",
     "react-map-gl": "^7.1.7",
