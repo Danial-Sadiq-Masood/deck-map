@@ -19,6 +19,9 @@ import {
     useReactTable,
 } from "@tanstack/react-table"
 
+import Paginator from './table-components/paginator'
+import ColumnHeader from './table-components/columnHeader'
+
 import { Button } from "@/components/ui/button"
 import { Checkbox } from "@/components/ui/checkbox"
 import {
@@ -71,62 +74,54 @@ console.log(data)
 export const columns = [
     {
         accessorKey: "psno",
-        header: "PS Number",
+        header: ({column}) => <ColumnHeader column={column} title="PS Number" />,
         id: "psno",
         cell: ({ row }) => (
             <div className="capitalize">{row.getValue("psno")}</div>
         ),
+        enableSorting : true
     },
     {
         accessorKey: "name",
         id: "ps",
         size: 50,
-        header: ({ column }) => {
-            return (
-                <div>
-                    <Button
-                        variant="ghost"
-                        className="px-2"
-                        onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
-                    >
-                        Polling Station
-                        <CaretSortIcon className="ml-2 h-4 w-4" />
-                    </Button>
-                </div>
-            )
-        },
-        cell: ({ row }) => <div className="pl-2 capitalize">{row.getValue("ps")}</div>,
+        header: ({column}) => <ColumnHeader column={column} title="Polling Station Name" />,
+        cell: ({ row }) => <div className="capitalize">{row.getValue("ps")}</div>,
+        enableSorting : false
     },
     {
         accessorKey: "registered",
         id: "registered",
-        header: () => <div className="">Registered Voters</div>,
+        header: ({column}) => <ColumnHeader column={column} title="Registered Voters" />,
         cell: ({ row }) => {
             const amount = parseInt(row.getValue("registered"))
 
             return <div className="font-medium">{amount}</div>
         },
+        enableSorting : true
     },
     {
         accessorKey: "ecp_turnout",
         id: "ecp_turnout",
-        header: () => <div className="">ECP Turnout</div>,
+        header: ({column}) => <ColumnHeader column={column} title="ECP Turnout" />,
         cell: ({ row }) => {
             const amount = parseInt(row.getValue("ecp_turnout"))
 
             return <div className="font-medium">{amount}</div>
         },
+        enableSorting : true
     },
     {
         accessorKey: "ecp_turnout",
         id: "ecp_turnout",
-        header: () => <div className="">ECP Turnout Percentage</div>,
+        header: ({column}) => <ColumnHeader column={column} title="ECP Turnout Percentage" />,
         cell: ({ row }) => {
             const amount = parseInt(row.getValue("ecp_turnout"))
             const total = parseInt(row.getValue("registered"))
 
             return <div className="font-medium">{((amount / total) * 100).toFixed(2)} %</div>
         },
+        enableSorting : true
     }
     ,
     /*{
@@ -179,7 +174,7 @@ export default function DataTableDemo() {
         <div className="w-full">
             <div className="flex items-center py-4">
                 <Input
-                    placeholder="Filter Polling Stations..."
+                    placeholder="Filter Polling Stations By Name..."
                     value={(table.getColumn("ps")?.getFilterValue()) ?? ""}
                     onChange={(event) =>
                         table.getColumn("ps")?.setFilterValue(event.target.value)
@@ -239,24 +234,7 @@ export default function DataTableDemo() {
                 </Table>
             </div>
             <div className="flex items-center justify-end space-x-2 py-4">
-                <div className="space-x-2">
-                    <Button
-                        variant="outline"
-                        size="sm"
-                        onClick={() => table.previousPage()}
-                        disabled={!table.getCanPreviousPage()}
-                    >
-                        Previous
-                    </Button>
-                    <Button
-                        variant="outline"
-                        size="sm"
-                        onClick={() => table.nextPage()}
-                        disabled={!table.getCanNextPage()}
-                    >
-                        Next
-                    </Button>
-                </div>
+                <Paginator table={table}/>
             </div>
         </div>
     )
