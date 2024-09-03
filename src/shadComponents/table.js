@@ -47,83 +47,74 @@ import data from './turnout.json'
 
 import BarChart from './barChart'
 
-const tableData = data.map((d, i) => ({ ...d, index: i }))
+const tableData = data.map((d, i) => (
+    {
+        ...d,
+        ecpPercentageTurnout: ((d.ecp_turnout/ d.registered) * 100)
+    }))
 
-const barChartData = tableData
-    .map((d, i) => (
-        {
-            ...d,
-            barData: [
-                {
-                    party: 'PTI',
-                    votes: d.ptiVotes,
-                    riggedVotes: 0
-                },
-                {
-                    party: 'Non PTI',
-                    votes: d.estVotes,
-                    riggedVotes: d.riggingAdvantage
-                }
-            ]
-        })
-    )
-
-console.log(barChartData)
-console.log(data)
+console.log(tableData);
 
 export const columns = [
     {
         accessorKey: "psno",
-        header: ({column}) => <ColumnHeader column={column} title="PS Number" />,
+        header: ({ column }) => <ColumnHeader column={column} title="PS Number" />,
         id: "psno",
         cell: ({ row }) => (
             <div className="capitalize">{row.getValue("psno")}</div>
         ),
-        enableSorting : true
+        enableSorting: true
     },
     {
         accessorKey: "name",
         id: "ps",
         size: 50,
-        header: ({column}) => <ColumnHeader column={column} title="Polling Station Name" />,
+        header: ({ column }) => <ColumnHeader column={column} title="Polling Station Name" />,
         cell: ({ row }) => <div className="capitalize">{row.getValue("ps")}</div>,
-        enableSorting : false
+        enableSorting: false
     },
     {
         accessorKey: "registered",
         id: "registered",
-        header: ({column}) => <ColumnHeader column={column} title="Registered Voters" />,
+        header: ({ column }) => <ColumnHeader column={column} title="Registered Voters" />,
         cell: ({ row }) => {
             const amount = parseInt(row.getValue("registered"))
 
             return <div className="font-medium">{amount}</div>
         },
-        enableSorting : true
+        enableSorting: true
     },
     {
         accessorKey: "ecp_turnout",
         id: "ecp_turnout",
-        header: ({column}) => <ColumnHeader column={column} title="ECP Turnout" />,
+        header: ({ column }) => <ColumnHeader column={column} title="ECP Turnout" />,
         cell: ({ row }) => {
             const amount = parseInt(row.getValue("ecp_turnout"))
 
             return <div className="font-medium">{amount}</div>
         },
-        enableSorting : true
+        enableSorting: true
     },
     {
-        accessorKey: "ecp_turnout",
-        id: "ecp_turnout",
-        header: ({column}) => <ColumnHeader column={column} title="ECP Turnout Percentage" />,
+        accessorKey: "ecpPercentageTurnout",
+        id: "ecpPercentageTurnout",
+        header: ({ column }) => <ColumnHeader column={column} title="ECP Turnout Percentage" />,
         cell: ({ row }) => {
-            const amount = parseInt(row.getValue("ecp_turnout"))
-            const total = parseInt(row.getValue("registered"))
+            const amount = parseInt(row.getValue("ecpPercentageTurnout"))
 
-            return <div className="font-medium">{((amount / total) * 100).toFixed(2)} %</div>
+            return <div className="font-medium">{amount.toFixed(2)} %</div>
         },
-        enableSorting : true
+        enableSorting: true
+    },
+    {
+        accessorKey: "ecp_winner",
+        header: ({ column }) => <ColumnHeader column={column} title="ECP Winner" />,
+        id: "ecp_winner",
+        cell: ({ row }) => (
+            <div className="capitalize">{row.getValue("ecp_winner")}</div>
+        ),
+        enableSorting: true
     }
-    ,
     /*{
         header: () => <div className="">Votes Breakdown</div>,
         id: "barChart",
@@ -152,7 +143,7 @@ export default function DataTableDemo() {
     const [rowSelection, setRowSelection] = React.useState({})
 
     const table = useReactTable({
-        data,
+        data : tableData,
         columns,
         onSortingChange: setSorting,
         onColumnFiltersChange: setColumnFilters,
@@ -204,8 +195,8 @@ export default function DataTableDemo() {
                         ))}
                     </TableHeader>
                     <TableBody>
-                        {table.getRowModel().rows?.length ? (
-                            table.getRowModel().rows.map((row) => (
+                        {table?.getRowModel()?.rows?.length ? (
+                            table?.getRowModel().rows.map((row) => (
                                 <TableRow
                                     key={row.id}
                                     data-state={row.getIsSelected() && "selected"}
@@ -234,7 +225,7 @@ export default function DataTableDemo() {
                 </Table>
             </div>
             <div className="flex items-center justify-end space-x-2 py-4">
-                <Paginator table={table}/>
+                <Paginator table={table} />
             </div>
         </div>
     )
