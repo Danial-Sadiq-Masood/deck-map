@@ -2,7 +2,7 @@
     {
         "index": 0,
         "registered": 1198,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "1",
         "ptiVotesECP": 250,
         "ptiVotesPTI": 250,
@@ -10,12 +10,14 @@
         "estVotesECP": 159,
         "riggingAdvantage": 0,
         "ecp_turnout": 577,
-        "name": "Govt Girls High School, Custom Colony Lahore CANTT (Male)-I"
+        "name": "Govt Girls High School, Custom Colony Lahore CANTT (Male)-I",
+        "pti_turnout": 1198,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 1,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "2",
         "ptiVotesECP": 189,
         "ptiVotesPTI": 189,
@@ -23,12 +25,14 @@
         "estVotesECP": 107,
         "riggingAdvantage": 0,
         "ecp_turnout": 411,
-        "name": "Govt Girls High School, Custom Colony Lahore CANTT (Female)-I"
+        "name": "Govt Girls High School, Custom Colony Lahore CANTT (Female)-I",
+        "pti_turnout": 1117,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 2,
         "registered": 2060,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "3",
         "ptiVotesECP": 418,
         "ptiVotesPTI": 418,
@@ -36,12 +40,14 @@
         "estVotesECP": 233,
         "riggingAdvantage": 0,
         "ecp_turnout": 924,
-        "name": "Ali Garh College of Nursing Main Chowk Ali Colony Cavlary Ground Lahore Cantt: (Male)"
+        "name": "Ali Garh College of Nursing Main Chowk Ali Colony Cavlary Ground Lahore Cantt: (Male)",
+        "pti_turnout": 2060,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 3,
         "registered": 1799,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "4",
         "ptiVotesECP": 269,
         "ptiVotesPTI": 269,
@@ -49,12 +55,14 @@
         "estVotesECP": 116,
         "riggingAdvantage": 0,
         "ecp_turnout": 548,
-        "name": "Ali Garh College of Nursing Main Chowk Ali Colony Cavlary Ground Lahore Cantt: (Female)"
+        "name": "Ali Garh College of Nursing Main Chowk Ali Colony Cavlary Ground Lahore Cantt: (Female)",
+        "pti_turnout": 1799,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 5,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "6",
         "ptiVotesECP": 370,
         "ptiVotesPTI": 370,
@@ -62,7 +70,9 @@
         "estVotesECP": 158,
         "riggingAdvantage": 0,
         "ecp_turnout": 719,
-        "name": "Govt Elementary School Boys Custom Academy Lahore Cantt: (Combined)-I"
+        "name": "Govt Elementary School Boys Custom Academy Lahore Cantt: (Combined)-I",
+        "pti_turnout": 1957,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 6,
@@ -75,12 +85,14 @@
         "estVotesECP": 493,
         "riggingAdvantage": 400,
         "ecp_turnout": 970,
-        "name": "Govt. Primary School Luck Line, Cavalry Ground Lahore Cantt: (Combined)-II"
+        "name": "Govt. Primary School Luck Line, Cavalry Ground Lahore Cantt: (Combined)-II",
+        "pti_turnout": 1171,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 7,
         "registered": 1306,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "8",
         "ptiVotesECP": 370,
         "ptiVotesPTI": 370,
@@ -88,12 +100,14 @@
         "estVotesECP": 134,
         "riggingAdvantage": 0,
         "ecp_turnout": 591,
-        "name": "The Educators St. No.7 Officer Colony Walton Road Lahore Cantt Boys: (Male)-I"
+        "name": "The Educators St. No.7 Officer Colony Walton Road Lahore Cantt Boys: (Male)-I",
+        "pti_turnout": 1306,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 8,
         "registered": 1427,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "9",
         "ptiVotesECP": 339,
         "ptiVotesPTI": 339,
@@ -101,12 +115,14 @@
         "estVotesECP": 92,
         "riggingAdvantage": 0,
         "ecp_turnout": 494,
-        "name": "The Educators St. No.7 Officer Colony Walton Road Lahore Cantt Boys: (Female)-I"
+        "name": "The Educators St. No.7 Officer Colony Walton Road Lahore Cantt Boys: (Female)-I",
+        "pti_turnout": 1427,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 9,
         "registered": 1089,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "10",
         "ptiVotesECP": 301,
         "ptiVotesPTI": 301,
@@ -114,12 +130,14 @@
         "estVotesECP": 77,
         "riggingAdvantage": 0,
         "ecp_turnout": 471,
-        "name": "The Educators St. No.7 Officer Colony Walton Road Lahore Cantt Boys: (Male)-II"
+        "name": "The Educators St. No.7 Officer Colony Walton Road Lahore Cantt Boys: (Male)-II",
+        "pti_turnout": 1089,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 10,
         "registered": 1109,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "11",
         "ptiVotesECP": 286,
         "ptiVotesPTI": 286,
@@ -127,12 +145,14 @@
         "estVotesECP": 45,
         "riggingAdvantage": 0,
         "ecp_turnout": 390,
-        "name": "The Educators St. No.7 Officer Colony Walton Road Lahore Cantt Boys: (Female)-II"
+        "name": "The Educators St. No.7 Officer Colony Walton Road Lahore Cantt Boys: (Female)-II",
+        "pti_turnout": 1112,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 11,
         "registered": 1962,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "12",
         "ptiVotesECP": 456,
         "ptiVotesPTI": 269,
@@ -140,12 +160,14 @@
         "estVotesECP": 188,
         "riggingAdvantage": -115,
         "ecp_turnout": 862,
-        "name": "The Educators St. No.7 Officer Colony Walton Road Lahore Cantt Boys: (Male)-III"
+        "name": "The Educators St. No.7 Officer Colony Walton Road Lahore Cantt Boys: (Male)-III",
+        "pti_turnout": 1962,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 12,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "13",
         "ptiVotesECP": 303,
         "ptiVotesPTI": 303,
@@ -153,12 +175,14 @@
         "estVotesECP": 108,
         "riggingAdvantage": 0,
         "ecp_turnout": 550,
-        "name": "The Educators St. No.7 Officer Colony Walton Road Lahore Cantt Boys: (Female)-III"
+        "name": "The Educators St. No.7 Officer Colony Walton Road Lahore Cantt Boys: (Female)-III",
+        "pti_turnout": 1605,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 13,
         "registered": 1042,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "14",
         "ptiVotesECP": 256,
         "ptiVotesPTI": 256,
@@ -166,12 +190,14 @@
         "estVotesECP": 72,
         "riggingAdvantage": 0,
         "ecp_turnout": 379,
-        "name": "Allied School Islam nagar Walton Road Walton Cantt. (Combined)-I"
+        "name": "Allied School Islam nagar Walton Road Walton Cantt. (Combined)-I",
+        "pti_turnout": 1042,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 14,
         "registered": 1326,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "15",
         "ptiVotesECP": 320,
         "ptiVotesPTI": 320,
@@ -179,7 +205,9 @@
         "estVotesECP": 128,
         "riggingAdvantage": 0,
         "ecp_turnout": 551,
-        "name": "Allied School Islam nagar Walton Road Walton Cantt. (Combined)-II"
+        "name": "Allied School Islam nagar Walton Road Walton Cantt. (Combined)-II",
+        "pti_turnout": 1326,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 15,
@@ -192,7 +220,9 @@
         "estVotesECP": 502,
         "riggingAdvantage": 413,
         "ecp_turnout": 1057,
-        "name": "Allied School Islam nagar Walton Road Walton Cantt. (Male)-I"
+        "name": "Allied School Islam nagar Walton Road Walton Cantt. (Male)-I",
+        "pti_turnout": 1262,
+        "pti_winner": "Salman Akram Raja"
     },
     {
         "index": 16,
@@ -205,12 +235,14 @@
         "estVotesECP": 680,
         "riggingAdvantage": 592,
         "ecp_turnout": 1052,
-        "name": "Allied School Islam nagar Walton Road Walton Cantt. (Female)-I"
+        "name": "Allied School Islam nagar Walton Road Walton Cantt. (Female)-I",
+        "pti_turnout": 1350,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 17,
         "registered": 1721,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "18",
         "ptiVotesECP": 364,
         "ptiVotesPTI": 364,
@@ -218,7 +250,9 @@
         "estVotesECP": 210,
         "riggingAdvantage": 0,
         "ecp_turnout": 795,
-        "name": "Decent Public High School H.27/31 as Abu Bakar St. Ghousia St. Islam Nagar Walton Lahore Cantt: (Male)-I"
+        "name": "Decent Public High School H.27/31 as Abu Bakar St. Ghousia St. Islam Nagar Walton Lahore Cantt: (Male)-I",
+        "pti_turnout": 1721,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 18,
@@ -231,12 +265,14 @@
         "estVotesECP": 973,
         "riggingAdvantage": 800,
         "ecp_turnout": 1401,
-        "name": "Decent Public High School H.27/31 as Abu Bakar St. Ghousia St. Islam Nagar Walton Lahore Cantt: (Female)-I"
+        "name": "Decent Public High School H.27/31 as Abu Bakar St. Ghousia St. Islam Nagar Walton Lahore Cantt: (Female)-I",
+        "pti_turnout": 1748,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 20,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "22",
         "ptiVotesECP": 292,
         "ptiVotesPTI": 292,
@@ -244,7 +280,9 @@
         "estVotesECP": 144,
         "riggingAdvantage": 0,
         "ecp_turnout": 551,
-        "name": "Allied School Girls Walton Campus 26 26 Walton Road Walton Cantt Lahore (Combined)-I"
+        "name": "Allied School Girls Walton Campus 26 26 Walton Road Walton Cantt Lahore (Combined)-I",
+        "pti_turnout": 1170,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 21,
@@ -257,7 +295,9 @@
         "estVotesECP": 530,
         "riggingAdvantage": 241,
         "ecp_turnout": 924,
-        "name": "Concordia College Academy Road, Walton Cantt (Combined)-I"
+        "name": "Concordia College Academy Road, Walton Cantt (Combined)-I",
+        "pti_turnout": 1501,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 22,
@@ -270,7 +310,9 @@
         "estVotesECP": 1219,
         "riggingAdvantage": 1000,
         "ecp_turnout": 1816,
-        "name": "Allied School Girls Walton Campus 26 26 Walton Road Walton Cantt Lahore (Combined)-II"
+        "name": "Allied School Girls Walton Campus 26 26 Walton Road Walton Cantt Lahore (Combined)-II",
+        "pti_turnout": 1944,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 23,
@@ -283,12 +325,14 @@
         "estVotesECP": 1231,
         "riggingAdvantage": 1000,
         "ecp_turnout": 1990,
-        "name": "Concordia College Academy Road, Walton Cantt (Combined)-II"
+        "name": "Concordia College Academy Road, Walton Cantt (Combined)-II",
+        "pti_turnout": 2376,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 24,
         "registered": 1614,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "26",
         "ptiVotesECP": 337,
         "ptiVotesPTI": 337,
@@ -296,12 +340,14 @@
         "estVotesECP": 207,
         "riggingAdvantage": 0,
         "ecp_turnout": 674,
-        "name": "Concordia College Academy Road, Walton Cantt (Combined)-III"
+        "name": "Concordia College Academy Road, Walton Cantt (Combined)-III",
+        "pti_turnout": 1614,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 26,
         "registered": 2290,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "28",
         "ptiVotesECP": 556,
         "ptiVotesPTI": 556,
@@ -309,7 +355,9 @@
         "estVotesECP": 184,
         "riggingAdvantage": 0,
         "ecp_turnout": 877,
-        "name": "Govt: High School for Boys Walton Road, Lahore Cantt Male: (Combined)-I"
+        "name": "Govt: High School for Boys Walton Road, Lahore Cantt Male: (Combined)-I",
+        "pti_turnout": 2290,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 27,
@@ -322,12 +370,14 @@
         "estVotesECP": 435,
         "riggingAdvantage": 300,
         "ecp_turnout": 516,
-        "name": "Govt: High School for Boys Walton Road, Lahore Cantt Male: (Combined)-II"
+        "name": "Govt: High School for Boys Walton Road, Lahore Cantt Male: (Combined)-II",
+        "pti_turnout": 1196,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 28,
         "registered": 1802,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "30",
         "ptiVotesECP": 279,
         "ptiVotesPTI": 279,
@@ -335,12 +385,14 @@
         "estVotesECP": 158,
         "riggingAdvantage": 0,
         "ecp_turnout": 602,
-        "name": "Govt: High School for Boys Walton Road, Lahore Cantt Male: (Male)-I"
+        "name": "Govt: High School for Boys Walton Road, Lahore Cantt Male: (Male)-I",
+        "pti_turnout": 1802,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 29,
         "registered": 1942,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "31",
         "ptiVotesECP": 237,
         "ptiVotesPTI": 237,
@@ -348,12 +400,14 @@
         "estVotesECP": 94,
         "riggingAdvantage": 0,
         "ecp_turnout": 448,
-        "name": "Govt: High School for Boys Walton Road, Lahore Cantt Male: (Female)-I"
+        "name": "Govt: High School for Boys Walton Road, Lahore Cantt Male: (Female)-I",
+        "pti_turnout": 1945,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 30,
         "registered": 1394,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "32",
         "ptiVotesECP": 313,
         "ptiVotesPTI": 380,
@@ -361,7 +415,9 @@
         "estVotesECP": 103,
         "riggingAdvantage": -81,
         "ecp_turnout": 513,
-        "name": "Govt. Girls High School, Bab-e-Pakistan, Walton Road, Lahore Cantt (Combined)-I"
+        "name": "Govt. Girls High School, Bab-e-Pakistan, Walton Road, Lahore Cantt (Combined)-I",
+        "pti_turnout": 1394,
+        "pti_winner": "Salman Akram Raja"
     },
     {
         "index": 31,
@@ -374,7 +430,9 @@
         "estVotesECP": 162,
         "riggingAdvantage": 0,
         "ecp_turnout": 387,
-        "name": "Govt. Khawaja Rafique Shaheed College Walton Road Lahore Cantt Male: (Male)-I"
+        "name": "Govt. Khawaja Rafique Shaheed College Walton Road Lahore Cantt Male: (Male)-I",
+        "pti_turnout": 1227,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 32,
@@ -387,7 +445,9 @@
         "estVotesECP": 980,
         "riggingAdvantage": 882,
         "ecp_turnout": 1157,
-        "name": "Govt. Khawaja Rafique Shaheed College Walton Road Lahore Cantt Male: (Female)-I"
+        "name": "Govt. Khawaja Rafique Shaheed College Walton Road Lahore Cantt Male: (Female)-I",
+        "pti_turnout": 1201,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 33,
@@ -400,12 +460,14 @@
         "estVotesECP": 1200,
         "riggingAdvantage": 991,
         "ecp_turnout": 1555,
-        "name": "Govt. Girls Elementary School Packages Quarters Walton Road Lahore Cantt: (Combined)-I"
+        "name": "Govt. Girls Elementary School Packages Quarters Walton Road Lahore Cantt: (Combined)-I",
+        "pti_turnout": 1798,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 34,
         "registered": 1090,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "37",
         "ptiVotesECP": 164,
         "ptiVotesPTI": 164,
@@ -413,12 +475,14 @@
         "estVotesECP": 96,
         "riggingAdvantage": 0,
         "ecp_turnout": 367,
-        "name": "Govt. Khawaja Rafique Shaheed College Walton Road Lahore Cantt Male: (Female)-II"
+        "name": "Govt. Khawaja Rafique Shaheed College Walton Road Lahore Cantt Male: (Female)-II",
+        "pti_turnout": 1090,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 35,
         "registered": 1049,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "38",
         "ptiVotesECP": 131,
         "ptiVotesPTI": 360,
@@ -426,12 +490,14 @@
         "estVotesECP": 130,
         "riggingAdvantage": -1,
         "ecp_turnout": 360,
-        "name": "Govt. Girls Elementary School Packages Quarters Walton Road Lahore Cantt: (Combined)-II"
+        "name": "Govt. Girls Elementary School Packages Quarters Walton Road Lahore Cantt: (Combined)-II",
+        "pti_turnout": 1049,
+        "pti_winner": "Salman Akram Raja"
     },
     {
         "index": 36,
         "registered": 1887,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "39",
         "ptiVotesECP": 345,
         "ptiVotesPTI": 345,
@@ -439,7 +505,9 @@
         "estVotesECP": 190,
         "riggingAdvantage": 0,
         "ecp_turnout": 755,
-        "name": "Govt. Khawaja Rafique Shaheed College Walton Road Lahore Cantt Male: (Combined)-I"
+        "name": "Govt. Khawaja Rafique Shaheed College Walton Road Lahore Cantt Male: (Combined)-I",
+        "pti_turnout": 1887,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 37,
@@ -452,12 +520,14 @@
         "estVotesECP": 247,
         "riggingAdvantage": 279,
         "ecp_turnout": 510,
-        "name": "Govt. Khawaja Rafique Shaheed College Walton Road Lahore Cantt Male: (Combined)-II"
+        "name": "Govt. Khawaja Rafique Shaheed College Walton Road Lahore Cantt Male: (Combined)-II",
+        "pti_turnout": 772,
+        "pti_winner": "Salman Akram Raja"
     },
     {
         "index": 38,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "41",
         "ptiVotesECP": 304,
         "ptiVotesPTI": 304,
@@ -465,12 +535,14 @@
         "estVotesECP": 70,
         "riggingAdvantage": 0,
         "ecp_turnout": 432,
-        "name": "Govt Elementary School (Boys), CUSTOM ACADAMY Lahore CANTT (Male)-I"
+        "name": "Govt Elementary School (Boys), CUSTOM ACADAMY Lahore CANTT (Male)-I",
+        "pti_turnout": 1440,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 39,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "42",
         "ptiVotesECP": 274,
         "ptiVotesPTI": 274,
@@ -478,12 +550,14 @@
         "estVotesECP": 48,
         "riggingAdvantage": 0,
         "ecp_turnout": 352,
-        "name": "Govt Elementary School (Boys), CUSTOM ACADAMY Lahore CANTT (Female)-I"
+        "name": "Govt Elementary School (Boys), CUSTOM ACADAMY Lahore CANTT (Female)-I",
+        "pti_turnout": 1405,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 40,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "43",
         "ptiVotesECP": 433,
         "ptiVotesPTI": 468,
@@ -491,12 +565,14 @@
         "estVotesECP": 204,
         "riggingAdvantage": 163,
         "ecp_turnout": 737,
-        "name": "Toppers Law College 27-L Gulberg-III Lahore (Male)-I"
+        "name": "Toppers Law College 27-L Gulberg-III Lahore (Male)-I",
+        "pti_turnout": 2008,
+        "pti_winner": "Salman Akram Raja"
     },
     {
         "index": 41,
         "registered": 1589,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "44",
         "ptiVotesECP": 439,
         "ptiVotesPTI": 439,
@@ -504,7 +580,9 @@
         "estVotesECP": 67,
         "riggingAdvantage": 0,
         "ecp_turnout": 544,
-        "name": "Toppers Law College 27-L Gulberg-III Lahore (Female)-I"
+        "name": "Toppers Law College 27-L Gulberg-III Lahore (Female)-I",
+        "pti_turnout": 1589,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 42,
@@ -517,12 +595,14 @@
         "estVotesECP": 971,
         "riggingAdvantage": 900,
         "ecp_turnout": 1447,
-        "name": "Toppers Law College 27-L Gulberg-III Lahore (Combined)-I"
+        "name": "Toppers Law College 27-L Gulberg-III Lahore (Combined)-I",
+        "pti_turnout": 1751,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 43,
         "registered": 1576,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "47",
         "ptiVotesECP": 561,
         "ptiVotesPTI": 561,
@@ -530,12 +610,14 @@
         "estVotesECP": 125,
         "riggingAdvantage": 0,
         "ecp_turnout": 843,
-        "name": "HAJVERI HIGH SCHOOL FOR BOYS 150M GULBERG-III NEAR BHABRA MARKET FEROZEPUR ROAD, LAHORE Male-I"
+        "name": "HAJVERI HIGH SCHOOL FOR BOYS 150M GULBERG-III NEAR BHABRA MARKET FEROZEPUR ROAD, LAHORE Male-I",
+        "pti_turnout": 1576,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 44,
         "registered": 1066,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "48",
         "ptiVotesECP": 248,
         "ptiVotesPTI": 248,
@@ -543,12 +625,14 @@
         "estVotesECP": 81,
         "riggingAdvantage": 0,
         "ecp_turnout": 414,
-        "name": "HAJVERI HIGH SCHOOL FOR BOYS 150M GULBERG-III NEAR BHABRA MARKET FEROZEPUR ROAD, LAHORE Female-I"
+        "name": "HAJVERI HIGH SCHOOL FOR BOYS 150M GULBERG-III NEAR BHABRA MARKET FEROZEPUR ROAD, LAHORE Female-I",
+        "pti_turnout": 1066,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 46,
         "registered": 1935,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "50",
         "ptiVotesECP": 411,
         "ptiVotesPTI": 411,
@@ -556,7 +640,9 @@
         "estVotesECP": 202,
         "riggingAdvantage": 0,
         "ecp_turnout": 755,
-        "name": "Ripha University, 28-M Block, Bhabra Lahore (Combined)-I"
+        "name": "Ripha University, 28-M Block, Bhabra Lahore (Combined)-I",
+        "pti_turnout": 1935,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 47,
@@ -569,7 +655,9 @@
         "estVotesECP": 1306,
         "riggingAdvantage": 1000,
         "ecp_turnout": 2026,
-        "name": "Ripha University, 28-M Block, Bhabra Lahore (Male)-I"
+        "name": "Ripha University, 28-M Block, Bhabra Lahore (Male)-I",
+        "pti_turnout": 2252,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 48,
@@ -582,12 +670,14 @@
         "estVotesECP": 1219,
         "riggingAdvantage": 1000,
         "ecp_turnout": 1816,
-        "name": "Ripha University, 28-M Block, Bhabra Lahore (Female)-I"
+        "name": "Ripha University, 28-M Block, Bhabra Lahore (Female)-I",
+        "pti_turnout": 2208,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 49,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "53",
         "ptiVotesECP": 360,
         "ptiVotesPTI": 360,
@@ -595,12 +685,14 @@
         "estVotesECP": 327,
         "riggingAdvantage": 0,
         "ecp_turnout": 874,
-        "name": "Government Girls High School, Gopal Nagar Lahore (Male)-I"
+        "name": "Government Girls High School, Gopal Nagar Lahore (Male)-I",
+        "pti_turnout": 1870,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 53,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "57",
         "ptiVotesECP": 328,
         "ptiVotesPTI": 328,
@@ -608,7 +700,9 @@
         "estVotesECP": 130,
         "riggingAdvantage": 0,
         "ecp_turnout": 595,
-        "name": "Government Primary School Gulab Devi Lahore (Combined)-I"
+        "name": "Government Primary School Gulab Devi Lahore (Combined)-I",
+        "pti_turnout": 1192,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 54,
@@ -621,12 +715,14 @@
         "estVotesECP": 973,
         "riggingAdvantage": 800,
         "ecp_turnout": 1479,
-        "name": "SOS HERMAN MINOR SCHOOL FEROZPUR ROAD, LAHORE (Male)-I"
+        "name": "SOS HERMAN MINOR SCHOOL FEROZPUR ROAD, LAHORE (Male)-I",
+        "pti_turnout": 1682,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 55,
         "registered": 1493,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "59",
         "ptiVotesECP": 185,
         "ptiVotesPTI": 185,
@@ -634,7 +730,9 @@
         "estVotesECP": 125,
         "riggingAdvantage": 0,
         "ecp_turnout": 476,
-        "name": "SOS HERMAN MINOR SCHOOL FEROZPUR ROAD, LAHORE (Female)-I"
+        "name": "SOS HERMAN MINOR SCHOOL FEROZPUR ROAD, LAHORE (Female)-I",
+        "pti_turnout": 1493,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 56,
@@ -647,12 +745,14 @@
         "estVotesECP": 793,
         "riggingAdvantage": 700,
         "ecp_turnout": 1141,
-        "name": "CDGL HIGH SCHOOL WALTON AIRPOT GOPAL NAGAR LAHORE (Female)-I"
+        "name": "CDGL HIGH SCHOOL WALTON AIRPOT GOPAL NAGAR LAHORE (Female)-I",
+        "pti_turnout": 1403,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 57,
         "registered": 1291,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "61",
         "ptiVotesECP": 330,
         "ptiVotesPTI": 330,
@@ -660,12 +760,14 @@
         "estVotesECP": 105,
         "riggingAdvantage": 0,
         "ecp_turnout": 627,
-        "name": "CDGL HIGH SCHOOL WALTON AIRPOT GOPAL NAGAR LAHORE (Male)-I"
+        "name": "CDGL HIGH SCHOOL WALTON AIRPOT GOPAL NAGAR LAHORE (Male)-I",
+        "pti_turnout": 1291,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 58,
         "registered": 1364,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "62",
         "ptiVotesECP": 334,
         "ptiVotesPTI": 334,
@@ -673,12 +775,14 @@
         "estVotesECP": 134,
         "riggingAdvantage": 0,
         "ecp_turnout": 714,
-        "name": "CDGL HIGH SCHOOL WALTON AIRPOT GOPAL NAGAR LAHORE (Male)-II"
+        "name": "CDGL HIGH SCHOOL WALTON AIRPOT GOPAL NAGAR LAHORE (Male)-II",
+        "pti_turnout": 1364,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 59,
         "registered": 1246,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "63",
         "ptiVotesECP": 455,
         "ptiVotesPTI": 237,
@@ -686,12 +790,14 @@
         "estVotesECP": 153,
         "riggingAdvantage": -147,
         "ecp_turnout": 707,
-        "name": "CDGL HIGH SCHOOL WALTON AIRPOT GOPAL NAGAR LAHORE (Female)-II"
+        "name": "CDGL HIGH SCHOOL WALTON AIRPOT GOPAL NAGAR LAHORE (Female)-II",
+        "pti_turnout": 1246,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 60,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "64",
         "ptiVotesECP": 195,
         "ptiVotesPTI": 195,
@@ -699,7 +805,9 @@
         "estVotesECP": 158,
         "riggingAdvantage": 0,
         "ecp_turnout": 642,
-        "name": "SOS HERMAN MINOR SCHOOL FEROZPUR ROAD, LAHORE (Combined)-I"
+        "name": "SOS HERMAN MINOR SCHOOL FEROZPUR ROAD, LAHORE (Combined)-I",
+        "pti_turnout": 1522,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 61,
@@ -712,12 +820,14 @@
         "estVotesECP": 664,
         "riggingAdvantage": 500,
         "ecp_turnout": 1422,
-        "name": "Government Primary School Gulab Devi Lahore (Male)-I"
+        "name": "Government Primary School Gulab Devi Lahore (Male)-I",
+        "pti_turnout": 1715,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 62,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "66",
         "ptiVotesECP": 339,
         "ptiVotesPTI": 339,
@@ -725,12 +835,14 @@
         "estVotesECP": 112,
         "riggingAdvantage": 0,
         "ecp_turnout": 618,
-        "name": "Government Primary School Gulab Devi Lahore (Female)-I"
+        "name": "Government Primary School Gulab Devi Lahore (Female)-I",
+        "pti_turnout": 1472,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 63,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "69",
         "ptiVotesECP": 361,
         "ptiVotesPTI": 311,
@@ -738,7 +850,9 @@
         "estVotesECP": 0,
         "riggingAdvantage": -133,
         "ecp_turnout": 996,
-        "name": "GHOSHA ITFAAL GIRLS SCHOOL 73 ABU BAKAR BLOCK NEW GARDEN TOWN, LAHORE (FEMALE)-I"
+        "name": "GHOSHA ITFAAL GIRLS SCHOOL 73 ABU BAKAR BLOCK NEW GARDEN TOWN, LAHORE (FEMALE)-I",
+        "pti_turnout": 1166,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 64,
@@ -751,7 +865,9 @@
         "estVotesECP": 847,
         "riggingAdvantage": 600,
         "ecp_turnout": 1460,
-        "name": "Government Boys High School (EXMCL) Jewan Hana Garden Town Lahore (Male)-I"
+        "name": "Government Boys High School (EXMCL) Jewan Hana Garden Town Lahore (Male)-I",
+        "pti_turnout": 2141,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 65,
@@ -764,7 +880,9 @@
         "estVotesECP": 1125,
         "riggingAdvantage": 913,
         "ecp_turnout": 1788,
-        "name": "Government Boys High School (EXMCL) Jewan Hana Garden Town Lahore (Female)-I"
+        "name": "Government Boys High School (EXMCL) Jewan Hana Garden Town Lahore (Female)-I",
+        "pti_turnout": 2039,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 66,
@@ -777,7 +895,9 @@
         "estVotesECP": 662,
         "riggingAdvantage": 600,
         "ecp_turnout": 897,
-        "name": "Government Boys High School (EXMCL) Jewan Hana Garden Town Lahore (Female)-II"
+        "name": "Government Boys High School (EXMCL) Jewan Hana Garden Town Lahore (Female)-II",
+        "pti_turnout": 1190,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 68,
@@ -790,7 +910,9 @@
         "estVotesECP": 897,
         "riggingAdvantage": 500,
         "ecp_turnout": 1521,
-        "name": "Government MODEL GIRLS HIGH SCHOOL BARKAT MARKET GARDEN TOWN, LAHORE (Male)-I"
+        "name": "Government MODEL GIRLS HIGH SCHOOL BARKAT MARKET GARDEN TOWN, LAHORE (Male)-I",
+        "pti_turnout": 2086,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 70,
@@ -803,7 +925,9 @@
         "estVotesECP": 891,
         "riggingAdvantage": 681,
         "ecp_turnout": 1603,
-        "name": "Government MODEL GIRLS HIGH SCHOOL BARKAT MARKET GARDEN TOWN, LAHORE (Combined)-II"
+        "name": "Government MODEL GIRLS HIGH SCHOOL BARKAT MARKET GARDEN TOWN, LAHORE (Combined)-II",
+        "pti_turnout": 1745,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 71,
@@ -816,12 +940,14 @@
         "estVotesECP": 704,
         "riggingAdvantage": 600,
         "ecp_turnout": 1139,
-        "name": "Government SHUHADA-E-APS MEMORIAL MODEL HIGH SCHOOL MODEL TOWN, LAHORE (MALE)-I"
+        "name": "Government SHUHADA-E-APS MEMORIAL MODEL HIGH SCHOOL MODEL TOWN, LAHORE (MALE)-I",
+        "pti_turnout": 1345,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 72,
         "registered": 1468,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "79",
         "ptiVotesECP": 351,
         "ptiVotesPTI": 351,
@@ -829,12 +955,14 @@
         "estVotesECP": 72,
         "riggingAdvantage": 0,
         "ecp_turnout": 474,
-        "name": "Government SHUHADA-E-APS MEMORIAL MODEL HIGH SCHOOL MODEL TOWN, LAHORE (FEMALE)-I"
+        "name": "Government SHUHADA-E-APS MEMORIAL MODEL HIGH SCHOOL MODEL TOWN, LAHORE (FEMALE)-I",
+        "pti_turnout": 1468,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 73,
         "registered": 1551,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "80",
         "ptiVotesECP": 367,
         "ptiVotesPTI": 367,
@@ -842,7 +970,9 @@
         "estVotesECP": 69,
         "riggingAdvantage": 0,
         "ecp_turnout": 490,
-        "name": "Government SHUHADA-E-APS MEMORIAL MODEL HIGH SCHOOL MODEL TOWN, LAHORE (FEMALE)-II"
+        "name": "Government SHUHADA-E-APS MEMORIAL MODEL HIGH SCHOOL MODEL TOWN, LAHORE (FEMALE)-II",
+        "pti_turnout": 1551,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 75,
@@ -855,12 +985,14 @@
         "estVotesECP": 738,
         "riggingAdvantage": 1090,
         "ecp_turnout": 1205,
-        "name": "Government JUNIOR MODEL BOYS HIGH SCHOOL MODEL TOWN LAHORE NEAR PETROL PUMP (FEMALE)-I"
+        "name": "Government JUNIOR MODEL BOYS HIGH SCHOOL MODEL TOWN LAHORE NEAR PETROL PUMP (FEMALE)-I",
+        "pti_turnout": 1571,
+        "pti_winner": "Salman Akram Raja"
     },
     {
         "index": 77,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "85",
         "ptiVotesECP": 569,
         "ptiVotesPTI": 569,
@@ -868,12 +1000,14 @@
         "estVotesECP": 201,
         "riggingAdvantage": 0,
         "ecp_turnout": 871,
-        "name": "D.P.S (NURSERY WINGS) SCHOOL MODEL TOWN LAHORE (Combined)-I"
+        "name": "D.P.S (NURSERY WINGS) SCHOOL MODEL TOWN LAHORE (Combined)-I",
+        "pti_turnout": 2442,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 78,
         "registered": 1352,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "86",
         "ptiVotesECP": 358,
         "ptiVotesPTI": 358,
@@ -881,7 +1015,9 @@
         "estVotesECP": 122,
         "riggingAdvantage": 0,
         "ecp_turnout": 529,
-        "name": "D.P.S (NURSERY WINGS) SCHOOL MODEL TOWN LAHORE (Male)-I"
+        "name": "D.P.S (NURSERY WINGS) SCHOOL MODEL TOWN LAHORE (Male)-I",
+        "pti_turnout": 1352,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 79,
@@ -894,7 +1030,9 @@
         "estVotesECP": 799,
         "riggingAdvantage": 700,
         "ecp_turnout": 1222,
-        "name": "D.P.S (NURSERY WINGS) SCHOOL MODEL TOWN LAHORE (Female)-I"
+        "name": "D.P.S (NURSERY WINGS) SCHOOL MODEL TOWN LAHORE (Female)-I",
+        "pti_turnout": 1463,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 80,
@@ -907,12 +1045,14 @@
         "estVotesECP": 821,
         "riggingAdvantage": 700,
         "ecp_turnout": 1283,
-        "name": "Government SHUHADA-E-APS MEMORIAL GIRLS MODEL HIGH SCHOOL MODEL TOWN, LAHORE (MALE)-I"
+        "name": "Government SHUHADA-E-APS MEMORIAL GIRLS MODEL HIGH SCHOOL MODEL TOWN, LAHORE (MALE)-I",
+        "pti_turnout": 1387,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 81,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "89",
         "ptiVotesECP": 359,
         "ptiVotesPTI": 359,
@@ -920,12 +1060,14 @@
         "estVotesECP": 78,
         "riggingAdvantage": 0,
         "ecp_turnout": 484,
-        "name": "Government SHUHADA-E-APS MEMORIAL GIRLS MODEL HIGH SCHOOL MODEL TOWN, LAHORE (FEMALE)-I"
+        "name": "Government SHUHADA-E-APS MEMORIAL GIRLS MODEL HIGH SCHOOL MODEL TOWN, LAHORE (FEMALE)-I",
+        "pti_turnout": 1344,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 82,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "90",
         "ptiVotesECP": 356,
         "ptiVotesPTI": 356,
@@ -933,12 +1075,14 @@
         "estVotesECP": 125,
         "riggingAdvantage": 0,
         "ecp_turnout": 530,
-        "name": "Government SHUHADA-E-APS MEMORIAL BOYS MODEL HIGH SCHOOL MODEL TOWN, LAHORE (MALE)-I"
+        "name": "Government SHUHADA-E-APS MEMORIAL BOYS MODEL HIGH SCHOOL MODEL TOWN, LAHORE (MALE)-I",
+        "pti_turnout": 1350,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 83,
         "registered": 1356,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "91",
         "ptiVotesECP": 337,
         "ptiVotesPTI": 337,
@@ -946,7 +1090,9 @@
         "estVotesECP": 75,
         "riggingAdvantage": 0,
         "ecp_turnout": 436,
-        "name": "Government SHUHADA-E-APS MEMORIAL BOYS MODEL HIGH SCHOOL MODEL TOWN, LAHORE (FEMALE)-I"
+        "name": "Government SHUHADA-E-APS MEMORIAL BOYS MODEL HIGH SCHOOL MODEL TOWN, LAHORE (FEMALE)-I",
+        "pti_turnout": 1356,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 86,
@@ -959,12 +1105,14 @@
         "estVotesECP": 797,
         "riggingAdvantage": 700,
         "ecp_turnout": 480,
-        "name": "Government APS MODEL HIGH SCHOOL GIRLS MODEL TOWN, LAHORE (COMBINED)-I"
+        "name": "Government APS MODEL HIGH SCHOOL GIRLS MODEL TOWN, LAHORE (COMBINED)-I",
+        "pti_turnout": 1319,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 87,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "95",
         "ptiVotesECP": 515,
         "ptiVotesPTI": 515,
@@ -972,7 +1120,9 @@
         "estVotesECP": 178,
         "riggingAdvantage": 0,
         "ecp_turnout": 784,
-        "name": "Ideal Muslim Girls High School, E Block, Model Town (MALE)-I"
+        "name": "Ideal Muslim Girls High School, E Block, Model Town (MALE)-I",
+        "pti_turnout": 1772,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 88,
@@ -985,12 +1135,14 @@
         "estVotesECP": 936,
         "riggingAdvantage": 800,
         "ecp_turnout": 1490,
-        "name": "Ideal Muslim Girls High School, E Block, Model Town (FEMALE)-I"
+        "name": "Ideal Muslim Girls High School, E Block, Model Town (FEMALE)-I",
+        "pti_turnout": 1877,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 89,
         "registered": 1802,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "97",
         "ptiVotesECP": 535,
         "ptiVotesPTI": 535,
@@ -998,12 +1150,14 @@
         "estVotesECP": 123,
         "riggingAdvantage": 0,
         "ecp_turnout": 720,
-        "name": "Government APWA GIRLS MIDDLE SCHOOL D-BLOCK MODEL TOWN LAHORE (Combined)-I"
+        "name": "Government APWA GIRLS MIDDLE SCHOOL D-BLOCK MODEL TOWN LAHORE (Combined)-I",
+        "pti_turnout": 1801,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 90,
         "registered": 1821,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "98",
         "ptiVotesECP": 512,
         "ptiVotesPTI": 512,
@@ -1011,7 +1165,9 @@
         "estVotesECP": 211,
         "riggingAdvantage": 0,
         "ecp_turnout": 791,
-        "name": "Government APWA GIRLS MIDDLE SCHOOL D-BLOCK MODEL TOWN LAHORE (MALE)-I"
+        "name": "Government APWA GIRLS MIDDLE SCHOOL D-BLOCK MODEL TOWN LAHORE (MALE)-I",
+        "pti_turnout": 1821,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 91,
@@ -1024,7 +1180,9 @@
         "estVotesECP": 921,
         "riggingAdvantage": 800,
         "ecp_turnout": 1451,
-        "name": "Government APWA GIRLS MIDDLE SCHOOL D-BLOCK MODEL TOWN LAHORE (FEMALE)-I"
+        "name": "Government APWA GIRLS MIDDLE SCHOOL D-BLOCK MODEL TOWN LAHORE (FEMALE)-I",
+        "pti_turnout": 1748,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 92,
@@ -1037,7 +1195,9 @@
         "estVotesECP": 955,
         "riggingAdvantage": 1065,
         "ecp_turnout": 1178,
-        "name": "Government SPECIAL EDUCATION DEPARTMENT 31 SHER SHAH BLOCK NEW GARDEN TOWN LAHORE MALE-I"
+        "name": "Government SPECIAL EDUCATION DEPARTMENT 31 SHER SHAH BLOCK NEW GARDEN TOWN LAHORE MALE-I",
+        "pti_turnout": 1252,
+        "pti_winner": "Salman Akram Raja"
     },
     {
         "index": 93,
@@ -1050,12 +1210,14 @@
         "estVotesECP": 665,
         "riggingAdvantage": 600,
         "ecp_turnout": 1051,
-        "name": "Government SPECIAL EDUCATION DEPARTMENT 31 SHER SHAH BLOCK NEW GARDEN TOWN LAHORE FEMALE-I"
+        "name": "Government SPECIAL EDUCATION DEPARTMENT 31 SHER SHAH BLOCK NEW GARDEN TOWN LAHORE FEMALE-I",
+        "pti_turnout": 1259,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 94,
         "registered": 1116,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "102",
         "ptiVotesECP": 324,
         "ptiVotesPTI": 324,
@@ -1063,7 +1225,9 @@
         "estVotesECP": 124,
         "riggingAdvantage": 0,
         "ecp_turnout": 485,
-        "name": "Government SPECIAL EDUCATION DEPARTMENT 31 SHER SHAH BLOCK NEW GARDEN TOWN LAHORE MALE-II"
+        "name": "Government SPECIAL EDUCATION DEPARTMENT 31 SHER SHAH BLOCK NEW GARDEN TOWN LAHORE MALE-II",
+        "pti_turnout": 1116,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 95,
@@ -1076,12 +1240,14 @@
         "estVotesECP": 590,
         "riggingAdvantage": 500,
         "ecp_turnout": 907,
-        "name": "Government SPECIAL EDUCATION DEPARTMENT 31 SHER SHAH BLOCK NEW GARDEN TOWN LAHORE FEMALE-II"
+        "name": "Government SPECIAL EDUCATION DEPARTMENT 31 SHER SHAH BLOCK NEW GARDEN TOWN LAHORE FEMALE-II",
+        "pti_turnout": 1182,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 96,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "104",
         "ptiVotesECP": 356,
         "ptiVotesPTI": 356,
@@ -1089,12 +1255,14 @@
         "estVotesECP": 134,
         "riggingAdvantage": 0,
         "ecp_turnout": 535,
-        "name": "HAYAT-E-ISLAM KHAWATEEN COLLEGE 4-SHER SHAH BLOCK NEW GARDEN TOWN, LAHORE (MALE)-I"
+        "name": "HAYAT-E-ISLAM KHAWATEEN COLLEGE 4-SHER SHAH BLOCK NEW GARDEN TOWN, LAHORE (MALE)-I",
+        "pti_turnout": 1542,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 97,
         "registered": 1591,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "105",
         "ptiVotesECP": 376,
         "ptiVotesPTI": 376,
@@ -1102,7 +1270,9 @@
         "estVotesECP": 111,
         "riggingAdvantage": 0,
         "ecp_turnout": 524,
-        "name": "HAYAT-E-ISLAM KHAWATEEN COLLEGE 4-SHER SHAH BLOCK NEW GARDEN TOWN, LAHORE (FEMALE)-I"
+        "name": "HAYAT-E-ISLAM KHAWATEEN COLLEGE 4-SHER SHAH BLOCK NEW GARDEN TOWN, LAHORE (FEMALE)-I",
+        "pti_turnout": 1591,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 98,
@@ -1115,7 +1285,9 @@
         "estVotesECP": 807,
         "riggingAdvantage": 700,
         "ecp_turnout": 1233,
-        "name": "HAYAT-E-ISLAM KHAWATEEN COLLEGE 4-SHER SHAH BLOCK NEW GARDEN TOWN, LAHORE (COMBINED)-I"
+        "name": "HAYAT-E-ISLAM KHAWATEEN COLLEGE 4-SHER SHAH BLOCK NEW GARDEN TOWN, LAHORE (COMBINED)-I",
+        "pti_turnout": 1555,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 99,
@@ -1128,12 +1300,14 @@
         "estVotesECP": 784,
         "riggingAdvantage": 600,
         "ecp_turnout": 1318,
-        "name": "Government FD JUNIOR MODEL SCHOOL 45-A TIPU BLOCK, GARDEN TWON, LAHORE. (MALE)-I"
+        "name": "Government FD JUNIOR MODEL SCHOOL 45-A TIPU BLOCK, GARDEN TWON, LAHORE. (MALE)-I",
+        "pti_turnout": 1537,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 100,
         "registered": 1549,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "108",
         "ptiVotesECP": 461,
         "ptiVotesPTI": 461,
@@ -1141,7 +1315,9 @@
         "estVotesECP": 99,
         "riggingAdvantage": 0,
         "ecp_turnout": 621,
-        "name": "Government FD JUNIOR MODEL SCHOOL 45-A TIPU BLOCK, GARDEN TWON, LAHORE. (FEMALE)-I"
+        "name": "Government FD JUNIOR MODEL SCHOOL 45-A TIPU BLOCK, GARDEN TWON, LAHORE. (FEMALE)-I",
+        "pti_turnout": 1549,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 101,
@@ -1154,12 +1330,14 @@
         "estVotesECP": 583,
         "riggingAdvantage": 500,
         "ecp_turnout": 968,
-        "name": "Government Girls High School 423 B- Block FAISAL TOWN, LAHORE. (MALE)-I"
+        "name": "Government Girls High School 423 B- Block FAISAL TOWN, LAHORE. (MALE)-I",
+        "pti_turnout": 1224,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 102,
         "registered": 1468,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "110",
         "ptiVotesECP": 386,
         "ptiVotesPTI": 386,
@@ -1167,7 +1345,9 @@
         "estVotesECP": 67,
         "riggingAdvantage": 0,
         "ecp_turnout": 499,
-        "name": "Government Girls High School 423 B- Block FAISAL TOWN, LAHORE. (FEMALE)-I"
+        "name": "Government Girls High School 423 B- Block FAISAL TOWN, LAHORE. (FEMALE)-I",
+        "pti_turnout": 1468,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 103,
@@ -1180,12 +1360,14 @@
         "estVotesECP": 807,
         "riggingAdvantage": 600,
         "ecp_turnout": 1405,
-        "name": "Government Girls High School 423 B- Block FAISAL TOWN, LAHORE. (MALE)-II"
+        "name": "Government Girls High School 423 B- Block FAISAL TOWN, LAHORE. (MALE)-II",
+        "pti_turnout": 1801,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 104,
         "registered": 1817,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "112",
         "ptiVotesECP": 466,
         "ptiVotesPTI": 466,
@@ -1193,7 +1375,9 @@
         "estVotesECP": 155,
         "riggingAdvantage": 0,
         "ecp_turnout": 689,
-        "name": "Government Girls High School 423 B- Block FAISAL TOWN, LAHORE. (FEMALE)-II"
+        "name": "Government Girls High School 423 B- Block FAISAL TOWN, LAHORE. (FEMALE)-II",
+        "pti_turnout": 1817,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 105,
@@ -1206,7 +1390,9 @@
         "estVotesECP": 600,
         "riggingAdvantage": 462,
         "ecp_turnout": 991,
-        "name": "Government COLLEGE M BLOCK EXT MODEL TOWN LAHORE (Male)-I"
+        "name": "Government COLLEGE M BLOCK EXT MODEL TOWN LAHORE (Male)-I",
+        "pti_turnout": 1152,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 106,
@@ -1219,12 +1405,14 @@
         "estVotesECP": 580,
         "riggingAdvantage": 500,
         "ecp_turnout": 930,
-        "name": "Government COLLEGE M BLOCK EXT MODEL TOWN LAHORE (Female)-I"
+        "name": "Government COLLEGE M BLOCK EXT MODEL TOWN LAHORE (Female)-I",
+        "pti_turnout": 1083,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 107,
         "registered": 1791,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "115",
         "ptiVotesECP": 512,
         "ptiVotesPTI": 512,
@@ -1232,12 +1420,14 @@
         "estVotesECP": 131,
         "riggingAdvantage": 0,
         "ecp_turnout": 712,
-        "name": "Government COLLEGE M BLOCK EXT MODEL TOWN LAHORE (Male)-II"
+        "name": "Government COLLEGE M BLOCK EXT MODEL TOWN LAHORE (Male)-II",
+        "pti_turnout": 1791,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 108,
         "registered": 1952,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "116",
         "ptiVotesECP": 524,
         "ptiVotesPTI": 524,
@@ -1245,12 +1435,14 @@
         "estVotesECP": 83,
         "riggingAdvantage": 0,
         "ecp_turnout": 658,
-        "name": "Government COLLEGE M BLOCK EXT MODEL TOWN LAHORE (Female)-II"
+        "name": "Government COLLEGE M BLOCK EXT MODEL TOWN LAHORE (Female)-II",
+        "pti_turnout": 1952,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 109,
         "registered": 1036,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "117",
         "ptiVotesECP": 262,
         "ptiVotesPTI": 262,
@@ -1258,12 +1450,14 @@
         "estVotesECP": 80,
         "riggingAdvantage": 0,
         "ecp_turnout": 426,
-        "name": "Government APWA School, D-Block, Model Town, Lahore  (Male)-I"
+        "name": "Government APWA School, D-Block, Model Town, Lahore  (Male)-I",
+        "pti_turnout": 1036,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 110,
         "registered": 976,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "118",
         "ptiVotesECP": 211,
         "ptiVotesPTI": 211,
@@ -1271,12 +1465,14 @@
         "estVotesECP": 53,
         "riggingAdvantage": 0,
         "ecp_turnout": 317,
-        "name": "Government APWA School, D-Block, Model Town, Lahore  (Female)-I"
+        "name": "Government APWA School, D-Block, Model Town, Lahore  (Female)-I",
+        "pti_turnout": 976,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 111,
         "registered": 1978,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "119",
         "ptiVotesECP": 522,
         "ptiVotesPTI": 522,
@@ -1284,12 +1480,14 @@
         "estVotesECP": 250,
         "riggingAdvantage": 0,
         "ecp_turnout": 966,
-        "name": "JOHAR FOUNDATION HS B-Block Faisal Town NEAR CUNDAN CNG, LAHORE. (MALE)-I"
+        "name": "JOHAR FOUNDATION HS B-Block Faisal Town NEAR CUNDAN CNG, LAHORE. (MALE)-I",
+        "pti_turnout": 1978,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 112,
         "registered": 1738,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "120",
         "ptiVotesECP": 329,
         "ptiVotesPTI": 329,
@@ -1297,12 +1495,14 @@
         "estVotesECP": 155,
         "riggingAdvantage": 0,
         "ecp_turnout": 614,
-        "name": "JOHAR FOUNDATION HS B-Block Faisal Town NEAR CUNDAN CNG, LAHORE. (FEMALE)-I"
+        "name": "JOHAR FOUNDATION HS B-Block Faisal Town NEAR CUNDAN CNG, LAHORE. (FEMALE)-I",
+        "pti_turnout": 1738,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 113,
         "registered": 889,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "121",
         "ptiVotesECP": 322,
         "ptiVotesPTI": 322,
@@ -1310,7 +1510,9 @@
         "estVotesECP": 286,
         "riggingAdvantage": 0,
         "ecp_turnout": 889,
-        "name": "CATHEDRAL SCHOOL MAIN ROAD FAISAL TOWN, LAHORE. (COMBINED)-I"
+        "name": "CATHEDRAL SCHOOL MAIN ROAD FAISAL TOWN, LAHORE. (COMBINED)-I",
+        "pti_turnout": 1717,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 114,
@@ -1323,7 +1525,9 @@
         "estVotesECP": 739,
         "riggingAdvantage": 600,
         "ecp_turnout": 1254,
-        "name": "CATHEDRAL SCHOOL MAIN ROAD FAISAL TOWN, LAHORE. (MALE)-I"
+        "name": "CATHEDRAL SCHOOL MAIN ROAD FAISAL TOWN, LAHORE. (MALE)-I",
+        "pti_turnout": 1645,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 115,
@@ -1336,12 +1540,14 @@
         "estVotesECP": 1091,
         "riggingAdvantage": 1000,
         "ecp_turnout": 1543,
-        "name": "CATHEDRAL SCHOOL MAIN ROAD FAISAL TOWN, LAHORE. (FEMALE)-I"
+        "name": "CATHEDRAL SCHOOL MAIN ROAD FAISAL TOWN, LAHORE. (FEMALE)-I",
+        "pti_turnout": 1731,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 116,
         "registered": 1352,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "124",
         "ptiVotesECP": 395,
         "ptiVotesPTI": 395,
@@ -1349,12 +1555,14 @@
         "estVotesECP": 119,
         "riggingAdvantage": 0,
         "ecp_turnout": 573,
-        "name": "Lahore Grammar School, 373-A, Block-C, Faisal Town Lahore (Male)-I"
+        "name": "Lahore Grammar School, 373-A, Block-C, Faisal Town Lahore (Male)-I",
+        "pti_turnout": 1352,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 117,
         "registered": 1337,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "125",
         "ptiVotesECP": 342,
         "ptiVotesPTI": 342,
@@ -1362,12 +1570,14 @@
         "estVotesECP": 96,
         "riggingAdvantage": 0,
         "ecp_turnout": 467,
-        "name": "Lahore Grammar School, 373-A, Block-C, Faisal Town Lahore (Female)-I"
+        "name": "Lahore Grammar School, 373-A, Block-C, Faisal Town Lahore (Female)-I",
+        "pti_turnout": 1337,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 118,
         "registered": 1576,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "126",
         "ptiVotesECP": 432,
         "ptiVotesPTI": 432,
@@ -1375,12 +1585,14 @@
         "estVotesECP": 156,
         "riggingAdvantage": 0,
         "ecp_turnout": 675,
-        "name": "Lahore Grammar School, 373-A, Block-C, Faisal Town Lahore (Combined)-I"
+        "name": "Lahore Grammar School, 373-A, Block-C, Faisal Town Lahore (Combined)-I",
+        "pti_turnout": 1576,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 119,
         "registered": 1408,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "127",
         "ptiVotesECP": 360,
         "ptiVotesPTI": 360,
@@ -1388,12 +1600,14 @@
         "estVotesECP": 100,
         "riggingAdvantage": 0,
         "ecp_turnout": 568,
-        "name": "CATHEDRAL SCHOOL MAIN ROAD FAISAL TOWN, LAHORE (COMBINED)-I"
+        "name": "CATHEDRAL SCHOOL MAIN ROAD FAISAL TOWN, LAHORE (COMBINED)-I",
+        "pti_turnout": 1408,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 120,
         "registered": 1798,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "128",
         "ptiVotesECP": 523,
         "ptiVotesPTI": 523,
@@ -1401,12 +1615,14 @@
         "estVotesECP": 166,
         "riggingAdvantage": 0,
         "ecp_turnout": 769,
-        "name": "CATHEDRAL SCHOOL MAIN ROAD FAISAL TOWN, LAHORE (MALE)-I"
+        "name": "CATHEDRAL SCHOOL MAIN ROAD FAISAL TOWN, LAHORE (MALE)-I",
+        "pti_turnout": 1798,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 121,
         "registered": 1709,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "129",
         "ptiVotesECP": 538,
         "ptiVotesPTI": 538,
@@ -1414,12 +1630,14 @@
         "estVotesECP": 110,
         "riggingAdvantage": 0,
         "ecp_turnout": 1704,
-        "name": "CATHEDRAL SCHOOL MAIN ROAD FAISAL TOWN, LAHORE (FEMALE)-I"
+        "name": "CATHEDRAL SCHOOL MAIN ROAD FAISAL TOWN, LAHORE (FEMALE)-I",
+        "pti_turnout": 1849,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 122,
         "registered": 2027,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "130",
         "ptiVotesECP": 593,
         "ptiVotesPTI": 593,
@@ -1427,12 +1645,14 @@
         "estVotesECP": 151,
         "riggingAdvantage": 0,
         "ecp_turnout": 832,
-        "name": "Government COLLEGE M BLOCK EXT MODEL TOWN LAHORE (COMBINED)-I"
+        "name": "Government COLLEGE M BLOCK EXT MODEL TOWN LAHORE (COMBINED)-I",
+        "pti_turnout": 2027,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 123,
         "registered": 1526,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "131",
         "ptiVotesECP": 479,
         "ptiVotesPTI": 479,
@@ -1440,7 +1660,9 @@
         "estVotesECP": 145,
         "riggingAdvantage": 0,
         "ecp_turnout": 674,
-        "name": "Government COLLEGE M BLOCK EXT MODEL TOWN LAHORE (MALE)-II"
+        "name": "Government COLLEGE M BLOCK EXT MODEL TOWN LAHORE (MALE)-II",
+        "pti_turnout": 1526,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 124,
@@ -1453,12 +1675,14 @@
         "estVotesECP": 998,
         "riggingAdvantage": 900,
         "ecp_turnout": 1590,
-        "name": "Government COLLEGE M BLOCK EXT MODEL TOWN LAHORE (FEMALE)-II"
+        "name": "Government COLLEGE M BLOCK EXT MODEL TOWN LAHORE (FEMALE)-II",
+        "pti_turnout": 1654,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 125,
         "registered": 1378,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "133",
         "ptiVotesECP": 321,
         "ptiVotesPTI": 321,
@@ -1466,12 +1690,14 @@
         "estVotesECP": 200,
         "riggingAdvantage": 0,
         "ecp_turnout": 689,
-        "name": "U.E.T. INSTITUTE OF PROFESSIONAL DEVELOPMENT 6-P BLOCK MODEL TOWN, LAHORE. (MALE)-I"
+        "name": "U.E.T. INSTITUTE OF PROFESSIONAL DEVELOPMENT 6-P BLOCK MODEL TOWN, LAHORE. (MALE)-I",
+        "pti_turnout": 1378,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 126,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "134",
         "ptiVotesECP": 233,
         "ptiVotesPTI": 233,
@@ -1479,7 +1705,9 @@
         "estVotesECP": 107,
         "riggingAdvantage": 0,
         "ecp_turnout": 443,
-        "name": "U.E.T. INSTITUTE OF PROFESSIONAL DEVELOPMENT 6-P BLOCK MODEL TOWN, LAHORE. (FEMALE)-I"
+        "name": "U.E.T. INSTITUTE OF PROFESSIONAL DEVELOPMENT 6-P BLOCK MODEL TOWN, LAHORE. (FEMALE)-I",
+        "pti_turnout": 1202,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 127,
@@ -1492,7 +1720,9 @@
         "estVotesECP": 803,
         "riggingAdvantage": 600,
         "ecp_turnout": 1405,
-        "name": "Government Girls Primary School, Muhammad Pura, Munshi Pura, Faisal Town, Lahore. (MALE)-I"
+        "name": "Government Girls Primary School, Muhammad Pura, Munshi Pura, Faisal Town, Lahore. (MALE)-I",
+        "pti_turnout": 1846,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 128,
@@ -1505,12 +1735,14 @@
         "estVotesECP": 1414,
         "riggingAdvantage": 1300,
         "ecp_turnout": 673,
-        "name": "Government Girls Primary School, Muhammad Pura, Munshi Pura, Faisal Town, Lahore. (FEMALE)-I"
+        "name": "Government Girls Primary School, Muhammad Pura, Munshi Pura, Faisal Town, Lahore. (FEMALE)-I",
+        "pti_turnout": 2075,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 130,
         "registered": 1255,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "138",
         "ptiVotesECP": 237,
         "ptiVotesPTI": 237,
@@ -1518,12 +1750,14 @@
         "estVotesECP": 103,
         "riggingAdvantage": 0,
         "ecp_turnout": 405,
-        "name": "The Smart School 17-B/A windsor park Ichra Lahore (Female)-I"
+        "name": "The Smart School 17-B/A windsor park Ichra Lahore (Female)-I",
+        "pti_turnout": 1255,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 132,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "140",
         "ptiVotesECP": 344,
         "ptiVotesPTI": 344,
@@ -1531,12 +1765,14 @@
         "estVotesECP": 110,
         "riggingAdvantage": 0,
         "ecp_turnout": 537,
-        "name": "The Smart School 17-B/A windsor park Ichra Lahore (Female)-II"
+        "name": "The Smart School 17-B/A windsor park Ichra Lahore (Female)-II",
+        "pti_turnout": 1800,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 133,
         "registered": 1850,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "141",
         "ptiVotesECP": 312,
         "ptiVotesPTI": 312,
@@ -1544,7 +1780,9 @@
         "estVotesECP": 156,
         "riggingAdvantage": 0,
         "ecp_turnout": 554,
-        "name": "EFA School Ichra Lahore (Female)-I"
+        "name": "EFA School Ichra Lahore (Female)-I",
+        "pti_turnout": 1850,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 134,
@@ -1557,12 +1795,14 @@
         "estVotesECP": 1212,
         "riggingAdvantage": 1000,
         "ecp_turnout": 1728,
-        "name": "EFA School Ichra Lahore (Male)-I"
+        "name": "EFA School Ichra Lahore (Male)-I",
+        "pti_turnout": 1885,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 135,
         "registered": 1812,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "144",
         "ptiVotesECP": 574,
         "ptiVotesPTI": 342,
@@ -1570,12 +1810,14 @@
         "estVotesECP": 150,
         "riggingAdvantage": -244,
         "ecp_turnout": 868,
-        "name": "Government N.D Islamia High School Ichhra lahore (Female)-I"
+        "name": "Government N.D Islamia High School Ichhra lahore (Female)-I",
+        "pti_turnout": 1812,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 136,
         "registered": 739,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "145",
         "ptiVotesECP": 51,
         "ptiVotesPTI": 206,
@@ -1583,12 +1825,14 @@
         "estVotesECP": 13,
         "riggingAdvantage": 50,
         "ecp_turnout": 88,
-        "name": "Government N.D Islamia High School Feorzpur Road, Icchra, Lahore (Combined)-I"
+        "name": "Government N.D Islamia High School Feorzpur Road, Icchra, Lahore (Combined)-I",
+        "pti_turnout": 854,
+        "pti_winner": "Salman Akram Raja"
     },
     {
         "index": 137,
         "registered": 1334,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "146",
         "ptiVotesECP": 193,
         "ptiVotesPTI": 193,
@@ -1596,12 +1840,14 @@
         "estVotesECP": 115,
         "riggingAdvantage": 0,
         "ecp_turnout": 387,
-        "name": "Government N.D Islamia High School Feorzpur Road, Icchra, Lahore (FEMALE)-II"
+        "name": "Government N.D Islamia High School Feorzpur Road, Icchra, Lahore (FEMALE)-II",
+        "pti_turnout": 1334,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 138,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "147",
         "ptiVotesECP": 361,
         "ptiVotesPTI": 361,
@@ -1609,12 +1855,14 @@
         "estVotesECP": 202,
         "riggingAdvantage": 0,
         "ecp_turnout": 698,
-        "name": "Government N.D Islamia High School Feorzpur Road, Icchra, Lahore (MALE)-II"
+        "name": "Government N.D Islamia High School Feorzpur Road, Icchra, Lahore (MALE)-II",
+        "pti_turnout": 1617,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 139,
         "registered": 1219,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "148",
         "ptiVotesECP": 247,
         "ptiVotesPTI": 247,
@@ -1622,12 +1870,14 @@
         "estVotesECP": 130,
         "riggingAdvantage": 0,
         "ecp_turnout": 502,
-        "name": "Kanz Ul Iman Beacon School Peer Ghazi Road Ichra (Combined)-I"
+        "name": "Kanz Ul Iman Beacon School Peer Ghazi Road Ichra (Combined)-I",
+        "pti_turnout": 1219,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 140,
         "registered": 794,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "149",
         "ptiVotesECP": 144,
         "ptiVotesPTI": 144,
@@ -1635,7 +1885,9 @@
         "estVotesECP": 59,
         "riggingAdvantage": 0,
         "ecp_turnout": 245,
-        "name": "Standard Model School Per Ghazi Road, Icchra, Lahore (FEMALE)-I"
+        "name": "Standard Model School Per Ghazi Road, Icchra, Lahore (FEMALE)-I",
+        "pti_turnout": 794,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 141,
@@ -1648,12 +1900,14 @@
         "estVotesECP": 610,
         "riggingAdvantage": 519,
         "ecp_turnout": 855,
-        "name": "Standard Model School Per Ghazi Road, Icchra, Lahore (MALE)-I"
+        "name": "Standard Model School Per Ghazi Road, Icchra, Lahore (MALE)-I",
+        "pti_turnout": 855,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 142,
         "registered": 1216,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "151",
         "ptiVotesECP": 286,
         "ptiVotesPTI": 286,
@@ -1661,7 +1915,9 @@
         "estVotesECP": 133,
         "riggingAdvantage": 0,
         "ecp_turnout": 509,
-        "name": "Standard Model School Per Ghazi Road, Icchra, Lahore (FEMALE)-II"
+        "name": "Standard Model School Per Ghazi Road, Icchra, Lahore (FEMALE)-II",
+        "pti_turnout": 1216,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 143,
@@ -1674,12 +1930,14 @@
         "estVotesECP": 827,
         "riggingAdvantage": 600,
         "ecp_turnout": 1326,
-        "name": "Standard Model School Per Ghazi Road, Icchra, Lahore (MALE)-II"
+        "name": "Standard Model School Per Ghazi Road, Icchra, Lahore (MALE)-II",
+        "pti_turnout": 1422,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 144,
         "registered": 1658,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "153",
         "ptiVotesECP": 359,
         "ptiVotesPTI": 359,
@@ -1687,12 +1945,14 @@
         "estVotesECP": 214,
         "riggingAdvantage": 0,
         "ecp_turnout": 678,
-        "name": "Government Girls High School, Sultan Ahmad Road, Ichhra, Lahore (Male)-I"
+        "name": "Government Girls High School, Sultan Ahmad Road, Ichhra, Lahore (Male)-I",
+        "pti_turnout": 1658,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 145,
         "registered": 465,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "154",
         "ptiVotesECP": 250,
         "ptiVotesPTI": 250,
@@ -1700,12 +1960,14 @@
         "estVotesECP": 123,
         "riggingAdvantage": 0,
         "ecp_turnout": 450,
-        "name": "Government Girls High School, Sultan Ahmad Road, Ichhra, Lahore (Female)-I"
+        "name": "Government Girls High School, Sultan Ahmad Road, Ichhra, Lahore (Female)-I",
+        "pti_turnout": 1575,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 146,
         "registered": 1445,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "155",
         "ptiVotesECP": 320,
         "ptiVotesPTI": 320,
@@ -1713,7 +1975,9 @@
         "estVotesECP": 131,
         "riggingAdvantage": 0,
         "ecp_turnout": 578,
-        "name": "Native School Ahmad Munir Shaheed Road Ichra Lahore (Male)-I"
+        "name": "Native School Ahmad Munir Shaheed Road Ichra Lahore (Male)-I",
+        "pti_turnout": 1445,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 147,
@@ -1726,12 +1990,14 @@
         "estVotesECP": 700,
         "riggingAdvantage": 600,
         "ecp_turnout": 980,
-        "name": "Native School Ahmad Munir Shaheed Road Ichra Lahore (Female)-I"
+        "name": "Native School Ahmad Munir Shaheed Road Ichra Lahore (Female)-I",
+        "pti_turnout": 1202,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 148,
         "registered": 1584,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "157",
         "ptiVotesECP": 336,
         "ptiVotesPTI": 336,
@@ -1739,12 +2005,14 @@
         "estVotesECP": 196,
         "riggingAdvantage": 0,
         "ecp_turnout": 653,
-        "name": "Government Girls High School Sultan Ahmad Road, Icchra, Lahore (Commbined)-I"
+        "name": "Government Girls High School Sultan Ahmad Road, Icchra, Lahore (Commbined)-I",
+        "pti_turnout": 1584,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 149,
         "registered": 1792,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "158",
         "ptiVotesECP": 399,
         "ptiVotesPTI": 399,
@@ -1752,7 +2020,9 @@
         "estVotesECP": 242,
         "riggingAdvantage": 0,
         "ecp_turnout": 764,
-        "name": "Government Girls High School Sultan Ahmad Road, Icchra, Lahore (MALE)-II"
+        "name": "Government Girls High School Sultan Ahmad Road, Icchra, Lahore (MALE)-II",
+        "pti_turnout": 1792,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 150,
@@ -1765,12 +2035,14 @@
         "estVotesECP": 700,
         "riggingAdvantage": 517,
         "ecp_turnout": 1078,
-        "name": "Government Girls High School Sultan Ahmad Road, Icchra, Lahore (FEMALE)-II"
+        "name": "Government Girls High School Sultan Ahmad Road, Icchra, Lahore (FEMALE)-II",
+        "pti_turnout": 1728,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 151,
         "registered": 1904,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "160",
         "ptiVotesECP": 500,
         "ptiVotesPTI": 500,
@@ -1778,12 +2050,14 @@
         "estVotesECP": 251,
         "riggingAdvantage": 0,
         "ecp_turnout": 877,
-        "name": "Unique School, Siddiqi Building, Rehmanpura (MALE)-I"
+        "name": "Unique School, Siddiqi Building, Rehmanpura (MALE)-I",
+        "pti_turnout": 1904,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 152,
         "registered": 1677,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "161",
         "ptiVotesECP": 351,
         "ptiVotesPTI": 351,
@@ -1791,12 +2065,14 @@
         "estVotesECP": 155,
         "riggingAdvantage": 0,
         "ecp_turnout": 597,
-        "name": "Unique School, Siddiqi Building, Rehmanpura (FEMALE)-I"
+        "name": "Unique School, Siddiqi Building, Rehmanpura (FEMALE)-I",
+        "pti_turnout": 1677,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 153,
         "registered": 1978,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "162",
         "ptiVotesECP": 556,
         "ptiVotesPTI": 556,
@@ -1804,7 +2080,9 @@
         "estVotesECP": 196,
         "riggingAdvantage": 0,
         "ecp_turnout": 873,
-        "name": "Unique School, Siddiqi Building, Rehmanpura (MALE)-II"
+        "name": "Unique School, Siddiqi Building, Rehmanpura (MALE)-II",
+        "pti_turnout": 1978,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 154,
@@ -1817,12 +2095,14 @@
         "estVotesECP": 905,
         "riggingAdvantage": 1094,
         "ecp_turnout": 1059,
-        "name": "Unique School, Siddiqi Building, Rehmanpura (FEMALE)-II"
+        "name": "Unique School, Siddiqi Building, Rehmanpura (FEMALE)-II",
+        "pti_turnout": 2043,
+        "pti_winner": "Salman Akram Raja"
     },
     {
         "index": 155,
         "registered": 978,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "167",
         "ptiVotesECP": 239,
         "ptiVotesPTI": 239,
@@ -1830,12 +2110,14 @@
         "estVotesECP": 109,
         "riggingAdvantage": 0,
         "ecp_turnout": 447,
-        "name": "Government Pilot Secondary School, for Girl Wadat Colony, Lahore (Male)-I"
+        "name": "Government Pilot Secondary School, for Girl Wadat Colony, Lahore (Male)-I",
+        "pti_turnout": 978,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 156,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "168",
         "ptiVotesECP": 185,
         "ptiVotesPTI": 418,
@@ -1843,12 +2125,14 @@
         "estVotesECP": 68,
         "riggingAdvantage": 116,
         "ecp_turnout": 309,
-        "name": "Government Pilot Secondary School, for Girl Wadat Colony, Lahore (Female)-I"
+        "name": "Government Pilot Secondary School, for Girl Wadat Colony, Lahore (Female)-I",
+        "pti_turnout": 1054,
+        "pti_winner": "Salman Akram Raja"
     },
     {
         "index": 157,
         "registered": 2020,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "173",
         "ptiVotesECP": 416,
         "ptiVotesPTI": 416,
@@ -1856,12 +2140,14 @@
         "estVotesECP": 147,
         "riggingAdvantage": 0,
         "ecp_turnout": 684,
-        "name": "Big Ben City High School Ashiq Chowk (Combined)-I"
+        "name": "Big Ben City High School Ashiq Chowk (Combined)-I",
+        "pti_turnout": 2020,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 158,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "174",
         "ptiVotesECP": 290,
         "ptiVotesPTI": 290,
@@ -1869,7 +2155,9 @@
         "estVotesECP": 116,
         "riggingAdvantage": 0,
         "ecp_turnout": 473,
-        "name": "ALMUNAWAR PUBLIC HIGH SCHOOL, LALA ZAR CAMPUS, LALAZAR COLONY, AWAIS KERNI ROAD. (Combined)-I"
+        "name": "ALMUNAWAR PUBLIC HIGH SCHOOL, LALA ZAR CAMPUS, LALAZAR COLONY, AWAIS KERNI ROAD. (Combined)-I",
+        "pti_turnout": 1282,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 159,
@@ -1882,7 +2170,9 @@
         "estVotesECP": 702,
         "riggingAdvantage": 600,
         "ecp_turnout": 1172,
-        "name": "PUNJAB EXAMINATION COMMISSION EDUCATION DEPARTMENT NEAR PILOT HIGH SCHOOL WAHDAT ROAD, LAHORE (MALE)-I"
+        "name": "PUNJAB EXAMINATION COMMISSION EDUCATION DEPARTMENT NEAR PILOT HIGH SCHOOL WAHDAT ROAD, LAHORE (MALE)-I",
+        "pti_turnout": 1466,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 160,
@@ -1895,12 +2185,14 @@
         "estVotesECP": 775,
         "riggingAdvantage": 700,
         "ecp_turnout": 1142,
-        "name": "PUNJAB EXAMINATION COMMISSION EDUCATION DEPARTMENT NEAR PILOT HIGH SCHOOL WAHDAT ROAD, LAHORE (FEMALE)-I"
+        "name": "PUNJAB EXAMINATION COMMISSION EDUCATION DEPARTMENT NEAR PILOT HIGH SCHOOL WAHDAT ROAD, LAHORE (FEMALE)-I",
+        "pti_turnout": 1430,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 161,
         "registered": 2157,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "177",
         "ptiVotesECP": 636,
         "ptiVotesPTI": 636,
@@ -1908,7 +2200,9 @@
         "estVotesECP": 200,
         "riggingAdvantage": 0,
         "ecp_turnout": 974,
-        "name": "Government Girls Elementary Ex M.C.L Model School Neelam Block Lahore (Male)-I"
+        "name": "Government Girls Elementary Ex M.C.L Model School Neelam Block Lahore (Male)-I",
+        "pti_turnout": 2157,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 162,
@@ -1921,7 +2215,9 @@
         "estVotesECP": 1114,
         "riggingAdvantage": 1000,
         "ecp_turnout": 1746,
-        "name": "Government Girls Elementary Ex M.C.L Model School Neelam Block Lahore (Female)-I"
+        "name": "Government Girls Elementary Ex M.C.L Model School Neelam Block Lahore (Female)-I",
+        "pti_turnout": 2024,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 163,
@@ -1934,12 +2230,14 @@
         "estVotesECP": 700,
         "riggingAdvantage": 729,
         "ecp_turnout": 1006,
-        "name": "Government Pilot Secondary School For Girls Wahdat Colony Lahore (MALE)-IV"
+        "name": "Government Pilot Secondary School For Girls Wahdat Colony Lahore (MALE)-IV",
+        "pti_turnout": 1618,
+        "pti_winner": "Salman Akram Raja"
     },
     {
         "index": 165,
         "registered": 1665,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "181",
         "ptiVotesECP": 497,
         "ptiVotesPTI": 497,
@@ -1947,12 +2245,14 @@
         "estVotesECP": 206,
         "riggingAdvantage": 0,
         "ecp_turnout": 821,
-        "name": "Government Pilot Secondary School For Girls Wahdat Colony Lahore (MALE)-V"
+        "name": "Government Pilot Secondary School For Girls Wahdat Colony Lahore (MALE)-V",
+        "pti_turnout": 1665,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 167,
         "registered": 1430,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "183",
         "ptiVotesECP": 609,
         "ptiVotesPTI": 609,
@@ -1960,12 +2260,14 @@
         "estVotesECP": 163,
         "riggingAdvantage": 0,
         "ecp_turnout": 886,
-        "name": "PUNJAB CURRICULAM AUTHORITY WAHDAT ROAD, LAHORE. (Combined)-I"
+        "name": "PUNJAB CURRICULAM AUTHORITY WAHDAT ROAD, LAHORE. (Combined)-I",
+        "pti_turnout": 1930,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 169,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "185",
         "ptiVotesECP": 622,
         "ptiVotesPTI": 622,
@@ -1973,7 +2275,9 @@
         "estVotesECP": 131,
         "riggingAdvantage": 59,
         "ecp_turnout": 910,
-        "name": "GOVT. SECONDARY INSTITUTE FOR BLIND GIRLS, 128-A KHYBER BLOCK ALLAMA IQBAL TOWN. (MALE)-I"
+        "name": "GOVT. SECONDARY INSTITUTE FOR BLIND GIRLS, 128-A KHYBER BLOCK ALLAMA IQBAL TOWN. (MALE)-I",
+        "pti_turnout": 1934,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 170,
@@ -1986,12 +2290,14 @@
         "estVotesECP": 511,
         "riggingAdvantage": 180,
         "ecp_turnout": 1075,
-        "name": "Big Ben City High School Ashiq Chowk (Male)-I"
+        "name": "Big Ben City High School Ashiq Chowk (Male)-I",
+        "pti_turnout": 1156,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 171,
         "registered": 1219,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "187",
         "ptiVotesECP": 207,
         "ptiVotesPTI": 207,
@@ -1999,12 +2305,14 @@
         "estVotesECP": 112,
         "riggingAdvantage": 0,
         "ecp_turnout": 478,
-        "name": "Big Ben City High School Ashiq Chowk (Female)-I"
+        "name": "Big Ben City High School Ashiq Chowk (Female)-I",
+        "pti_turnout": 1219,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 172,
         "registered": 1028,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "188",
         "ptiVotesECP": 277,
         "ptiVotesPTI": 277,
@@ -2012,12 +2320,14 @@
         "estVotesECP": 109,
         "riggingAdvantage": 0,
         "ecp_turnout": 451,
-        "name": "Government Pilot Secondary School, for Girl Wadat Colony, Lahore (Combined)-I"
+        "name": "Government Pilot Secondary School, for Girl Wadat Colony, Lahore (Combined)-I",
+        "pti_turnout": 1028,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 173,
         "registered": 1806,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "189",
         "ptiVotesECP": 418,
         "ptiVotesPTI": 418,
@@ -2025,12 +2335,14 @@
         "estVotesECP": 185,
         "riggingAdvantage": 0,
         "ecp_turnout": 761,
-        "name": "Government Pilot Secondary School, for Girl Wadat Colony, Lahore (Combined)-II"
+        "name": "Government Pilot Secondary School, for Girl Wadat Colony, Lahore (Combined)-II",
+        "pti_turnout": 1806,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 174,
         "registered": 1627,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "190",
         "ptiVotesECP": 436,
         "ptiVotesPTI": 436,
@@ -2038,7 +2350,9 @@
         "estVotesECP": 115,
         "riggingAdvantage": 0,
         "ecp_turnout": 623,
-        "name": "Office of Union Council No. 217 Clifton Colony, Shah Kamal (Combined)-I"
+        "name": "Office of Union Council No. 217 Clifton Colony, Shah Kamal (Combined)-I",
+        "pti_turnout": 1627,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 177,
@@ -2051,12 +2365,14 @@
         "estVotesECP": 941,
         "riggingAdvantage": 800,
         "ecp_turnout": 1691,
-        "name": "Government POSTGRADUATE COLLEGE FOR WOMEN WAHDAT COLONY, LAHORE. (Female)-I"
+        "name": "Government POSTGRADUATE COLLEGE FOR WOMEN WAHDAT COLONY, LAHORE. (Female)-I",
+        "pti_turnout": 1983,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 178,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "194",
         "ptiVotesECP": 402,
         "ptiVotesPTI": 402,
@@ -2064,12 +2380,14 @@
         "estVotesECP": 90,
         "riggingAdvantage": 0,
         "ecp_turnout": 593,
-        "name": "Government GIRLS PILOT HIGH SCHOOL WAHDAT ROAD, LAHORE. (COMBINED)-I"
+        "name": "Government GIRLS PILOT HIGH SCHOOL WAHDAT ROAD, LAHORE. (COMBINED)-I",
+        "pti_turnout": 1170,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 179,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "195",
         "ptiVotesECP": 647,
         "ptiVotesPTI": 647,
@@ -2077,12 +2395,14 @@
         "estVotesECP": 246,
         "riggingAdvantage": 0,
         "ecp_turnout": 1016,
-        "name": "Government Pakistan Model High School Rehmanpura, Lahore (MALE)-I"
+        "name": "Government Pakistan Model High School Rehmanpura, Lahore (MALE)-I",
+        "pti_turnout": 2185,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 180,
         "registered": 2007,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "196",
         "ptiVotesECP": 509,
         "ptiVotesPTI": 509,
@@ -2090,7 +2410,9 @@
         "estVotesECP": 142,
         "riggingAdvantage": 0,
         "ecp_turnout": 749,
-        "name": "Government Pakistan Model High School Rehmanpura, Lahore (FEMALE)-I"
+        "name": "Government Pakistan Model High School Rehmanpura, Lahore (FEMALE)-I",
+        "pti_turnout": 2007,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 181,
@@ -2103,7 +2425,9 @@
         "estVotesECP": 961,
         "riggingAdvantage": 800,
         "ecp_turnout": 1494,
-        "name": "CDG Girls High School Siddique Akbar Road Link Sultan Road Icchar, Lahore. (FEMALE)-I"
+        "name": "CDG Girls High School Siddique Akbar Road Link Sultan Road Icchar, Lahore. (FEMALE)-I",
+        "pti_turnout": 1770,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 182,
@@ -2116,7 +2440,9 @@
         "estVotesECP": 800,
         "riggingAdvantage": 600,
         "ecp_turnout": 1963,
-        "name": "CDG Girls High School Siddique Akbar Road Link Sultan Road Icchar, Lahore. (MALE)-I"
+        "name": "CDG Girls High School Siddique Akbar Road Link Sultan Road Icchar, Lahore. (MALE)-I",
+        "pti_turnout": 1732,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 183,
@@ -2129,7 +2455,9 @@
         "estVotesECP": 420,
         "riggingAdvantage": 300,
         "ecp_turnout": 671,
-        "name": "CDG Girls High School Siddique Akbar Road Link Sultan Road Icchar, Lahore. (COMBINED)-I"
+        "name": "CDG Girls High School Siddique Akbar Road Link Sultan Road Icchar, Lahore. (COMBINED)-I",
+        "pti_turnout": 783,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 184,
@@ -2142,7 +2470,9 @@
         "estVotesECP": 696,
         "riggingAdvantage": 600,
         "ecp_turnout": 391,
-        "name": "Punjab Food Authority Block-C, Muslim Town, Lahore (Combined)-I"
+        "name": "Punjab Food Authority Block-C, Muslim Town, Lahore (Combined)-I",
+        "pti_turnout": 1088,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 185,
@@ -2155,12 +2485,14 @@
         "estVotesECP": 717,
         "riggingAdvantage": 600,
         "ecp_turnout": 1142,
-        "name": "Punjab Food Authority Block-C, Muslim Town, Lahore (Male)-I"
+        "name": "Punjab Food Authority Block-C, Muslim Town, Lahore (Male)-I",
+        "pti_turnout": 1303,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 186,
         "registered": 732,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "207",
         "ptiVotesECP": 435,
         "ptiVotesPTI": 435,
@@ -2168,12 +2500,14 @@
         "estVotesECP": 172,
         "riggingAdvantage": 0,
         "ecp_turnout": 729,
-        "name": "Unique College 109A New Muslim Town (MALE)-I"
+        "name": "Unique College 109A New Muslim Town (MALE)-I",
+        "pti_turnout": 1567,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 187,
         "registered": 1311,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "208",
         "ptiVotesECP": 311,
         "ptiVotesPTI": 311,
@@ -2181,7 +2515,9 @@
         "estVotesECP": 110,
         "riggingAdvantage": 0,
         "ecp_turnout": 513,
-        "name": "Unique College 109A New Muslim Town (FEMALE)-I"
+        "name": "Unique College 109A New Muslim Town (FEMALE)-I",
+        "pti_turnout": 1311,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 188,
@@ -2194,7 +2530,9 @@
         "estVotesECP": 1155,
         "riggingAdvantage": 1000,
         "ecp_turnout": 1662,
-        "name": "Government College of Commerce, Hunza Block Allama Block Town, Lahore (Combined)-I"
+        "name": "Government College of Commerce, Hunza Block Allama Block Town, Lahore (Combined)-I",
+        "pti_turnout": 1907,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 189,
@@ -2207,12 +2545,14 @@
         "estVotesECP": 961,
         "riggingAdvantage": 800,
         "ecp_turnout": 1545,
-        "name": "Government SCIENCE COLLEGE WAHDAT ROAD, LAHORE. (Combined)-I"
+        "name": "Government SCIENCE COLLEGE WAHDAT ROAD, LAHORE. (Combined)-I",
+        "pti_turnout": 2141,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 190,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "211",
         "ptiVotesECP": 560,
         "ptiVotesPTI": 560,
@@ -2220,12 +2560,14 @@
         "estVotesECP": 219,
         "riggingAdvantage": 0,
         "ecp_turnout": 924,
-        "name": "Standard Grammar higher secondary school karim block Lahore (Male)-I"
+        "name": "Standard Grammar higher secondary school karim block Lahore (Male)-I",
+        "pti_turnout": 2266,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 191,
         "registered": 2105,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "212",
         "ptiVotesECP": 500,
         "ptiVotesPTI": 413,
@@ -2233,7 +2575,9 @@
         "estVotesECP": 144,
         "riggingAdvantage": -45,
         "ecp_turnout": 745,
-        "name": "Standard grammar higher secondary school karim block Lahore (Female)-I"
+        "name": "Standard grammar higher secondary school karim block Lahore (Female)-I",
+        "pti_turnout": 2105,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 192,
@@ -2246,12 +2590,14 @@
         "estVotesECP": 479,
         "riggingAdvantage": 400,
         "ecp_turnout": 726,
-        "name": "Standard Grammar higher secondary school karim block Lahore (Combined)-I"
+        "name": "Standard Grammar higher secondary school karim block Lahore (Combined)-I",
+        "pti_turnout": 844,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 193,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "214",
         "ptiVotesECP": 434,
         "ptiVotesPTI": 434,
@@ -2259,7 +2605,9 @@
         "estVotesECP": 129,
         "riggingAdvantage": 0,
         "ecp_turnout": 654,
-        "name": "Standard grammar higher secondary school karim block Lahore (Male)-II"
+        "name": "Standard grammar higher secondary school karim block Lahore (Male)-II",
+        "pti_turnout": 1466,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 194,
@@ -2272,7 +2620,9 @@
         "estVotesECP": 776,
         "riggingAdvantage": 700,
         "ecp_turnout": 472,
-        "name": "Standard grammar higher secondary school karim block Lahore (Female)-II"
+        "name": "Standard grammar higher secondary school karim block Lahore (Female)-II",
+        "pti_turnout": 1545,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 197,
@@ -2285,12 +2635,14 @@
         "estVotesECP": 1097,
         "riggingAdvantage": 1000,
         "ecp_turnout": 1547,
-        "name": "DIRECTORATE STAFF DEVELOPMENT PAK BLOCK (New Name Quaid e Azam Academy for educational development) (FEMALE)-I"
+        "name": "DIRECTORATE STAFF DEVELOPMENT PAK BLOCK (New Name Quaid e Azam Academy for educational development) (FEMALE)-I",
+        "pti_turnout": 1811,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 198,
         "registered": 1802,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "219",
         "ptiVotesECP": 443,
         "ptiVotesPTI": 443,
@@ -2298,12 +2650,14 @@
         "estVotesECP": 134,
         "riggingAdvantage": 0,
         "ecp_turnout": 642,
-        "name": "DIRECTORATE STAFF DEVELOPMENT PAK BLOCK (New Name Quaid e Azam Academy for educational development) (MALE)-I"
+        "name": "DIRECTORATE STAFF DEVELOPMENT PAK BLOCK (New Name Quaid e Azam Academy for educational development) (MALE)-I",
+        "pti_turnout": 1802,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 199,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "220",
         "ptiVotesECP": 337,
         "ptiVotesPTI": 337,
@@ -2311,7 +2665,9 @@
         "estVotesECP": 81,
         "riggingAdvantage": 0,
         "ecp_turnout": 455,
-        "name": "Government COLLEGE OF TECHNOLOGY (PRINTING & GRAPHIC ARTS) ALLAMA IQBAL TOWN, LAHORE. (MALE)-I"
+        "name": "Government COLLEGE OF TECHNOLOGY (PRINTING & GRAPHIC ARTS) ALLAMA IQBAL TOWN, LAHORE. (MALE)-I",
+        "pti_turnout": 1251,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 200,
@@ -2324,12 +2680,14 @@
         "estVotesECP": 837,
         "riggingAdvantage": 1093,
         "ecp_turnout": 1151,
-        "name": "Government COLLEGE OF TECHNOLOGY (PRINTING & GRAPHIC ARTS) ALLAMA IQBAL TOWN, LAHORE. (FEMALE)-I"
+        "name": "Government COLLEGE OF TECHNOLOGY (PRINTING & GRAPHIC ARTS) ALLAMA IQBAL TOWN, LAHORE. (FEMALE)-I",
+        "pti_turnout": 1170,
+        "pti_winner": "Salman Akram Raja"
     },
     {
         "index": 201,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "222",
         "ptiVotesECP": 297,
         "ptiVotesPTI": 297,
@@ -2337,12 +2695,14 @@
         "estVotesECP": 44,
         "riggingAdvantage": 0,
         "ecp_turnout": 389,
-        "name": "Pak Polytechnic Institute 32-Civic Centre, Satluj Block, Lahore (Female)-I"
+        "name": "Pak Polytechnic Institute 32-Civic Centre, Satluj Block, Lahore (Female)-I",
+        "pti_turnout": 1046,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 202,
         "registered": 1176,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "223",
         "ptiVotesECP": 358,
         "ptiVotesPTI": 358,
@@ -2350,7 +2710,9 @@
         "estVotesECP": 91,
         "riggingAdvantage": 0,
         "ecp_turnout": 507,
-        "name": "Pak Polytechnic Institute 32-Civic Centre, Satluj Block, Lahore (Male)-I"
+        "name": "Pak Polytechnic Institute 32-Civic Centre, Satluj Block, Lahore (Male)-I",
+        "pti_turnout": 1176,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 203,
@@ -2363,7 +2725,9 @@
         "estVotesECP": 925,
         "riggingAdvantage": 800,
         "ecp_turnout": 1426,
-        "name": "Pak Polytechnic Institute 32-Civic Centre, Satluj Block, Lahore (Combined)-I"
+        "name": "Pak Polytechnic Institute 32-Civic Centre, Satluj Block, Lahore (Combined)-I",
+        "pti_turnout": 1638,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 204,
@@ -2376,7 +2740,9 @@
         "estVotesECP": 456,
         "riggingAdvantage": 400,
         "ecp_turnout": 748,
-        "name": "Government Girls Elementary School, Nargis Block-AIT (EX MCL) Lahore (Male)-I"
+        "name": "Government Girls Elementary School, Nargis Block-AIT (EX MCL) Lahore (Male)-I",
+        "pti_turnout": 854,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 205,
@@ -2389,7 +2755,9 @@
         "estVotesECP": 545,
         "riggingAdvantage": 500,
         "ecp_turnout": 819,
-        "name": "Government Girls Elementary School, Nargis Block-AIT (EX MCL) Lahore (Female)-I"
+        "name": "Government Girls Elementary School, Nargis Block-AIT (EX MCL) Lahore (Female)-I",
+        "pti_turnout": 955,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 206,
@@ -2402,7 +2770,9 @@
         "estVotesECP": 959,
         "riggingAdvantage": 1200,
         "ecp_turnout": 1545,
-        "name": "WAPDA GIRLS HIGH SCHOOL 63-RACHNA BLOCK ALLAMA IQBAL TOWN, LAHORE. (MALE)-I"
+        "name": "WAPDA GIRLS HIGH SCHOOL 63-RACHNA BLOCK ALLAMA IQBAL TOWN, LAHORE. (MALE)-I",
+        "pti_turnout": 1767,
+        "pti_winner": "Salman Akram Raja"
     },
     {
         "index": 207,
@@ -2415,12 +2785,14 @@
         "estVotesECP": 970,
         "riggingAdvantage": 873,
         "ecp_turnout": 1467,
-        "name": "WAPDA GIRLS HIGH SCHOOL 63-RACHNA BLOCK ALLAMA IQBAL TOWN, LAHORE. (FEMALE)-I"
+        "name": "WAPDA GIRLS HIGH SCHOOL 63-RACHNA BLOCK ALLAMA IQBAL TOWN, LAHORE. (FEMALE)-I",
+        "pti_turnout": 1639,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 208,
         "registered": 1827,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "229",
         "ptiVotesECP": 506,
         "ptiVotesPTI": 506,
@@ -2428,12 +2800,14 @@
         "estVotesECP": 220,
         "riggingAdvantage": 0,
         "ecp_turnout": 842,
-        "name": "WAPDA GIRLS HIGH SCHOOL 63-RACHNA BLOCK ALLAMA IQBAL TOWN, LAHORE. (MALE)-II"
+        "name": "WAPDA GIRLS HIGH SCHOOL 63-RACHNA BLOCK ALLAMA IQBAL TOWN, LAHORE. (MALE)-II",
+        "pti_turnout": 1827,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 209,
         "registered": 1043,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "231",
         "ptiVotesECP": 302,
         "ptiVotesPTI": 302,
@@ -2441,7 +2815,9 @@
         "estVotesECP": 116,
         "riggingAdvantage": 0,
         "ecp_turnout": 479,
-        "name": "Government Girls Elementary School, Nargis Block-AIT (EX MCL) Lahore (Male)-II"
+        "name": "Government Girls Elementary School, Nargis Block-AIT (EX MCL) Lahore (Male)-II",
+        "pti_turnout": 1043,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 210,
@@ -2454,12 +2830,14 @@
         "estVotesECP": 785,
         "riggingAdvantage": 690,
         "ecp_turnout": 1160,
-        "name": "Government Girls Elementary School, Nargis Block-AIT (EX MCL) Lahore (Female)-II"
+        "name": "Government Girls Elementary School, Nargis Block-AIT (EX MCL) Lahore (Female)-II",
+        "pti_turnout": 1376,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 211,
         "registered": 1400,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "233",
         "ptiVotesECP": 311,
         "ptiVotesPTI": 311,
@@ -2467,12 +2845,14 @@
         "estVotesECP": 64,
         "riggingAdvantage": 0,
         "ecp_turnout": 422,
-        "name": "CDGL GIRLS MIDDLE MODEL SCHOOL NARGAS BLOCK LAHORE. (FEMALE)-I"
+        "name": "CDGL GIRLS MIDDLE MODEL SCHOOL NARGAS BLOCK LAHORE. (FEMALE)-I",
+        "pti_turnout": 1309,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 213,
         "registered": 1919,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "235",
         "ptiVotesECP": 555,
         "ptiVotesPTI": 555,
@@ -2480,7 +2860,9 @@
         "estVotesECP": 197,
         "riggingAdvantage": 0,
         "ecp_turnout": 921,
-        "name": "CDG Middle High School, Huma Block, Allama Iqbal Town, Lahore. (Male)-I"
+        "name": "CDG Middle High School, Huma Block, Allama Iqbal Town, Lahore. (Male)-I",
+        "pti_turnout": 1919,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 214,
@@ -2493,12 +2875,14 @@
         "estVotesECP": 1134,
         "riggingAdvantage": 1000,
         "ecp_turnout": 1707,
-        "name": "CDG Middle High School, Huma Block, Allama Iqbal Town, Lahore. (Female)-I"
+        "name": "CDG Middle High School, Huma Block, Allama Iqbal Town, Lahore. (Female)-I",
+        "pti_turnout": 1875,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 215,
         "registered": 1722,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "237",
         "ptiVotesECP": 439,
         "ptiVotesPTI": 439,
@@ -2506,7 +2890,9 @@
         "estVotesECP": 142,
         "riggingAdvantage": 0,
         "ecp_turnout": 1258,
-        "name": "Government COLLEGE OF TECHNOLOGY (PRINTING & GRAPHIC ARTS) ALLAMA IQBAL TOWN, LAHORE. (MALE)-II"
+        "name": "Government COLLEGE OF TECHNOLOGY (PRINTING & GRAPHIC ARTS) ALLAMA IQBAL TOWN, LAHORE. (MALE)-II",
+        "pti_turnout": 1722,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 216,
@@ -2519,7 +2905,9 @@
         "estVotesECP": 944,
         "riggingAdvantage": 800,
         "ecp_turnout": 1415,
-        "name": "Government COLLEGE OF TECHNOLOGY (PRINTING & GRAPHIC ARTS) ALLAMA IQBAL TOWN, LAHORE. (FEMALE)-II"
+        "name": "Government COLLEGE OF TECHNOLOGY (PRINTING & GRAPHIC ARTS) ALLAMA IQBAL TOWN, LAHORE. (FEMALE)-II",
+        "pti_turnout": 1778,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 217,
@@ -2532,7 +2920,9 @@
         "estVotesECP": 452,
         "riggingAdvantage": 264,
         "ecp_turnout": 932,
-        "name": "Government Gradutate College of Science, Wahdat Road, Lahore (Combined)-I"
+        "name": "Government Gradutate College of Science, Wahdat Road, Lahore (Combined)-I",
+        "pti_turnout": 1313,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 218,
@@ -2545,12 +2935,14 @@
         "estVotesECP": 1417,
         "riggingAdvantage": 1000,
         "ecp_turnout": 2050,
-        "name": "Government Gradutate College of Science, Wahdat Road, Lahore (Male)-I"
+        "name": "Government Gradutate College of Science, Wahdat Road, Lahore (Male)-I",
+        "pti_turnout": 2125,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 220,
         "registered": 2096,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "243",
         "ptiVotesECP": 601,
         "ptiVotesPTI": 601,
@@ -2558,12 +2950,14 @@
         "estVotesECP": 213,
         "riggingAdvantage": 0,
         "ecp_turnout": 932,
-        "name": "Government SCIENCE COLLEGE WAHDAT ROAD, LAHORE. (MALE)-I"
+        "name": "Government SCIENCE COLLEGE WAHDAT ROAD, LAHORE. (MALE)-I",
+        "pti_turnout": 2096,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 221,
         "registered": 1823,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "244",
         "ptiVotesECP": 436,
         "ptiVotesPTI": 436,
@@ -2571,12 +2965,14 @@
         "estVotesECP": 133,
         "riggingAdvantage": 0,
         "ecp_turnout": 636,
-        "name": "Government SCIENCE COLLEGE WAHDAT ROAD, LAHORE. (FEMALE)-I"
+        "name": "Government SCIENCE COLLEGE WAHDAT ROAD, LAHORE. (FEMALE)-I",
+        "pti_turnout": 1823,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 222,
         "registered": 1404,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "245",
         "ptiVotesECP": 386,
         "ptiVotesPTI": 386,
@@ -2584,12 +2980,14 @@
         "estVotesECP": 123,
         "riggingAdvantage": 0,
         "ecp_turnout": 574,
-        "name": "Government ISLAMIA COLLEAGE OF COMMERCE RAVI BLOCK IQBAL TOWN LAHORE. (MALE)-I"
+        "name": "Government ISLAMIA COLLEAGE OF COMMERCE RAVI BLOCK IQBAL TOWN LAHORE. (MALE)-I",
+        "pti_turnout": 1404,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 225,
         "registered": 1615,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "248",
         "ptiVotesECP": 517,
         "ptiVotesPTI": 517,
@@ -2597,7 +2995,9 @@
         "estVotesECP": 138,
         "riggingAdvantage": 0,
         "ecp_turnout": 735,
-        "name": "Standard grammar higher secondary school karim block Lahore (Male)-III"
+        "name": "Standard grammar higher secondary school karim block Lahore (Male)-III",
+        "pti_turnout": 1615,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 226,
@@ -2610,7 +3010,9 @@
         "estVotesECP": 793,
         "riggingAdvantage": 700,
         "ecp_turnout": 1286,
-        "name": "Standard grammar higher secondary school karim block Lahore (Female)-III"
+        "name": "Standard grammar higher secondary school karim block Lahore (Female)-III",
+        "pti_turnout": 1465,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 227,
@@ -2623,7 +3025,9 @@
         "estVotesECP": 704,
         "riggingAdvantage": 600,
         "ecp_turnout": 1118,
-        "name": "Government Girls Secondary School, Umer Block Allama Iqbal Town, Lahore (MALE)-I"
+        "name": "Government Girls Secondary School, Umer Block Allama Iqbal Town, Lahore (MALE)-I",
+        "pti_turnout": 1278,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 228,
@@ -2636,12 +3040,14 @@
         "estVotesECP": 776,
         "riggingAdvantage": 700,
         "ecp_turnout": 1136,
-        "name": "Government Girls Secondary School, Umer Block Allama Iqbal Town, Lahore (FEMALE)-I"
+        "name": "Government Girls Secondary School, Umer Block Allama Iqbal Town, Lahore (FEMALE)-I",
+        "pti_turnout": 1302,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 229,
         "registered": 1937,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "252",
         "ptiVotesECP": 508,
         "ptiVotesPTI": 508,
@@ -2649,12 +3055,14 @@
         "estVotesECP": 169,
         "riggingAdvantage": 0,
         "ecp_turnout": 763,
-        "name": "Government Girls Secondary School, Umer Block Allama Iqbal Town, Lahore (COMBINED)-I"
+        "name": "Government Girls Secondary School, Umer Block Allama Iqbal Town, Lahore (COMBINED)-I",
+        "pti_turnout": 1937,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 230,
         "registered": 1201,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "253",
         "ptiVotesECP": 330,
         "ptiVotesPTI": 330,
@@ -2662,7 +3070,9 @@
         "estVotesECP": 117,
         "riggingAdvantage": 0,
         "ecp_turnout": 496,
-        "name": "Government GIRLS HIGHER SECONDARY SCHOOL UMAR BLOCK LAHORE. (MALE)-I"
+        "name": "Government GIRLS HIGHER SECONDARY SCHOOL UMAR BLOCK LAHORE. (MALE)-I",
+        "pti_turnout": 1201,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 231,
@@ -2675,12 +3085,14 @@
         "estVotesECP": 669,
         "riggingAdvantage": 600,
         "ecp_turnout": 1034,
-        "name": "Government GIRLS HIGHER SECONDARY SCHOOL UMAR BLOCK LAHORE. (FEMALE)-I"
+        "name": "Government GIRLS HIGHER SECONDARY SCHOOL UMAR BLOCK LAHORE. (FEMALE)-I",
+        "pti_turnout": 1191,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 232,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "255",
         "ptiVotesECP": 504,
         "ptiVotesPTI": 504,
@@ -2688,7 +3100,9 @@
         "estVotesECP": 460,
         "riggingAdvantage": 0,
         "ecp_turnout": 1015,
-        "name": "Citizen Community Center, Raza Block, Allama Iqbal Town, Lahore. (Male)-I"
+        "name": "Citizen Community Center, Raza Block, Allama Iqbal Town, Lahore. (Male)-I",
+        "pti_turnout": 2302,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 233,
@@ -2701,7 +3115,9 @@
         "estVotesECP": 1273,
         "riggingAdvantage": 1000,
         "ecp_turnout": 1708,
-        "name": "Citizen Community Center, Raza Block, Allama Iqbal Town, Lahore. (Female)-I"
+        "name": "Citizen Community Center, Raza Block, Allama Iqbal Town, Lahore. (Female)-I",
+        "pti_turnout": 1811,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 234,
@@ -2714,7 +3130,9 @@
         "estVotesECP": 807,
         "riggingAdvantage": 600,
         "ecp_turnout": 1518,
-        "name": "Allama Iqbal Open Univeristy RAZA BLOCK (Male)-I"
+        "name": "Allama Iqbal Open Univeristy RAZA BLOCK (Male)-I",
+        "pti_turnout": 1848,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 235,
@@ -2727,7 +3145,9 @@
         "estVotesECP": 1153,
         "riggingAdvantage": 1000,
         "ecp_turnout": 1756,
-        "name": "Allama Iqbal Open Univeristy RAZA BLOCK (Female)-I"
+        "name": "Allama Iqbal Open Univeristy RAZA BLOCK (Female)-I",
+        "pti_turnout": 1831,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 236,
@@ -2740,12 +3160,14 @@
         "estVotesECP": 970,
         "riggingAdvantage": 800,
         "ecp_turnout": 1587,
-        "name": "Allama Iqbal Open Univeristy RAZA BLOCK (Male)-II"
+        "name": "Allama Iqbal Open Univeristy RAZA BLOCK (Male)-II",
+        "pti_turnout": 1851,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 237,
         "registered": 1854,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "260",
         "ptiVotesECP": 498,
         "ptiVotesPTI": 498,
@@ -2753,7 +3175,9 @@
         "estVotesECP": 116,
         "riggingAdvantage": 0,
         "ecp_turnout": 679,
-        "name": "Allama Iqbal Open Univeristy RAZA BLOCK (Female)-II"
+        "name": "Allama Iqbal Open Univeristy RAZA BLOCK (Female)-II",
+        "pti_turnout": 1854,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 238,
@@ -2766,12 +3190,14 @@
         "estVotesECP": 713,
         "riggingAdvantage": 600,
         "ecp_turnout": 1196,
-        "name": "Punjab University Model High School Residntial Colony Quaid-E-Azam Campus Lahore (Male)-I"
+        "name": "Punjab University Model High School Residntial Colony Quaid-E-Azam Campus Lahore (Male)-I",
+        "pti_turnout": 1463,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 239,
         "registered": 1591,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "263",
         "ptiVotesECP": 466,
         "ptiVotesPTI": 466,
@@ -2779,12 +3205,14 @@
         "estVotesECP": 265,
         "riggingAdvantage": 0,
         "ecp_turnout": 880,
-        "name": "SHEIKH ZAYED ISLAMIC CENTER, Punjab University Lahore (Male)-I"
+        "name": "SHEIKH ZAYED ISLAMIC CENTER, Punjab University Lahore (Male)-I",
+        "pti_turnout": 1591,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 240,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "264",
         "ptiVotesECP": 367,
         "ptiVotesPTI": 367,
@@ -2792,12 +3220,14 @@
         "estVotesECP": 201,
         "riggingAdvantage": 0,
         "ecp_turnout": 645,
-        "name": "SHEIKH ZAYED ISLAMIC CENTER, Punjab University Lahore (Female)-I"
+        "name": "SHEIKH ZAYED ISLAMIC CENTER, Punjab University Lahore (Female)-I",
+        "pti_turnout": 1390,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 241,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "267",
         "ptiVotesECP": 399,
         "ptiVotesPTI": 399,
@@ -2805,12 +3235,14 @@
         "estVotesECP": 184,
         "riggingAdvantage": 0,
         "ecp_turnout": 648,
-        "name": "Government Primary School Services Hospital (Male)-I"
+        "name": "Government Primary School Services Hospital (Male)-I",
+        "pti_turnout": 1521,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 242,
         "registered": 1847,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "269",
         "ptiVotesECP": 485,
         "ptiVotesPTI": 485,
@@ -2818,12 +3250,14 @@
         "estVotesECP": 266,
         "riggingAdvantage": 0,
         "ecp_turnout": 831,
-        "name": "Crescent Model Higher Secondary School Boys Campus Shadman-1 (Male)-I"
+        "name": "Crescent Model Higher Secondary School Boys Campus Shadman-1 (Male)-I",
+        "pti_turnout": 1847,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 243,
         "registered": 1790,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "270",
         "ptiVotesECP": 406,
         "ptiVotesPTI": 406,
@@ -2831,12 +3265,14 @@
         "estVotesECP": 147,
         "riggingAdvantage": 0,
         "ecp_turnout": 603,
-        "name": "Crescent Model Higher Secondary School Boys Campus Shadman-1 (Female)-I"
+        "name": "Crescent Model Higher Secondary School Boys Campus Shadman-1 (Female)-I",
+        "pti_turnout": 1790,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 244,
         "registered": 2076,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "271",
         "ptiVotesECP": 535,
         "ptiVotesPTI": 535,
@@ -2844,7 +3280,9 @@
         "estVotesECP": 247,
         "riggingAdvantage": 0,
         "ecp_turnout": 868,
-        "name": "Dispensary GOR-III Lahore (Combined)-I"
+        "name": "Dispensary GOR-III Lahore (Combined)-I",
+        "pti_turnout": 2076,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 245,
@@ -2857,7 +3295,9 @@
         "estVotesECP": 481,
         "riggingAdvantage": 300,
         "ecp_turnout": 615,
-        "name": "HQ School System 26, Shah Jamal Lahore (Male)-I"
+        "name": "HQ School System 26, Shah Jamal Lahore (Male)-I",
+        "pti_turnout": 1164,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 246,
@@ -2870,12 +3310,14 @@
         "estVotesECP": 748,
         "riggingAdvantage": 600,
         "ecp_turnout": 1072,
-        "name": "HQ School System 26, Shah Jamal Lahore (Female)-I"
+        "name": "HQ School System 26, Shah Jamal Lahore (Female)-I",
+        "pti_turnout": 1114,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 247,
         "registered": 1815,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "274",
         "ptiVotesECP": 600,
         "ptiVotesPTI": 600,
@@ -2883,7 +3325,9 @@
         "estVotesECP": 209,
         "riggingAdvantage": 0,
         "ecp_turnout": 915,
-        "name": "Crescent Model Higher Secondary School Boys Campus Shadman-1 (Combined)-I"
+        "name": "Crescent Model Higher Secondary School Boys Campus Shadman-1 (Combined)-I",
+        "pti_turnout": 1815,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 248,
@@ -2896,12 +3340,14 @@
         "estVotesECP": 799,
         "riggingAdvantage": 600,
         "ecp_turnout": 1299,
-        "name": "HQ School System 26, Shah Jamal Lahore (Combined)-I"
+        "name": "HQ School System 26, Shah Jamal Lahore (Combined)-I",
+        "pti_turnout": 1577,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 249,
         "registered": 1843,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "276",
         "ptiVotesECP": 535,
         "ptiVotesPTI": 535,
@@ -2909,7 +3355,9 @@
         "estVotesECP": 234,
         "riggingAdvantage": 0,
         "ecp_turnout": 883,
-        "name": "Government Girls Middle School Guru Nanak Ichhra Lahore. (Male)-I"
+        "name": "Government Girls Middle School Guru Nanak Ichhra Lahore. (Male)-I",
+        "pti_turnout": 1843,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 250,
@@ -2922,7 +3370,9 @@
         "estVotesECP": 960,
         "riggingAdvantage": 800,
         "ecp_turnout": 1614,
-        "name": "Government Girls Middle School Guru Nanak Ichhra Lahore. (Female)-I"
+        "name": "Government Girls Middle School Guru Nanak Ichhra Lahore. (Female)-I",
+        "pti_turnout": 1689,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 251,
@@ -2935,7 +3385,9 @@
         "estVotesECP": 471,
         "riggingAdvantage": 300,
         "ecp_turnout": 612,
-        "name": "Government Girls Primary School Guru Nanak Ichhra Lahore. (Male)-II"
+        "name": "Government Girls Primary School Guru Nanak Ichhra Lahore. (Male)-II",
+        "pti_turnout": 1165,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 252,
@@ -2948,7 +3400,9 @@
         "estVotesECP": 615,
         "riggingAdvantage": 500,
         "ecp_turnout": 896,
-        "name": "Government Girls Primary School Guru Nanak Ichhra Lahore. (Female)-II"
+        "name": "Government Girls Primary School Guru Nanak Ichhra Lahore. (Female)-II",
+        "pti_turnout": 1002,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 254,
@@ -2961,12 +3415,14 @@
         "estVotesECP": 728,
         "riggingAdvantage": 600,
         "ecp_turnout": 1005,
-        "name": "Aapa Nisar Fatima Girls High School Shah Jamal, Lahore, (Female)-I"
+        "name": "Aapa Nisar Fatima Girls High School Shah Jamal, Lahore, (Female)-I",
+        "pti_turnout": 1240,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 255,
         "registered": 1827,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "282",
         "ptiVotesECP": 376,
         "ptiVotesPTI": 376,
@@ -2974,12 +3430,14 @@
         "estVotesECP": 308,
         "riggingAdvantage": 0,
         "ecp_turnout": 821,
-        "name": "Aapa Nisar Fatima Girls High School Shah Jamal, Lahore, (Male)-II"
+        "name": "Aapa Nisar Fatima Girls High School Shah Jamal, Lahore, (Male)-II",
+        "pti_turnout": 1827,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 256,
         "registered": 1813,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "283",
         "ptiVotesECP": 351,
         "ptiVotesPTI": 351,
@@ -2987,12 +3445,14 @@
         "estVotesECP": 220,
         "riggingAdvantage": 0,
         "ecp_turnout": 648,
-        "name": "Aapa Nisar Fatima Girls High School Shah Jamal, Lahore, (Female)-II"
+        "name": "Aapa Nisar Fatima Girls High School Shah Jamal, Lahore, (Female)-II",
+        "pti_turnout": 1813,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 257,
         "registered": 1759,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "284",
         "ptiVotesECP": 317,
         "ptiVotesPTI": 317,
@@ -3000,7 +3460,9 @@
         "estVotesECP": 291,
         "riggingAdvantage": 0,
         "ecp_turnout": 736,
-        "name": "City District Government Boys Primary School, Fazalia Colony, Lahore (Combined)-I"
+        "name": "City District Government Boys Primary School, Fazalia Colony, Lahore (Combined)-I",
+        "pti_turnout": 1759,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 259,
@@ -3013,12 +3475,14 @@
         "estVotesECP": 920,
         "riggingAdvantage": 500,
         "ecp_turnout": 1656,
-        "name": "CDGL Boys Primary School (MCL) Fazlia Colony, Lahore (Male)-I"
+        "name": "CDGL Boys Primary School (MCL) Fazlia Colony, Lahore (Male)-I",
+        "pti_turnout": 2104,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 260,
         "registered": 2200,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "287",
         "ptiVotesECP": 357,
         "ptiVotesPTI": 357,
@@ -3026,12 +3490,14 @@
         "estVotesECP": 288,
         "riggingAdvantage": 0,
         "ecp_turnout": 758,
-        "name": "Azad Chaiwala Institute of Digital Skills Ferozpur Road Lahore (Female)-I"
+        "name": "Azad Chaiwala Institute of Digital Skills Ferozpur Road Lahore (Female)-I",
+        "pti_turnout": 2110,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 261,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "288",
         "ptiVotesECP": 344,
         "ptiVotesPTI": 344,
@@ -3039,7 +3505,9 @@
         "estVotesECP": 258,
         "riggingAdvantage": 0,
         "ecp_turnout": 701,
-        "name": "Azad Chaiwala Institute of Digital Skills Ferozpur Road Lahore (Male)-I"
+        "name": "Azad Chaiwala Institute of Digital Skills Ferozpur Road Lahore (Male)-I",
+        "pti_turnout": 1397,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 262,
@@ -3052,12 +3520,14 @@
         "estVotesECP": 659,
         "riggingAdvantage": 500,
         "ecp_turnout": 919,
-        "name": "Azad Chaiwala Institute of Digital Skills Ferozpur Road Lahore (Female)-II"
+        "name": "Azad Chaiwala Institute of Digital Skills Ferozpur Road Lahore (Female)-II",
+        "pti_turnout": 1112,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 263,
         "registered": 2131,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "290",
         "ptiVotesECP": 671,
         "ptiVotesPTI": 671,
@@ -3065,12 +3535,14 @@
         "estVotesECP": 316,
         "riggingAdvantage": 0,
         "ecp_turnout": 1087,
-        "name": "University of Home Economics S Block Gulberg-II Lahore (Male)-I"
+        "name": "University of Home Economics S Block Gulberg-II Lahore (Male)-I",
+        "pti_turnout": 2131,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 264,
         "registered": 2029,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "291",
         "ptiVotesECP": 508,
         "ptiVotesPTI": 508,
@@ -3078,12 +3550,14 @@
         "estVotesECP": 225,
         "riggingAdvantage": 0,
         "ecp_turnout": 795,
-        "name": "University of Home Economics S Block Gulberg-II Lahore (Female)-I"
+        "name": "University of Home Economics S Block Gulberg-II Lahore (Female)-I",
+        "pti_turnout": 2029,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 265,
         "registered": 2185,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "292",
         "ptiVotesECP": 531,
         "ptiVotesPTI": 531,
@@ -3091,12 +3565,14 @@
         "estVotesECP": 381,
         "riggingAdvantage": 0,
         "ecp_turnout": 985,
-        "name": "Government Najaf High School RC Cola Factory Gulberg (Combined)-I"
+        "name": "Government Najaf High School RC Cola Factory Gulberg (Combined)-I",
+        "pti_turnout": 2185,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 266,
         "registered": 2184,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "295",
         "ptiVotesECP": 508,
         "ptiVotesPTI": 508,
@@ -3104,12 +3580,14 @@
         "estVotesECP": 134,
         "riggingAdvantage": 0,
         "ecp_turnout": 726,
-        "name": "Government Boys High School, F Block, Gulberg, Lahore (Female)-I"
+        "name": "Government Boys High School, F Block, Gulberg, Lahore (Female)-I",
+        "pti_turnout": 2184,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 267,
         "registered": 2220,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "296",
         "ptiVotesECP": 599,
         "ptiVotesPTI": 599,
@@ -3117,7 +3595,9 @@
         "estVotesECP": 197,
         "riggingAdvantage": 0,
         "ecp_turnout": 897,
-        "name": "Government Boys High School, F Block, Gulberg, Lahore (Male)-I"
+        "name": "Government Boys High School, F Block, Gulberg, Lahore (Male)-I",
+        "pti_turnout": 2220,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 268,
@@ -3130,12 +3610,14 @@
         "estVotesECP": 926,
         "riggingAdvantage": 800,
         "ecp_turnout": 472,
-        "name": "CDGL High School for Girls B- BLOCK GULBERG-II LAHORE (Female)-I"
+        "name": "CDGL High School for Girls B- BLOCK GULBERG-II LAHORE (Female)-I",
+        "pti_turnout": 1515,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 269,
         "registered": 1716,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "298",
         "ptiVotesECP": 400,
         "ptiVotesPTI": 369,
@@ -3143,12 +3625,14 @@
         "estVotesECP": 100,
         "riggingAdvantage": -121,
         "ecp_turnout": 538,
-        "name": "CDGL High School for Girls B- BLOCK GULBERG-II LAHORE (Male)-I"
+        "name": "CDGL High School for Girls B- BLOCK GULBERG-II LAHORE (Male)-I",
+        "pti_turnout": 1716,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 270,
         "registered": 1714,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "299",
         "ptiVotesECP": 467,
         "ptiVotesPTI": 467,
@@ -3156,12 +3640,14 @@
         "estVotesECP": 218,
         "riggingAdvantage": 0,
         "ecp_turnout": 825,
-        "name": "Government Girls High School, F BLOCK Main Market GULBERG Lahore (Combined)-I"
+        "name": "Government Girls High School, F BLOCK Main Market GULBERG Lahore (Combined)-I",
+        "pti_turnout": 1714,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 271,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "300",
         "ptiVotesECP": 505,
         "ptiVotesPTI": 505,
@@ -3169,12 +3655,14 @@
         "estVotesECP": 281,
         "riggingAdvantage": 0,
         "ecp_turnout": 881,
-        "name": "Government Girls High School, F BLOCK Main Market GULBERG Lahore (Male)-I"
+        "name": "Government Girls High School, F BLOCK Main Market GULBERG Lahore (Male)-I",
+        "pti_turnout": 1770,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 272,
         "registered": 1549,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "301",
         "ptiVotesECP": 335,
         "ptiVotesPTI": 335,
@@ -3182,12 +3670,14 @@
         "estVotesECP": 160,
         "riggingAdvantage": 0,
         "ecp_turnout": 582,
-        "name": "Government Girls High School, F BLOCK Main Market GULBERG Lahore (Female)-I"
+        "name": "Government Girls High School, F BLOCK Main Market GULBERG Lahore (Female)-I",
+        "pti_turnout": 1549,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 273,
         "registered": 1297,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "302",
         "ptiVotesECP": 380,
         "ptiVotesPTI": 380,
@@ -3195,12 +3685,14 @@
         "estVotesECP": 121,
         "riggingAdvantage": 0,
         "ecp_turnout": 589,
-        "name": "Government Girls High School, F BLOCK Main Market GULBERG Lahore (Male)-II"
+        "name": "Government Girls High School, F BLOCK Main Market GULBERG Lahore (Male)-II",
+        "pti_turnout": 1297,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 274,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "303",
         "ptiVotesECP": 277,
         "ptiVotesPTI": 277,
@@ -3208,7 +3700,9 @@
         "estVotesECP": 62,
         "riggingAdvantage": 0,
         "ecp_turnout": 395,
-        "name": "Government Girls High School, F BLOCK Main Market GULBERG Lahore (Female)-II"
+        "name": "Government Girls High School, F BLOCK Main Market GULBERG Lahore (Female)-II",
+        "pti_turnout": 1108,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 275,
@@ -3221,7 +3715,9 @@
         "estVotesECP": 1079,
         "riggingAdvantage": 1000,
         "ecp_turnout": 1503,
-        "name": "Government F.C.C Girls Primary School (English Medium) Shibli Road near Police Station, Ghalib Market, Gulberg, Lahore. (Combined)-I"
+        "name": "Government F.C.C Girls Primary School (English Medium) Shibli Road near Police Station, Ghalib Market, Gulberg, Lahore. (Combined)-I",
+        "pti_turnout": 1838,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 276,
@@ -3234,7 +3730,9 @@
         "estVotesECP": 789,
         "riggingAdvantage": 700,
         "ecp_turnout": 1146,
-        "name": "CDGL High School for Girls B- BLOCK GULBERG-II LAHORE (Combined)-I"
+        "name": "CDGL High School for Girls B- BLOCK GULBERG-II LAHORE (Combined)-I",
+        "pti_turnout": 1338,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 277,
@@ -3247,12 +3745,14 @@
         "estVotesECP": 870,
         "riggingAdvantage": 800,
         "ecp_turnout": 1240,
-        "name": "CDGL High School for Girls B- BLOCK GULBERG-II LAHORE (Combined)-II"
+        "name": "CDGL High School for Girls B- BLOCK GULBERG-II LAHORE (Combined)-II",
+        "pti_turnout": 1400,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 278,
         "registered": 2046,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "307",
         "ptiVotesECP": 499,
         "ptiVotesPTI": 499,
@@ -3260,12 +3760,14 @@
         "estVotesECP": 250,
         "riggingAdvantage": 0,
         "ecp_turnout": 826,
-        "name": "Government Jinnah Degree College for Women Mozang Lahore (Male)-I"
+        "name": "Government Jinnah Degree College for Women Mozang Lahore (Male)-I",
+        "pti_turnout": 2046,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 279,
         "registered": 1876,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "308",
         "ptiVotesECP": 363,
         "ptiVotesPTI": 363,
@@ -3273,7 +3775,9 @@
         "estVotesECP": 133,
         "riggingAdvantage": 0,
         "ecp_turnout": 563,
-        "name": "Government Jinnah Degree College for Women Mozang Lahore (Female)-I"
+        "name": "Government Jinnah Degree College for Women Mozang Lahore (Female)-I",
+        "pti_turnout": 1876,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 280,
@@ -3286,12 +3790,14 @@
         "estVotesECP": 755,
         "riggingAdvantage": 600,
         "ecp_turnout": 724,
-        "name": "Examination Hall Board of Indermedate and Secondary Education Lawrence Road Lahore (Combined)-I"
+        "name": "Examination Hall Board of Indermedate and Secondary Education Lawrence Road Lahore (Combined)-I",
+        "pti_turnout": 2047,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 281,
         "registered": 2000,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "310",
         "ptiVotesECP": 378,
         "ptiVotesPTI": 378,
@@ -3299,12 +3805,14 @@
         "estVotesECP": 138,
         "riggingAdvantage": 0,
         "ecp_turnout": 625,
-        "name": "Examination Hall Board of Indermedate and Secondary Education Lawrence Road Lahore (Male)-I"
+        "name": "Examination Hall Board of Indermedate and Secondary Education Lawrence Road Lahore (Male)-I",
+        "pti_turnout": 1998,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 282,
         "registered": 1778,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "311",
         "ptiVotesECP": 272,
         "ptiVotesPTI": 272,
@@ -3312,12 +3820,14 @@
         "estVotesECP": 59,
         "riggingAdvantage": 0,
         "ecp_turnout": 394,
-        "name": "Examination Hall Board of Indermedate and Secondary Education Lawrence Road Lahore (Female)-I"
+        "name": "Examination Hall Board of Indermedate and Secondary Education Lawrence Road Lahore (Female)-I",
+        "pti_turnout": 1778,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 284,
         "registered": 1422,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "313",
         "ptiVotesECP": 439,
         "ptiVotesPTI": 439,
@@ -3325,7 +3835,9 @@
         "estVotesECP": 139,
         "riggingAdvantage": 0,
         "ecp_turnout": 651,
-        "name": "Lahore College for Women University Shadman, Lahore (Male)-I"
+        "name": "Lahore College for Women University Shadman, Lahore (Male)-I",
+        "pti_turnout": 1422,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 285,
@@ -3338,7 +3850,9 @@
         "estVotesECP": 865,
         "riggingAdvantage": 800,
         "ecp_turnout": 1244,
-        "name": "Lahore College for Women University Shadman, Lahore (Female)-I"
+        "name": "Lahore College for Women University Shadman, Lahore (Female)-I",
+        "pti_turnout": 1325,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 286,
@@ -3351,7 +3865,9 @@
         "estVotesECP": 598,
         "riggingAdvantage": 500,
         "ecp_turnout": 978,
-        "name": "Lahore College for Women University Shadman, Lahore (Male)-II"
+        "name": "Lahore College for Women University Shadman, Lahore (Male)-II",
+        "pti_turnout": 1079,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 287,
@@ -3364,12 +3880,14 @@
         "estVotesECP": 444,
         "riggingAdvantage": 400,
         "ecp_turnout": 762,
-        "name": "Lahore College for Women University Shadman, Lahore (Female)-II"
+        "name": "Lahore College for Women University Shadman, Lahore (Female)-II",
+        "pti_turnout": 1013,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 288,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "317",
         "ptiVotesECP": 439,
         "ptiVotesPTI": 439,
@@ -3377,7 +3895,9 @@
         "estVotesECP": 259,
         "riggingAdvantage": 0,
         "ecp_turnout": 737,
-        "name": "Government Maqbol Aam High School GOR-I Lahore. (Male)-I"
+        "name": "Government Maqbol Aam High School GOR-I Lahore. (Male)-I",
+        "pti_turnout": 1609,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 289,
@@ -3390,12 +3910,14 @@
         "estVotesECP": 980,
         "riggingAdvantage": 800,
         "ecp_turnout": 1407,
-        "name": "Government Maqbol Aam High School GOR-I Lahore. (Female)-I"
+        "name": "Government Maqbol Aam High School GOR-I Lahore. (Female)-I",
+        "pti_turnout": 1626,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 290,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "320",
         "ptiVotesECP": 251,
         "ptiVotesPTI": 251,
@@ -3403,12 +3925,14 @@
         "estVotesECP": 135,
         "riggingAdvantage": 0,
         "ecp_turnout": 432,
-        "name": "Government Maqbol Aam High School GOR-I Lahore. (Female)-II"
+        "name": "Government Maqbol Aam High School GOR-I Lahore. (Female)-II",
+        "pti_turnout": 1097,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 291,
         "registered": 1388,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "321",
         "ptiVotesECP": 337,
         "ptiVotesPTI": 337,
@@ -3416,7 +3940,9 @@
         "estVotesECP": 236,
         "riggingAdvantage": 0,
         "ecp_turnout": 623,
-        "name": "Govt. Darul Nswan Girls High School, 65-A jail road Lahore (Combined)-I"
+        "name": "Govt. Darul Nswan Girls High School, 65-A jail road Lahore (Combined)-I",
+        "pti_turnout": 1388,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 292,
@@ -3429,7 +3955,9 @@
         "estVotesECP": 1330,
         "riggingAdvantage": 1000,
         "ecp_turnout": 1947,
-        "name": "GHS Lahore Cantt near QURBAN LINE (MALE)-I"
+        "name": "GHS Lahore Cantt near QURBAN LINE (MALE)-I",
+        "pti_turnout": 2072,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 293,
@@ -3442,12 +3970,14 @@
         "estVotesECP": 1255,
         "riggingAdvantage": 1000,
         "ecp_turnout": 1716,
-        "name": "GHS Lahore Cantt near QURBAN LINE (FEMALE)-I"
+        "name": "GHS Lahore Cantt near QURBAN LINE (FEMALE)-I",
+        "pti_turnout": 1863,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 294,
         "registered": 1677,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "324",
         "ptiVotesECP": 380,
         "ptiVotesPTI": 380,
@@ -3455,12 +3985,14 @@
         "estVotesECP": 251,
         "riggingAdvantage": 0,
         "ecp_turnout": 743,
-        "name": "City District Government Boys High School, Basti Saiden Shah Colony Lahore (Combined)-I"
+        "name": "City District Government Boys High School, Basti Saiden Shah Colony Lahore (Combined)-I",
+        "pti_turnout": 1677,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 295,
         "registered": 2050,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "325",
         "ptiVotesECP": 556,
         "ptiVotesPTI": 556,
@@ -3468,7 +4000,9 @@
         "estVotesECP": 240,
         "riggingAdvantage": 0,
         "ecp_turnout": 882,
-        "name": "Govt. Secondary school of Special for Deaf and Deffective Hearing School for Boys(GunjMahal)40 T Gulberg-II Lahore (MALE)-I"
+        "name": "Govt. Secondary school of Special for Deaf and Deffective Hearing School for Boys(GunjMahal)40 T Gulberg-II Lahore (MALE)-I",
+        "pti_turnout": 2050,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 296,
@@ -3481,12 +4015,14 @@
         "estVotesECP": 1159,
         "riggingAdvantage": 1000,
         "ecp_turnout": 1714,
-        "name": "Govt. Secondary school of Special for Deaf and Deffective Hearing School for Boys(GunjMahal)40 T Gulberg-II Lahore (FEMALE)-I"
+        "name": "Govt. Secondary school of Special for Deaf and Deffective Hearing School for Boys(GunjMahal)40 T Gulberg-II Lahore (FEMALE)-I",
+        "pti_turnout": 2085,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 297,
         "registered": 1159,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "327",
         "ptiVotesECP": 340,
         "ptiVotesPTI": 340,
@@ -3494,12 +4030,14 @@
         "estVotesECP": 149,
         "riggingAdvantage": 0,
         "ecp_turnout": 536,
-        "name": "Govt. Secondary school of Special for Deaf and Deffective Hearing School for Boys(GunjMahal)40 T Gulberg-II Lahore (COMBINED)-I"
+        "name": "Govt. Secondary school of Special for Deaf and Deffective Hearing School for Boys(GunjMahal)40 T Gulberg-II Lahore (COMBINED)-I",
+        "pti_turnout": 1159,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 298,
         "registered": 1639,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "330",
         "ptiVotesECP": 383,
         "ptiVotesPTI": 383,
@@ -3507,12 +4045,14 @@
         "estVotesECP": 134,
         "riggingAdvantage": 0,
         "ecp_turnout": 577,
-        "name": "Office of the Auditor General (Pakistan Bureaue of Statistics ) Gurumangat Road Lahore (COMBINED)-I"
+        "name": "Office of the Auditor General (Pakistan Bureaue of Statistics ) Gurumangat Road Lahore (COMBINED)-I",
+        "pti_turnout": 1639,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 299,
         "registered": 1530,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "331",
         "ptiVotesECP": 352,
         "ptiVotesPTI": 352,
@@ -3520,12 +4060,14 @@
         "estVotesECP": 208,
         "riggingAdvantage": 0,
         "ecp_turnout": 640,
-        "name": "Office of the Auditor General (Pakistan Bureaue of Statistics ) Gurumangat Road Lahore (MALE)-I"
+        "name": "Office of the Auditor General (Pakistan Bureaue of Statistics ) Gurumangat Road Lahore (MALE)-I",
+        "pti_turnout": 1530,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 300,
         "registered": 1500,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "332",
         "ptiVotesECP": 266,
         "ptiVotesPTI": 266,
@@ -3533,7 +4075,9 @@
         "estVotesECP": 130,
         "riggingAdvantage": 0,
         "ecp_turnout": 448,
-        "name": "Office of the Auditor General (Pakistan Bureaue of Statistics ) Gurumangat Road Lahore (FEMALE)-I"
+        "name": "Office of the Auditor General (Pakistan Bureaue of Statistics ) Gurumangat Road Lahore (FEMALE)-I",
+        "pti_turnout": 1466,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 302,
@@ -3546,7 +4090,9 @@
         "estVotesECP": 813,
         "riggingAdvantage": 600,
         "ecp_turnout": 1324,
-        "name": "Govt. Girls Central Model Higher Secondary School Liberty Market Gulberg, Lahore (MALE)-I"
+        "name": "Govt. Girls Central Model Higher Secondary School Liberty Market Gulberg, Lahore (MALE)-I",
+        "pti_turnout": 1569,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 303,
@@ -3559,12 +4105,14 @@
         "estVotesECP": 774,
         "riggingAdvantage": 600,
         "ecp_turnout": 1120,
-        "name": "Govt. Girls Central Model Higher Secondary School Liberty Market Gulberg, Lahore (FEMALE)-I"
+        "name": "Govt. Girls Central Model Higher Secondary School Liberty Market Gulberg, Lahore (FEMALE)-I",
+        "pti_turnout": 1492,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 304,
         "registered": 1063,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "336",
         "ptiVotesECP": 236,
         "ptiVotesPTI": 236,
@@ -3572,7 +4120,9 @@
         "estVotesECP": 75,
         "riggingAdvantage": 0,
         "ecp_turnout": 342,
-        "name": "GOVT Primary School Nabi Pura Gulberg 2 Lahore (Male)-I"
+        "name": "GOVT Primary School Nabi Pura Gulberg 2 Lahore (Male)-I",
+        "pti_turnout": 1063,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 305,
@@ -3585,12 +4135,14 @@
         "estVotesECP": 751,
         "riggingAdvantage": 700,
         "ecp_turnout": 991,
-        "name": "GOVT Primary School Nabi Pura Gulberg 2 Lahore (Female)-I"
+        "name": "GOVT Primary School Nabi Pura Gulberg 2 Lahore (Female)-I",
+        "pti_turnout": 1102,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 306,
         "registered": 1180,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "338",
         "ptiVotesECP": 320,
         "ptiVotesPTI": 320,
@@ -3598,7 +4150,9 @@
         "estVotesECP": 180,
         "riggingAdvantage": 0,
         "ecp_turnout": 542,
-        "name": "Iqra Eductaion Center Gulberg -3 Lahore (Male)-I"
+        "name": "Iqra Eductaion Center Gulberg -3 Lahore (Male)-I",
+        "pti_turnout": 1180,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 307,
@@ -3611,7 +4165,9 @@
         "estVotesECP": 646,
         "riggingAdvantage": 500,
         "ecp_turnout": 942,
-        "name": "Iqra Eductaion Center Gulberg -3 Lahore (Female)-I"
+        "name": "Iqra Eductaion Center Gulberg -3 Lahore (Female)-I",
+        "pti_turnout": 1125,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 308,
@@ -3624,7 +4180,9 @@
         "estVotesECP": 929,
         "riggingAdvantage": 800,
         "ecp_turnout": 1349,
-        "name": "CDGL Girls High School QABOOTAR PURA (MALE)-I"
+        "name": "CDGL Girls High School QABOOTAR PURA (MALE)-I",
+        "pti_turnout": 1532,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 309,
@@ -3637,12 +4195,14 @@
         "estVotesECP": 771,
         "riggingAdvantage": 700,
         "ecp_turnout": 1114,
-        "name": "CDGL Girls High School QABOOTAR PURA (FEMALE)-I"
+        "name": "CDGL Girls High School QABOOTAR PURA (FEMALE)-I",
+        "pti_turnout": 1399,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 310,
         "registered": 1411,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "342",
         "ptiVotesECP": 375,
         "ptiVotesPTI": 375,
@@ -3650,12 +4210,14 @@
         "estVotesECP": 82,
         "riggingAdvantage": 0,
         "ecp_turnout": 510,
-        "name": "GOVT Women COLLEGE Liberty Gulberg FOR GIRLS (MALE)-I"
+        "name": "GOVT Women COLLEGE Liberty Gulberg FOR GIRLS (MALE)-I",
+        "pti_turnout": 1411,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 312,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "344",
         "ptiVotesECP": 446,
         "ptiVotesPTI": 446,
@@ -3663,7 +4225,9 @@
         "estVotesECP": 192,
         "riggingAdvantage": 0,
         "ecp_turnout": 746,
-        "name": "The Educators School (Quaid Campus) 11-K Gulberg-III Lahore (MALE)-I"
+        "name": "The Educators School (Quaid Campus) 11-K Gulberg-III Lahore (MALE)-I",
+        "pti_turnout": 1889,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 313,
@@ -3676,12 +4240,14 @@
         "estVotesECP": 933,
         "riggingAdvantage": 800,
         "ecp_turnout": 1396,
-        "name": "The Educators School (Quaid Campus) 11-K Gulberg-III Lahore (FEMALE)-I"
+        "name": "The Educators School (Quaid Campus) 11-K Gulberg-III Lahore (FEMALE)-I",
+        "pti_turnout": 1945,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 314,
         "registered": 2070,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "346",
         "ptiVotesECP": 420,
         "ptiVotesPTI": 420,
@@ -3689,12 +4255,14 @@
         "estVotesECP": 265,
         "riggingAdvantage": 0,
         "ecp_turnout": 895,
-        "name": "BALOCH SCHOOL SYSTEM MAKKAH COLONY GULBERG-III, LAHORE (MALE)-I"
+        "name": "BALOCH SCHOOL SYSTEM MAKKAH COLONY GULBERG-III, LAHORE (MALE)-I",
+        "pti_turnout": 2070,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 315,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "347",
         "ptiVotesECP": 260,
         "ptiVotesPTI": 260,
@@ -3702,7 +4270,9 @@
         "estVotesECP": 154,
         "riggingAdvantage": 0,
         "ecp_turnout": 525,
-        "name": "BALOCH SCHOOL SYSTEM MAKKAH COLONY GULBERG-III, LAHORE (FEMALE)-I"
+        "name": "BALOCH SCHOOL SYSTEM MAKKAH COLONY GULBERG-III, LAHORE (FEMALE)-I",
+        "pti_turnout": 1778,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 317,
@@ -3715,7 +4285,9 @@
         "estVotesECP": 705,
         "riggingAdvantage": 600,
         "ecp_turnout": 989,
-        "name": "THE HOUSE OF STUDY SCHOOL, MAKKAH COLONY, GALLI NO. 5 GULBERG-III, LAHORE (FEMALE)-I"
+        "name": "THE HOUSE OF STUDY SCHOOL, MAKKAH COLONY, GALLI NO. 5 GULBERG-III, LAHORE (FEMALE)-I",
+        "pti_turnout": 1285,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 318,
@@ -3728,7 +4300,9 @@
         "estVotesECP": 792,
         "riggingAdvantage": 600,
         "ecp_turnout": 1274,
-        "name": "FAMILY WELFARE MIDDLE SCHOOL BEHIND OFFICE UC-204 K-BLOCK, Gulberg (MALE)-I"
+        "name": "FAMILY WELFARE MIDDLE SCHOOL BEHIND OFFICE UC-204 K-BLOCK, Gulberg (MALE)-I",
+        "pti_turnout": 1381,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 319,
@@ -3741,7 +4315,9 @@
         "estVotesECP": 729,
         "riggingAdvantage": 600,
         "ecp_turnout": 1975,
-        "name": "FAMILY WELFARE MIDDLE SCHOOL BEHIND OFFICE UC-204 K-BLOCK, Gulberg (FEMALE)-I"
+        "name": "FAMILY WELFARE MIDDLE SCHOOL BEHIND OFFICE UC-204 K-BLOCK, Gulberg (FEMALE)-I",
+        "pti_turnout": 1272,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 320,
@@ -3754,12 +4330,14 @@
         "estVotesECP": 692,
         "riggingAdvantage": 600,
         "ecp_turnout": 887,
-        "name": "HAJVARI UNIVERSITY 43-Industrial Area Macca colony GULBERG LAHORE (Female)-I"
+        "name": "HAJVARI UNIVERSITY 43-Industrial Area Macca colony GULBERG LAHORE (Female)-I",
+        "pti_turnout": 1065,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 321,
         "registered": 2147,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "356",
         "ptiVotesECP": 510,
         "ptiVotesPTI": 510,
@@ -3767,7 +4345,9 @@
         "estVotesECP": 304,
         "riggingAdvantage": 0,
         "ecp_turnout": 988,
-        "name": "HAJVARI UNIVERSITY 43-Industrial Area Macca colony GULBERG LAHORE (Male)-II"
+        "name": "HAJVARI UNIVERSITY 43-Industrial Area Macca colony GULBERG LAHORE (Male)-II",
+        "pti_turnout": 2147,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 322,
@@ -3780,12 +4360,14 @@
         "estVotesECP": 1230,
         "riggingAdvantage": 938,
         "ecp_turnout": 1666,
-        "name": "HAJVARI UNIVERSITY 43-Industrial Area Macca colony GULBERG LAHORE (Female)-II"
+        "name": "HAJVARI UNIVERSITY 43-Industrial Area Macca colony GULBERG LAHORE (Female)-II",
+        "pti_turnout": 1903,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 323,
         "registered": 1409,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "358",
         "ptiVotesECP": 269,
         "ptiVotesPTI": 269,
@@ -3793,12 +4375,14 @@
         "estVotesECP": 224,
         "riggingAdvantage": 0,
         "ecp_turnout": 620,
-        "name": "Saint Thomas High School Street 6 Makkah Colony (MALE)-III"
+        "name": "Saint Thomas High School Street 6 Makkah Colony (MALE)-III",
+        "pti_turnout": 1409,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 325,
         "registered": 1400,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "360",
         "ptiVotesECP": 261,
         "ptiVotesPTI": 261,
@@ -3806,12 +4390,14 @@
         "estVotesECP": 53,
         "riggingAdvantage": 0,
         "ecp_turnout": 371,
-        "name": "University of Home Economics S Block Gulberg-II Lahore (Combined)-I"
+        "name": "University of Home Economics S Block Gulberg-II Lahore (Combined)-I",
+        "pti_turnout": 1401,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 326,
         "registered": 1182,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "361",
         "ptiVotesECP": 252,
         "ptiVotesPTI": 252,
@@ -3819,12 +4405,14 @@
         "estVotesECP": 94,
         "riggingAdvantage": 0,
         "ecp_turnout": 382,
-        "name": "Government Najaf High School RC Cola Factory Gulberg Lahore (Combined)-II"
+        "name": "Government Najaf High School RC Cola Factory Gulberg Lahore (Combined)-II",
+        "pti_turnout": 1182,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 327,
         "registered": 2006,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "362",
         "ptiVotesECP": 491,
         "ptiVotesPTI": 491,
@@ -3832,12 +4420,14 @@
         "estVotesECP": 278,
         "riggingAdvantage": 0,
         "ecp_turnout": 918,
-        "name": "MUMTAZ MEMORIAL GHSS 26-J GULBERG-III (Combined)-I"
+        "name": "MUMTAZ MEMORIAL GHSS 26-J GULBERG-III (Combined)-I",
+        "pti_turnout": 2006,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 328,
         "registered": 1279,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "363",
         "ptiVotesECP": 297,
         "ptiVotesPTI": 297,
@@ -3845,12 +4435,14 @@
         "estVotesECP": 137,
         "riggingAdvantage": 0,
         "ecp_turnout": 510,
-        "name": "MUMTAZ MEMORIAL GHSS 26-J GULBERG-III (MALE)-I"
+        "name": "MUMTAZ MEMORIAL GHSS 26-J GULBERG-III (MALE)-I",
+        "pti_turnout": 1279,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 329,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "364",
         "ptiVotesECP": 301,
         "ptiVotesPTI": 301,
@@ -3858,12 +4450,14 @@
         "estVotesECP": 109,
         "riggingAdvantage": 0,
         "ecp_turnout": 464,
-        "name": "MUMTAZ MEMORIAL GHSS 26-J GULBERG-III (FEMALE)-I"
+        "name": "MUMTAZ MEMORIAL GHSS 26-J GULBERG-III (FEMALE)-I",
+        "pti_turnout": 1292,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 330,
         "registered": 2296,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "365",
         "ptiVotesECP": 586,
         "ptiVotesPTI": 586,
@@ -3871,12 +4465,14 @@
         "estVotesECP": 270,
         "riggingAdvantage": 0,
         "ecp_turnout": 1056,
-        "name": "Amin Maktab School 54 J-Block, Gulberg-III, LAHORE (MALE)-I"
+        "name": "Amin Maktab School 54 J-Block, Gulberg-III, LAHORE (MALE)-I",
+        "pti_turnout": 2296,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 331,
         "registered": 2316,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "366",
         "ptiVotesECP": 442,
         "ptiVotesPTI": 442,
@@ -3884,12 +4480,14 @@
         "estVotesECP": 179,
         "riggingAdvantage": 0,
         "ecp_turnout": 770,
-        "name": "Amin Maktab School 54 J-Block, Gulberg-III, LAHORE (FEMALE)-I"
+        "name": "Amin Maktab School 54 J-Block, Gulberg-III, LAHORE (FEMALE)-I",
+        "pti_turnout": 2316,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 332,
         "registered": 1800,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "367",
         "ptiVotesECP": 269,
         "ptiVotesPTI": 269,
@@ -3897,7 +4495,9 @@
         "estVotesECP": 149,
         "riggingAdvantage": 0,
         "ecp_turnout": 466,
-        "name": "Government Girls High School, B-Block, Gulberg-II Lahore (Combined)-I"
+        "name": "Government Girls High School, B-Block, Gulberg-II Lahore (Combined)-I",
+        "pti_turnout": 1800,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 333,
@@ -3910,12 +4510,14 @@
         "estVotesECP": 370,
         "riggingAdvantage": 0,
         "ecp_turnout": 749,
-        "name": "FC COLLEAGE, Zahoor Elahi Rd, Gulberg III LAHORE (MALE)-I"
+        "name": "FC COLLEAGE, Zahoor Elahi Rd, Gulberg III LAHORE (MALE)-I",
+        "pti_turnout": 1823,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 334,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "369",
         "ptiVotesECP": 500,
         "ptiVotesPTI": 213,
@@ -3923,7 +4525,9 @@
         "estVotesECP": 100,
         "riggingAdvantage": -434,
         "ecp_turnout": 643,
-        "name": "FC COLLEAGE, Zahoor Elahi Rd, Gulberg III, LAHORE (FEMALE)-I"
+        "name": "FC COLLEAGE, Zahoor Elahi Rd, Gulberg III, LAHORE (FEMALE)-I",
+        "pti_turnout": 1644,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 335,
@@ -3936,12 +4540,14 @@
         "estVotesECP": 630,
         "riggingAdvantage": 500,
         "ecp_turnout": 835,
-        "name": "FC COLLEAGE, Zahoor Elahi Rd, Gulberg III LAHORE (MALE)-II"
+        "name": "FC COLLEAGE, Zahoor Elahi Rd, Gulberg III LAHORE (MALE)-II",
+        "pti_turnout": 987,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 336,
         "registered": 977,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "371",
         "ptiVotesECP": 124,
         "ptiVotesPTI": 124,
@@ -3949,12 +4555,14 @@
         "estVotesECP": 60,
         "riggingAdvantage": 0,
         "ecp_turnout": 213,
-        "name": "FC COLLEAGE, Zahoor Elahi Rd, Gulberg III, LAHORE (FEMALE)-II"
+        "name": "FC COLLEAGE, Zahoor Elahi Rd, Gulberg III, LAHORE (FEMALE)-II",
+        "pti_turnout": 984,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 338,
         "registered": 923,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "373",
         "ptiVotesECP": 1152,
         "ptiVotesPTI": 502,
@@ -3962,12 +4570,14 @@
         "estVotesECP": 251,
         "riggingAdvantage": -658,
         "ecp_turnout": 1581,
-        "name": "Government Girls Elementary School Chaudhary Colony Kachi Abadi Icchra Lahore (Male)-I"
+        "name": "Government Girls Elementary School Chaudhary Colony Kachi Abadi Icchra Lahore (Male)-I",
+        "pti_turnout": 2237,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 339,
         "registered": 2158,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "374",
         "ptiVotesECP": 396,
         "ptiVotesPTI": 396,
@@ -3975,12 +4585,14 @@
         "estVotesECP": 137,
         "riggingAdvantage": 0,
         "ecp_turnout": 696,
-        "name": "Government Girls Elementary School Chaudhary Colony Kachi Abadi Icchra Lahore (Female)-I"
+        "name": "Government Girls Elementary School Chaudhary Colony Kachi Abadi Icchra Lahore (Female)-I",
+        "pti_turnout": 2158,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 340,
         "registered": 953,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "375",
         "ptiVotesECP": 243,
         "ptiVotesPTI": 243,
@@ -3988,7 +4600,9 @@
         "estVotesECP": 99,
         "riggingAdvantage": 0,
         "ecp_turnout": 411,
-        "name": "British School 6-Peer Ghazi Road, Icchra, Lahore (COMBINED)-I"
+        "name": "British School 6-Peer Ghazi Road, Icchra, Lahore (COMBINED)-I",
+        "pti_turnout": 953,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 341,
@@ -4001,12 +4615,14 @@
         "estVotesECP": 401,
         "riggingAdvantage": 300,
         "ecp_turnout": 692,
-        "name": "Ideal Grammer School 65-Peer Ghazi Road, Lahore (COMBINED)-I"
+        "name": "Ideal Grammer School 65-Peer Ghazi Road, Lahore (COMBINED)-I",
+        "pti_turnout": 842,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 342,
         "registered": 1648,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "377",
         "ptiVotesECP": 290,
         "ptiVotesPTI": 290,
@@ -4014,12 +4630,14 @@
         "estVotesECP": 153,
         "riggingAdvantage": 0,
         "ecp_turnout": 533,
-        "name": "samanabad town office (Combined)-I"
+        "name": "samanabad town office (Combined)-I",
+        "pti_turnout": 1648,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 344,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "379",
         "ptiVotesECP": 502,
         "ptiVotesPTI": 336,
@@ -4027,12 +4645,14 @@
         "estVotesECP": 259,
         "riggingAdvantage": -81,
         "ecp_turnout": 923,
-        "name": "Government Girls Elementary School Chaudhary Colony Kachi Abadi Icchra Lahore (Male)-II"
+        "name": "Government Girls Elementary School Chaudhary Colony Kachi Abadi Icchra Lahore (Male)-II",
+        "pti_turnout": 1457,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 345,
         "registered": 1059,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "380",
         "ptiVotesECP": 233,
         "ptiVotesPTI": 233,
@@ -4040,12 +4660,14 @@
         "estVotesECP": 63,
         "riggingAdvantage": 0,
         "ecp_turnout": 366,
-        "name": "Government Girls Elementary School Chaudhary Colony Kachi Abadi Icchra Lahore (Female)-II"
+        "name": "Government Girls Elementary School Chaudhary Colony Kachi Abadi Icchra Lahore (Female)-II",
+        "pti_turnout": 1059,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 346,
         "registered": 1490,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "381",
         "ptiVotesECP": 311,
         "ptiVotesPTI": 311,
@@ -4053,12 +4675,14 @@
         "estVotesECP": 151,
         "riggingAdvantage": 0,
         "ecp_turnout": 555,
-        "name": "PICS Lyceum, Lahore (COMBINED)-I"
+        "name": "PICS Lyceum, Lahore (COMBINED)-I",
+        "pti_turnout": 1490,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 347,
         "registered": 1293,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "382",
         "ptiVotesECP": 324,
         "ptiVotesPTI": 324,
@@ -4066,12 +4690,14 @@
         "estVotesECP": 85,
         "riggingAdvantage": 0,
         "ecp_turnout": 547,
-        "name": "Pakistan Grammar School, 623.N Samanabad Lahore (COMBINED)-I"
+        "name": "Pakistan Grammar School, 623.N Samanabad Lahore (COMBINED)-I",
+        "pti_turnout": 1293,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 348,
         "registered": 887,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "383",
         "ptiVotesECP": 211,
         "ptiVotesPTI": 211,
@@ -4079,7 +4705,9 @@
         "estVotesECP": 113,
         "riggingAdvantage": 0,
         "ecp_turnout": 392,
-        "name": "Allied School, Daffodils Campus, 171-N Ghazali Road Samanabad, Lahore (MALE)-I"
+        "name": "Allied School, Daffodils Campus, 171-N Ghazali Road Samanabad, Lahore (MALE)-I",
+        "pti_turnout": 887,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 349,
@@ -4092,12 +4720,14 @@
         "estVotesECP": 461,
         "riggingAdvantage": 400,
         "ecp_turnout": 730,
-        "name": "Allied School, Daffodils Campus, 950-N Goal Chakar No.03 Choudhary Colony Samanabad, Lahore (Female)-I"
+        "name": "Allied School, Daffodils Campus, 950-N Goal Chakar No.03 Choudhary Colony Samanabad, Lahore (Female)-I",
+        "pti_turnout": 895,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 350,
         "registered": 1286,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "385",
         "ptiVotesECP": 261,
         "ptiVotesPTI": 261,
@@ -4105,12 +4735,14 @@
         "estVotesECP": 130,
         "riggingAdvantage": 0,
         "ecp_turnout": 546,
-        "name": "Scholar Islamic Public School Haji Colony Near National Bank Nadeem Shaheed Road Samanabad, Lahore (Male)-I"
+        "name": "Scholar Islamic Public School Haji Colony Near National Bank Nadeem Shaheed Road Samanabad, Lahore (Male)-I",
+        "pti_turnout": 1286,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 351,
         "registered": 1160,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "386",
         "ptiVotesECP": 178,
         "ptiVotesPTI": 178,
@@ -4118,12 +4750,14 @@
         "estVotesECP": 53,
         "riggingAdvantage": 0,
         "ecp_turnout": 353,
-        "name": "Scholar Islamic Public School Haji Colony Near National Bank Nadeem Shaheed Road Samanabad, Lahore (Female)-I"
+        "name": "Scholar Islamic Public School Haji Colony Near National Bank Nadeem Shaheed Road Samanabad, Lahore (Female)-I",
+        "pti_turnout": 1160,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 352,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "387",
         "ptiVotesECP": 386,
         "ptiVotesPTI": 386,
@@ -4131,7 +4765,9 @@
         "estVotesECP": 199,
         "riggingAdvantage": 0,
         "ecp_turnout": 713,
-        "name": "Government Sulemania Model Primary School Samanabad, Lahore (MALE)-I"
+        "name": "Government Sulemania Model Primary School Samanabad, Lahore (MALE)-I",
+        "pti_turnout": 1488,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 353,
@@ -4144,7 +4780,9 @@
         "estVotesECP": 776,
         "riggingAdvantage": 700,
         "ecp_turnout": 1091,
-        "name": "Government Sulemania Model Primary School Samanabad, Lahore (FEMALE)-I"
+        "name": "Government Sulemania Model Primary School Samanabad, Lahore (FEMALE)-I",
+        "pti_turnout": 1280,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 354,
@@ -4157,7 +4795,9 @@
         "estVotesECP": 365,
         "riggingAdvantage": 300,
         "ecp_turnout": 635,
-        "name": "Native School Ahmad Munir Shaheed Road Ichra Lahore (Combined)-I"
+        "name": "Native School Ahmad Munir Shaheed Road Ichra Lahore (Combined)-I",
+        "pti_turnout": 745,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 355,
@@ -4170,7 +4810,9 @@
         "estVotesECP": 469,
         "riggingAdvantage": 300,
         "ecp_turnout": 836,
-        "name": "SMS Model School Gunj Buksh Ichar School Lahore (Male)-I"
+        "name": "SMS Model School Gunj Buksh Ichar School Lahore (Male)-I",
+        "pti_turnout": 1178,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 356,
@@ -4183,12 +4825,14 @@
         "estVotesECP": 491,
         "riggingAdvantage": 400,
         "ecp_turnout": 347,
-        "name": "SMS Model School Gunj Buksh Ichar School Lahore (Female)-I"
+        "name": "SMS Model School Gunj Buksh Ichar School Lahore (Female)-I",
+        "pti_turnout": 997,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 357,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "392",
         "ptiVotesECP": 283,
         "ptiVotesPTI": 283,
@@ -4196,12 +4840,14 @@
         "estVotesECP": 216,
         "riggingAdvantage": 0,
         "ecp_turnout": 619,
-        "name": "Ahsan Foundation Model School Gunj Buksh Ichar Lahore (Male)-I"
+        "name": "Ahsan Foundation Model School Gunj Buksh Ichar Lahore (Male)-I",
+        "pti_turnout": 1372,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 358,
         "registered": 1300,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "393",
         "ptiVotesECP": 216,
         "ptiVotesPTI": 216,
@@ -4209,7 +4855,9 @@
         "estVotesECP": 107,
         "riggingAdvantage": 0,
         "ecp_turnout": 392,
-        "name": "Ahsan Foundation Model School Gunj Buksh Ichar Lahore (Female)-I"
+        "name": "Ahsan Foundation Model School Gunj Buksh Ichar Lahore (Female)-I",
+        "pti_turnout": 1209,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 359,
@@ -4222,12 +4870,14 @@
         "estVotesECP": 860,
         "riggingAdvantage": 600,
         "ecp_turnout": 1757,
-        "name": "Al-Munawar Public High School Shah Kamal Road Lahore (COMBINED)-I"
+        "name": "Al-Munawar Public High School Shah Kamal Road Lahore (COMBINED)-I",
+        "pti_turnout": 1769,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 360,
         "registered": 1785,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "395",
         "ptiVotesECP": 420,
         "ptiVotesPTI": 420,
@@ -4235,12 +4885,14 @@
         "estVotesECP": 164,
         "riggingAdvantage": 0,
         "ecp_turnout": 700,
-        "name": "Al Azhar Academy Lahore (COMBINED)-I"
+        "name": "Al Azhar Academy Lahore (COMBINED)-I",
+        "pti_turnout": 1785,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 361,
         "registered": 940,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "396",
         "ptiVotesECP": 455,
         "ptiVotesPTI": 455,
@@ -4248,7 +4900,9 @@
         "estVotesECP": 303,
         "riggingAdvantage": 0,
         "ecp_turnout": 940,
-        "name": "City District Govt. Boys High School Takia Lehri Shah, Lahore. (Male)-I"
+        "name": "City District Govt. Boys High School Takia Lehri Shah, Lahore. (Male)-I",
+        "pti_turnout": 1967,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 362,
@@ -4261,7 +4915,9 @@
         "estVotesECP": 830,
         "riggingAdvantage": 600,
         "ecp_turnout": 1310,
-        "name": "City District Govt. Boys High School Takia Lehri Shah, Lahore. (Female)-I"
+        "name": "City District Govt. Boys High School Takia Lehri Shah, Lahore. (Female)-I",
+        "pti_turnout": 1759,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 364,
@@ -4274,7 +4930,9 @@
         "estVotesECP": 1146,
         "riggingAdvantage": 1000,
         "ecp_turnout": 1628,
-        "name": "City District Govt. Boys High School Takia Lehri Shah, Lahore. (Female)-II"
+        "name": "City District Govt. Boys High School Takia Lehri Shah, Lahore. (Female)-II",
+        "pti_turnout": 1743,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 366,
@@ -4287,12 +4945,14 @@
         "estVotesECP": 1545,
         "riggingAdvantage": 1568,
         "ecp_turnout": 1802,
-        "name": "Samanabad Girls College Samanabad (Male)-II"
+        "name": "Samanabad Girls College Samanabad (Male)-II",
+        "pti_turnout": 2091,
+        "pti_winner": "Salman Akram Raja"
     },
     {
         "index": 367,
         "registered": 2200,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "402",
         "ptiVotesECP": 402,
         "ptiVotesPTI": 416,
@@ -4300,12 +4960,14 @@
         "estVotesECP": 138,
         "riggingAdvantage": 12,
         "ecp_turnout": 653,
-        "name": "Samanabad Girls College Samanabad (Female)-I"
+        "name": "Samanabad Girls College Samanabad (Female)-I",
+        "pti_turnout": 2200,
+        "pti_winner": "Salman Akram Raja"
     },
     {
         "index": 368,
         "registered": 2233,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "403",
         "ptiVotesECP": 343,
         "ptiVotesPTI": 343,
@@ -4313,12 +4975,14 @@
         "estVotesECP": 180,
         "riggingAdvantage": 100,
         "ecp_turnout": 904,
-        "name": "Samanabad Girls College Samanabad (Female)-II"
+        "name": "Samanabad Girls College Samanabad (Female)-II",
+        "pti_turnout": 2233,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 369,
         "registered": 962,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "404",
         "ptiVotesECP": 192,
         "ptiVotesPTI": 192,
@@ -4326,12 +4990,14 @@
         "estVotesECP": 101,
         "riggingAdvantage": 0,
         "ecp_turnout": 395,
-        "name": "Government Post Graduate College for women Samanabad Lahore (Combined)-I"
+        "name": "Government Post Graduate College for women Samanabad Lahore (Combined)-I",
+        "pti_turnout": 962,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 371,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "406",
         "ptiVotesECP": 387,
         "ptiVotesPTI": 387,
@@ -4339,7 +5005,9 @@
         "estVotesECP": 159,
         "riggingAdvantage": 0,
         "ecp_turnout": 665,
-        "name": "Government Post Graduate College for women Samanabad Lahore (Female)-I"
+        "name": "Government Post Graduate College for women Samanabad Lahore (Female)-I",
+        "pti_turnout": 1940,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 372,
@@ -4352,12 +5020,14 @@
         "estVotesECP": 301,
         "riggingAdvantage": 100,
         "ecp_turnout": 593,
-        "name": "Government Sulemania Public High School, Samanabad, Lahore (Combined)-II"
+        "name": "Government Sulemania Public High School, Samanabad, Lahore (Combined)-II",
+        "pti_turnout": 1390,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 373,
         "registered": 1200,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "408",
         "ptiVotesECP": 236,
         "ptiVotesPTI": 236,
@@ -4365,7 +5035,9 @@
         "estVotesECP": 153,
         "riggingAdvantage": 0,
         "ecp_turnout": 518,
-        "name": "Government Post Graduate College for women Samanabad Lahore (Combined)-II"
+        "name": "Government Post Graduate College for women Samanabad Lahore (Combined)-II",
+        "pti_turnout": 1200,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 374,
@@ -4378,12 +5050,14 @@
         "estVotesECP": 789,
         "riggingAdvantage": 700,
         "ecp_turnout": 1184,
-        "name": "Government Sulemania Public High School, Samanabad, Lahore (Female)-I"
+        "name": "Government Sulemania Public High School, Samanabad, Lahore (Female)-I",
+        "pti_turnout": 1209,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 375,
         "registered": 1259,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "410",
         "ptiVotesECP": 370,
         "ptiVotesPTI": 370,
@@ -4391,7 +5065,9 @@
         "estVotesECP": 162,
         "riggingAdvantage": 0,
         "ecp_turnout": 652,
-        "name": "Government Sulemania Public High School, Samanabad, Lahore (Male)-I"
+        "name": "Government Sulemania Public High School, Samanabad, Lahore (Male)-I",
+        "pti_turnout": 1259,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 376,
@@ -4404,12 +5080,14 @@
         "estVotesECP": 387,
         "riggingAdvantage": 300,
         "ecp_turnout": 743,
-        "name": "Government Sulemania Public High School, Samanabad, Lahore (Combined)-III"
+        "name": "Government Sulemania Public High School, Samanabad, Lahore (Combined)-III",
+        "pti_turnout": 989,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 377,
         "registered": 1218,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "412",
         "ptiVotesECP": 276,
         "ptiVotesPTI": 276,
@@ -4417,12 +5095,14 @@
         "estVotesECP": 131,
         "riggingAdvantage": 0,
         "ecp_turnout": 1005,
-        "name": "Government Sulemania Public High School, Samanabad, Lahore (Combined)-IV"
+        "name": "Government Sulemania Public High School, Samanabad, Lahore (Combined)-IV",
+        "pti_turnout": 1218,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 378,
         "registered": 2274,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "413",
         "ptiVotesECP": 337,
         "ptiVotesPTI": 337,
@@ -4430,12 +5110,14 @@
         "estVotesECP": 117,
         "riggingAdvantage": 0,
         "ecp_turnout": 552,
-        "name": "Lahore Cambridge School Zalidar Road Lahore (Female)-I"
+        "name": "Lahore Cambridge School Zalidar Road Lahore (Female)-I",
+        "pti_turnout": 2274,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 379,
         "registered": 2230,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "414",
         "ptiVotesECP": 433,
         "ptiVotesPTI": 433,
@@ -4443,12 +5125,14 @@
         "estVotesECP": 182,
         "riggingAdvantage": 0,
         "ecp_turnout": 741,
-        "name": "Lahore Cambridge School Zalidar Road Lahore (Male)-I"
+        "name": "Lahore Cambridge School Zalidar Road Lahore (Male)-I",
+        "pti_turnout": 2230,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 380,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "415",
         "ptiVotesECP": 458,
         "ptiVotesPTI": 468,
@@ -4456,12 +5140,14 @@
         "estVotesECP": 240,
         "riggingAdvantage": 10,
         "ecp_turnout": 859,
-        "name": "Lahore Cambridge School Zalidar Road Lahore (Male)-II"
+        "name": "Lahore Cambridge School Zalidar Road Lahore (Male)-II",
+        "pti_turnout": 2413,
+        "pti_winner": "Salman Akram Raja"
     },
     {
         "index": 381,
         "registered": 2001,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "416",
         "ptiVotesECP": 266,
         "ptiVotesPTI": 266,
@@ -4469,12 +5155,14 @@
         "estVotesECP": 167,
         "riggingAdvantage": 0,
         "ecp_turnout": 519,
-        "name": "Lahore Cambridge School Zalidar Road Lahore (Female)-II"
+        "name": "Lahore Cambridge School Zalidar Road Lahore (Female)-II",
+        "pti_turnout": 2001,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 382,
         "registered": null,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "417",
         "ptiVotesECP": 416,
         "ptiVotesPTI": 416,
@@ -4482,7 +5170,9 @@
         "estVotesECP": 123,
         "riggingAdvantage": -116,
         "ecp_turnout": 685,
-        "name": "Pak Pioneer School Lahore (Male)-I"
+        "name": "Pak Pioneer School Lahore (Male)-I",
+        "pti_turnout": 2112,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 383,
@@ -4495,12 +5185,14 @@
         "estVotesECP": 1152,
         "riggingAdvantage": 1000,
         "ecp_turnout": 1506,
-        "name": "Pak Pioneer School Lahore (Female)-I"
+        "name": "Pak Pioneer School Lahore (Female)-I",
+        "pti_turnout": 1747,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 384,
         "registered": 1325,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "419",
         "ptiVotesECP": 305,
         "ptiVotesPTI": 305,
@@ -4508,7 +5200,9 @@
         "estVotesECP": 190,
         "riggingAdvantage": 0,
         "ecp_turnout": 558,
-        "name": "Pak Pioneer School Lahore (Male)-II"
+        "name": "Pak Pioneer School Lahore (Male)-II",
+        "pti_turnout": 1325,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 385,
@@ -4521,7 +5215,9 @@
         "estVotesECP": 940,
         "riggingAdvantage": 800,
         "ecp_turnout": 1223,
-        "name": "Pak Pioneer School Lahore (Female)-II"
+        "name": "Pak Pioneer School Lahore (Female)-II",
+        "pti_turnout": 1333,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 386,
@@ -4534,7 +5230,9 @@
         "estVotesECP": 484,
         "riggingAdvantage": 300,
         "ecp_turnout": 852,
-        "name": "Standar Model School Pir Ghazi Road Ichhra Lahore (Male)-I"
+        "name": "Standar Model School Pir Ghazi Road Ichhra Lahore (Male)-I",
+        "pti_turnout": 1237,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 387,
@@ -4547,7 +5245,9 @@
         "estVotesECP": 709,
         "riggingAdvantage": 600,
         "ecp_turnout": 965,
-        "name": "Standar Model School Pir Ghazi Road Ichhra Lahore (Female)-I"
+        "name": "Standar Model School Pir Ghazi Road Ichhra Lahore (Female)-I",
+        "pti_turnout": 1165,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 388,
@@ -4560,12 +5260,14 @@
         "estVotesECP": 813,
         "riggingAdvantage": 600,
         "ecp_turnout": 1306,
-        "name": "Kinz Ul Iman Beacon School Rana Street Aziz Park Muhammad Pura Ichra, Lahore (MALE)-I"
+        "name": "Kinz Ul Iman Beacon School Rana Street Aziz Park Muhammad Pura Ichra, Lahore (MALE)-I",
+        "pti_turnout": 1760,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 389,
         "registered": 1658,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "424",
         "ptiVotesECP": 225,
         "ptiVotesPTI": 225,
@@ -4573,12 +5275,14 @@
         "estVotesECP": 149,
         "riggingAdvantage": 0,
         "ecp_turnout": 446,
-        "name": "Kinz Ul Iman Beacon School Rana Street Aziz Park Muhammad Pura Ichra, Lahore (FEMALE)-I"
+        "name": "Kinz Ul Iman Beacon School Rana Street Aziz Park Muhammad Pura Ichra, Lahore (FEMALE)-I",
+        "pti_turnout": 1658,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 390,
         "registered": 960,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "425",
         "ptiVotesECP": 133,
         "ptiVotesPTI": 133,
@@ -4586,12 +5290,14 @@
         "estVotesECP": 62,
         "riggingAdvantage": 0,
         "ecp_turnout": 250,
-        "name": "Kinz Ul Iman Beacon School Rana Street Aziz Park Muhammad Pura Ichra, Lahore (FEMALE)-II"
+        "name": "Kinz Ul Iman Beacon School Rana Street Aziz Park Muhammad Pura Ichra, Lahore (FEMALE)-II",
+        "pti_turnout": 960,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 391,
         "registered": 1006,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "426",
         "ptiVotesECP": 186,
         "ptiVotesPTI": 186,
@@ -4599,12 +5305,14 @@
         "estVotesECP": 124,
         "riggingAdvantage": 0,
         "ecp_turnout": 407,
-        "name": "Kinz Ul Iman Beacon School Rana Street Aziz Park Muhammad Pura Ichra, Lahore (MALE)-II"
+        "name": "Kinz Ul Iman Beacon School Rana Street Aziz Park Muhammad Pura Ichra, Lahore (MALE)-II",
+        "pti_turnout": 1006,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 392,
         "registered": 1486,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "427",
         "ptiVotesECP": 263,
         "ptiVotesPTI": 263,
@@ -4612,7 +5320,9 @@
         "estVotesECP": 223,
         "riggingAdvantage": 0,
         "ecp_turnout": 604,
-        "name": "Government Shahab-ud-Din Girls High School, Shah Kamal Road, Combo Colony, Lahore. (MALE)-I"
+        "name": "Government Shahab-ud-Din Girls High School, Shah Kamal Road, Combo Colony, Lahore. (MALE)-I",
+        "pti_turnout": 1486,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 393,
@@ -4625,12 +5335,14 @@
         "estVotesECP": 723,
         "riggingAdvantage": 600,
         "ecp_turnout": 967,
-        "name": "Government Shahab-ud-Din Girls High School, Shah Kamal Road, Combo Colony, Lahore. (FEMALE)-I"
+        "name": "Government Shahab-ud-Din Girls High School, Shah Kamal Road, Combo Colony, Lahore. (FEMALE)-I",
+        "pti_turnout": 1271,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 394,
         "registered": 2125,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "429",
         "ptiVotesECP": 362,
         "ptiVotesPTI": 362,
@@ -4638,12 +5350,14 @@
         "estVotesECP": 204,
         "riggingAdvantage": 0,
         "ecp_turnout": 676,
-        "name": "Native School Ahmad Munir Shaheed Road Ichra Lahore (Combined)-I"
+        "name": "Native School Ahmad Munir Shaheed Road Ichra Lahore (Combined)-I",
+        "pti_turnout": 2125,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 395,
         "registered": 1714,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "430",
         "ptiVotesECP": 343,
         "ptiVotesPTI": 343,
@@ -4651,7 +5365,9 @@
         "estVotesECP": 155,
         "riggingAdvantage": 0,
         "ecp_turnout": 631,
-        "name": "Government Shahbad-ud-Din Girls High School, Shah Kamal Road, Rawan Lahore (Male)-I"
+        "name": "Government Shahbad-ud-Din Girls High School, Shah Kamal Road, Rawan Lahore (Male)-I",
+        "pti_turnout": 1714,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 396,
@@ -4664,12 +5380,14 @@
         "estVotesECP": 892,
         "riggingAdvantage": 800,
         "ecp_turnout": 1188,
-        "name": "Government Shahbad-ud-Din Girls High School, Shah Kamal Road, Rawan Lahore (Female)-I"
+        "name": "Government Shahbad-ud-Din Girls High School, Shah Kamal Road, Rawan Lahore (Female)-I",
+        "pti_turnout": 1530,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 397,
         "registered": 1557,
-        "ecp_winner": "Muhammad Aun Saqlain Chaudhry",
+        "ecp_winner": "Salman Akram Raja",
         "psno": "432",
         "ptiVotesECP": 321,
         "ptiVotesPTI": 321,
@@ -4677,7 +5395,9 @@
         "estVotesECP": 148,
         "riggingAdvantage": 0,
         "ecp_turnout": 649,
-        "name": "Government Shahab-ud-Din Girls High School, Shah Kamal Road, Combo Colony, Lahore. (MALE)-II"
+        "name": "Government Shahab-ud-Din Girls High School, Shah Kamal Road, Combo Colony, Lahore. (MALE)-II",
+        "pti_turnout": 1557,
+        "pti_winner": "Muhammad Aun Saqlain Chaudhry"
     },
     {
         "index": 398,
@@ -4690,6 +5410,8 @@
         "estVotesECP": 959,
         "riggingAdvantage": 1033,
         "ecp_turnout": 1155,
-        "name": "Government Shahab-ud-Din Girls High School, Shah Kamal Road, Combo Colony, Lahore. (FEMALE)-II"
+        "name": "Government Shahab-ud-Din Girls High School, Shah Kamal Road, Combo Colony, Lahore. (FEMALE)-II",
+        "pti_turnout": 1416,
+        "pti_winner": "Salman Akram Raja"
     }
 ]

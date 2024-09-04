@@ -50,8 +50,10 @@ import BarChart from './barChart'
 const tableData = data.map((d, i) => (
     {
         ...d,
-        ecpPercentageTurnout: ((d.ecp_turnout/ d.registered) * 100)
+        ecpPercentageTurnout: ((d.ecp_turnout/ d.registered) * 100),
+        ptiPercentageTurnout: ((d.pti_turnout/ d.registered) * 100)
     }))
+    .filter(d => Number.isInteger(d.registered))
 
 console.log(tableData);
 
@@ -68,7 +70,7 @@ export const columns = [
     {
         accessorKey: "name",
         id: "ps",
-        size: 50,
+        size: 300,
         header: ({ column }) => <ColumnHeader column={column} title="Polling Station Name" />,
         cell: ({ row }) => <div className="capitalize">{row.getValue("ps")}</div>,
         enableSorting: false
@@ -112,6 +114,37 @@ export const columns = [
         id: "ecp_winner",
         cell: ({ row }) => (
             <div className="capitalize">{row.getValue("ecp_winner")}</div>
+        ),
+        enableSorting: true
+    },
+    {
+        accessorKey: "pti_turnout",
+        id: "pti_turnout",
+        header: ({ column }) => <ColumnHeader column={column} title="PTI Turnout" />,
+        cell: ({ row }) => {
+            const amount = parseInt(row.getValue("pti_turnout"))
+
+            return <div className="font-medium">{amount}</div>
+        },
+        enableSorting: true
+    },
+    {
+        accessorKey: "ptiPercentageTurnout",
+        id: "ptiPercentageTurnout",
+        header: ({ column }) => <ColumnHeader column={column} title="PTI Turnout Percentage" />,
+        cell: ({ row }) => {
+            const amount = parseInt(row.getValue("ptiPercentageTurnout"))
+
+            return <div className="font-medium">{amount.toFixed(2)} %</div>
+        },
+        enableSorting: true
+    },
+    {
+        accessorKey: "pti_winner",
+        header: ({ column }) => <ColumnHeader column={column} title="PTI Winner" />,
+        id: "pti_winner",
+        cell: ({ row }) => (
+            <div className="capitalize">{row.getValue("pti_winner")}</div>
         ),
         enableSorting: true
     }
@@ -179,9 +212,9 @@ export default function DataTableDemo() {
                         {table.getHeaderGroups().map((headerGroup) => (
                             <TableRow key={headerGroup.id}>
                                 {headerGroup.headers.map((header) => {
-                                    console.log(header.getSize())
-                                    return (
-                                        <TableHead className="max-w-[50%] min-w-[15%]" key={header.id}>
+                                    const minSize = header.getSize() || 0;
+                                    return ( 
+                                        <TableHead className="max-w-[50%] min-w-[15%]" style={{minWidth : minSize}} stylekey={header.id}>
                                             {header.isPlaceholder
                                                 ? null
                                                 : flexRender(
