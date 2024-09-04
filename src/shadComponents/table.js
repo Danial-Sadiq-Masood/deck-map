@@ -214,7 +214,7 @@ export default function DataTableDemo() {
                                 {headerGroup.headers.map((header) => {
                                     const minSize = header.getSize() || 0;
                                     return ( 
-                                        <TableHead className="max-w-[50%] min-w-[15%]" style={{minWidth : minSize}} stylekey={header.id}>
+                                        <TableHead key={header.id} className="max-w-[50%] min-w-[15%]" style={{minWidth : minSize}} stylekey={header.id}>
                                             {header.isPlaceholder
                                                 ? null
                                                 : flexRender(
