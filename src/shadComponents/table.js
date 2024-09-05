@@ -116,7 +116,7 @@ export const columns = [
             <div className="capitalize">{row.getValue("ecp_winner")}</div>
         ),
         enableSorting: true
-    },
+    }/*,
     {
         accessorKey: "pti_turnout",
         id: "pti_turnout",
