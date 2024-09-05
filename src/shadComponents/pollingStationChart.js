@@ -38,11 +38,11 @@ console.log(stationsData)
 const pollingChartData = {
     pti : [
         {winner : 'PTI', stationsWon : stationsData.pti.ptiWins, fill : "hsl(var(--chart-1))"},
-        {winner : 'EST', stationsWon : stationsData.pti.estWins, fill : "hsl(var(--chart-2))"}  
+        {winner : 'IPP', stationsWon : stationsData.pti.estWins, fill : "hsl(var(--chart-2))"}  
     ],
     est : [
         {winner : 'PTI', stationsWon : stationsData.est.ptiWins, fill : "hsl(var(--chart-1))"},
-        {winner : 'EST', stationsWon : stationsData.est.estWins, fill : "hsl(var(--chart-2))"}  
+        {winner : 'IPP', stationsWon : stationsData.est.estWins, fill : "hsl(var(--chart-2))"}  
     ],
 }
 
