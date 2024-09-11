@@ -45,7 +45,14 @@ import {
 
 import data from './turnout.json'
 
+import pattan from './pattan.json'
+
 import BarChart from './barChart'
+
+const pattanMap = pattan.reduce((acc,d)=>{
+    acc[d.psno] = d
+    return acc;
+}, {});
 
 const tableData = data.map((d, i) => (
     {
@@ -53,9 +60,19 @@ const tableData = data.map((d, i) => (
         ecpPercentageTurnout: ((d.ecp_turnout/ d.registered) * 100),
         ptiPercentageTurnout: ((d.pti_turnout/ d.registered) * 100)
     }))
-    .filter(d => Number.isInteger(d.registered))
+    //.filter(d => pattanMap[d.ps])
 
-console.log(tableData);
+console.log(tableData, 'table data');
+
+tableData.forEach(d => {
+    if(!pattanMap[d.psno]){
+        return;
+    }
+    d.pattanNaTurnout = pattanMap[d.psno]['NA-128 Turnout'] || NaN;
+    d.pattanPaTurnout = pattanMap[d.psno]['5/PPs Turnout'] || NaN;
+});
+
+console.log(pattanMap);
 
 export const columns = [
     {
@@ -89,7 +106,7 @@ export const columns = [
     {
         accessorKey: "ecp_turnout",
         id: "ecp_turnout",
-        header: ({ column }) => <ColumnHeader column={column} title="ECP Turnout" />,
+        header: ({ column }) => <ColumnHeader column={column} title="NA Turnout" />,
         cell: ({ row }) => {
             const amount = parseInt(row.getValue("ecp_turnout"))
 
@@ -100,9 +117,20 @@ export const columns = [
     {
         accessorKey: "ecpPercentageTurnout",
         id: "ecpPercentageTurnout",
-        header: ({ column }) => <ColumnHeader column={column} title="ECP Turnout Percentage" />,
+        header: ({ column }) => <ColumnHeader column={column} title="NA Turnout Percentage" />,
         cell: ({ row }) => {
             const amount = parseInt(row.getValue("ecpPercentageTurnout"))
+
+            return <div className="font-medium">{amount.toFixed(2)} %</div>
+        },
+        enableSorting: true
+    },
+    {
+        accessorKey: "pattanPaTurnout",
+        id: "pattanPaTurnout",
+        header: ({ column }) => <ColumnHeader column={column} title="PA Turnout Percentage" />,
+        cell: ({ row }) => {
+            const amount = parseInt(row.getValue("pattanPaTurnout"))
 
             return <div className="font-medium">{amount.toFixed(2)} %</div>
         },
@@ -212,9 +240,9 @@ export default function DataTableDemo() {
                         {table.getHeaderGroups().map((headerGroup) => (
                             <TableRow key={headerGroup.id}>
                                 {headerGroup.headers.map((header) => {
-                                    const minSize = header.getSize() || 0;
+                                    const minSize = header.getSize() || 20;
                                     return ( 
-                                        <TableHead key={header.id} className="max-w-[50%] min-w-[15%]" style={{minWidth : minSize}} stylekey={header.id}>
+                                        <TableHead key={header.id} className="max-w-[50%] min-w-[10px]" stylekey={header.id}>
                                             {header.isPlaceholder
                                                 ? null
                                                 : flexRender(

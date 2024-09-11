@@ -17,34 +17,11 @@ import {
     ChartTooltipContent,
 } from "@/components/ui/chart";
 
-import data from './turnout.json'
 
-const stationsData = data.reduce((acc, d) => {
-    if (d.ptiWinnerParty === 'PTI') {
-        acc.pti.ptiWins += 1
-    } else {
-        acc.pti.estWins += 1
-    }
-    if (d.ecpWinnerParty === 'PTI') {
-        acc.est.ptiWins += 1
-    } else {
-        acc.est.estWins += 1
-    }
-    return acc;
-}, { pti: { ptiWins: 0, estWins: 0 }, est: { ptiWins: 0, estWins: 0 } })
-
-console.log(stationsData)
-
-const pollingChartData = {
-    pti: [
-        { winner: 'PTI', stationsWon: stationsData.pti.ptiWins, fill: "hsl(var(--chart-1))" },
-        { winner: 'IPP', stationsWon: stationsData.pti.estWins, fill: "hsl(var(--chart-2))" }
-    ],
-    est: [
-        { winner: 'PTI', stationsWon: stationsData.est.ptiWins, fill: "hsl(var(--chart-1))" },
-        { winner: 'IPP', stationsWon: stationsData.est.estWins, fill: "hsl(var(--chart-2))" }
-    ] 
-}
+const pollingChartData = [
+    { seat: 'National', turnout: 76, fill: "hsl(var(--chart-1))" },
+    { seat: 'Provincial', turnout: 45, fill: "hsl(var(--chart-2))" }
+]
 
 const chartData = [
     { browser: "chrome", visitors: 275, fill: "var(--color-chrome)" },
@@ -55,8 +32,8 @@ const chartData = [
 ];
 
 const chartConfig = {
-    stationsWon: {
-        label: "Stations Won",
+    turnout: {
+        label: "Turnout % :",
     },
     chrome: {
         label: "Chrome",
@@ -80,7 +57,7 @@ const chartConfig = {
     },
 };
 
-export default function Component({ title, chartKey }) {
+export default function Component({ title }) {
     return (
         <Card>
             <CardHeader>
@@ -90,27 +67,27 @@ export default function Component({ title, chartKey }) {
                 <ChartContainer className="max-h-[8rem] max-w-[20rem]" config={chartConfig}>
                     <BarChart
                         accessibilityLayer
-                        data={pollingChartData[chartKey]}
+                        data={pollingChartData}
                         layout="vertical"
                         margin={{
-                            left: 0,
+                            left: 10,
                         }}
                         barSize={30}
                     >
                         <YAxis
                             width={60}
-                            dataKey="winner"
+                            dataKey="seat"
                             type="category"
                             tickLine={false}
                             tickMargin={10}
                             axisLine={false}
                         />
-                        <XAxis dataKey="stationsWon" type="number" hide />
+                        <XAxis dataKey="turnout" type="number" hide />
                         <ChartTooltip
                             cursor={false}
                             content={<ChartTooltipContent hideLabel />}
                         />
-                        <Bar dataKey="stationsWon" layout="vertical" radius={5} />
+                        <Bar dataKey="turnout" layout="vertical" radius={5} />
                     </BarChart>
                 </ChartContainer>
             </CardContent>

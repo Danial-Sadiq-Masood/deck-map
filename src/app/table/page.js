@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/card"
 
 import PollingStationChart from '@/shadComponents/pollingStationChart'
+import AvgTurnoutChart from '@/shadComponents/avgTurnoutChart'
 
 const HomePage = () => {
 
@@ -24,7 +25,7 @@ const HomePage = () => {
                     <CardTitle className="text-2xl">Polling Station Votes Breakdown</CardTitle>
                     <div className='flex gap-4'>
                         <PollingStationChart chartKey="pti" title="Polling Stations Results According to PTI"/>
-                        <PollingStationChart chartKey="est" title="Polling Stations Results According to ECP"/>
+                        <AvgTurnoutChart title="Average National vs Provincial Turnout"/>
                     </div>
                 </CardHeader>
                 <CardContent>
