@@ -47,6 +47,8 @@ import data from './turnout.json'
 
 import pattan from './pattan.json'
 
+import na130tbl from './130tblfixed.json'
+
 import BarChart from './barChart'
 
 const pattanMap = pattan.reduce((acc,d)=>{
@@ -85,7 +87,7 @@ export const columns = [
         enableSorting: true
     },
     {
-        accessorKey: "name",
+        accessorKey: "Polling Station Name",
         id: "ps",
         size: 300,
         header: ({ column }) => <ColumnHeader column={column} title="Polling Station Name" />,
@@ -93,7 +95,7 @@ export const columns = [
         enableSorting: false
     },
     {
-        accessorKey: "registered",
+        accessorKey: "Total Voters",
         id: "registered",
         header: ({ column }) => <ColumnHeader column={column} title="Registered Voters" />,
         cell: ({ row }) => {
@@ -104,40 +106,29 @@ export const columns = [
         enableSorting: true
     },
     {
-        accessorKey: "ecp_turnout",
-        id: "ecp_turnout",
+        accessorKey: "turnout",
+        id: "turnout",
         header: ({ column }) => <ColumnHeader column={column} title="NA Turnout" />,
         cell: ({ row }) => {
-            const amount = parseInt(row.getValue("ecp_turnout"))
+            const amount = parseInt(row.getValue("turnout"))
 
             return <div className="font-medium">{amount}</div>
         },
         enableSorting: true
     },
     {
-        accessorKey: "ecpPercentageTurnout",
+        accessorKey: "turnout_percent",
         id: "ecpPercentageTurnout",
-        header: ({ column }) => <ColumnHeader column={column} title="NA Turnout Percentage" />,
+        header: ({ column }) => <ColumnHeader column={column} title="Turnout Percentage" />,
         cell: ({ row }) => {
-            const amount = parseInt(row.getValue("ecpPercentageTurnout"))
+            const amount = parseFloat(row.getValue("ecpPercentageTurnout")) *100
 
             return <div className="font-medium">{amount.toFixed(2)} %</div>
         },
         enableSorting: true
     },
     {
-        accessorKey: "pattanPaTurnout",
-        id: "pattanPaTurnout",
-        header: ({ column }) => <ColumnHeader column={column} title="PA Turnout Percentage" />,
-        cell: ({ row }) => {
-            const amount = parseInt(row.getValue("pattanPaTurnout"))
-
-            return <div className="font-medium">{amount.toFixed(2)} %</div>
-        },
-        enableSorting: true
-    },
-    {
-        accessorKey: "ecp_winner",
+        accessorKey: "winner",
         header: ({ column }) => <ColumnHeader column={column} title="ECP Winner" />,
         id: "ecp_winner",
         cell: ({ row }) => (
@@ -204,7 +195,7 @@ export default function DataTableDemo() {
     const [rowSelection, setRowSelection] = React.useState({})
 
     const table = useReactTable({
-        data : tableData,
+        data : na130tbl,
         columns,
         onSortingChange: setSorting,
         onColumnFiltersChange: setColumnFilters,
