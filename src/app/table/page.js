@@ -22,11 +22,11 @@ const HomePage = () => {
         <div className="w-100 p-8">
             <Card>
                 <CardHeader className="pb-3 gap-3">
-                    <CardTitle className="text-2xl">Polling Station Votes Breakdown</CardTitle>
+                    {/*<CardTitle className="text-2xl">Polling Station Votes Breakdown</CardTitle>
                     <div className='flex gap-4'>
                         <PollingStationChart chartKey="pti" title="Polling Stations Results According to PTI"/>
                         <AvgTurnoutChart title="Average National vs Provincial Turnout"/>
-                    </div>
+                    </div>*/}
                 </CardHeader>
                 <CardContent>
                     <DataTable />
