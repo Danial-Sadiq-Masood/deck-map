@@ -47,9 +47,9 @@ import data from './turnout.json'
 
 import pattan from './pattan.json'
 
-import na128tbl from './130tblfixed.json'
+import na128tbl from './na128pp.json'
 
-import BarChart from './barChart'
+import BarChart from './turnoutCompBarChart'
 
 const pattanMap = pattan.reduce((acc,d)=>{
     acc[d.psno] = d
@@ -95,35 +95,35 @@ export const columns = [
         enableSorting: false
     },
     {
-        accessorKey: "Total Voters",
-        id: "registered",
-        header: ({ column }) => <ColumnHeader column={column} title="Registered Voters" />,
-        cell: ({ row }) => {
-            const amount = parseInt(row.getValue("registered"))
-
-            return <div className="font-medium">{amount}</div>
-        },
-        enableSorting: true
-    },
-    {
-        accessorKey: "turnout",
-        id: "turnout",
-        header: ({ column }) => <ColumnHeader column={column} title="NA Turnout" />,
-        cell: ({ row }) => {
-            const amount = parseInt(row.getValue("turnout"))
-
-            return <div className="font-medium">{amount}</div>
-        },
-        enableSorting: true
-    },
-    {
         accessorKey: "turnout_percent",
-        id: "ecpPercentageTurnout",
-        header: ({ column }) => <ColumnHeader column={column} title="Turnout Percentage" />,
+        id: "turnout_percent",
+        header: ({ column }) => <ColumnHeader column={column} title="NA Turnout %" />,
         cell: ({ row }) => {
-            const amount = parseFloat(row.getValue("ecpPercentageTurnout")) *100
+            const amount = parseFloat(row.getValue("turnout_percent"))
 
-            return <div className="font-medium">{amount.toFixed(2)} %</div>
+            return <div className="font-medium">{(amount * 100).toFixed(2)}</div>
+        },
+        enableSorting: true
+    },
+    {
+        accessorKey: "PP Turnout Percentage",
+        id: "PP Turnout Percentage",
+        header: ({ column }) => <ColumnHeader column={column} title="PA Turnout %" />,
+        cell: ({ row }) => {
+            const amount = parseFloat(row.getValue("PP Turnout Percentage"))
+
+            return <div className="font-medium">{(amount * 100).toFixed(2)}</div>
+        },
+        enableSorting: true
+    },
+    {
+        accessorKey: "pp na difference",
+        id: "pp na difference",
+        header: ({ column }) => <ColumnHeader column={column} title="PA NA Turnout Difference" />,
+        cell: ({ row }) => {
+            const amount = parseInt(row.getValue("pp na difference"))
+
+            return <div className="font-medium">{amount}</div>
         },
         enableSorting: true
     },
@@ -133,6 +133,21 @@ export const columns = [
         id: "ecp_winner",
         cell: ({ row }) => (
             <div className="capitalize">{row.getValue("ecp_winner")}</div>
+        ),
+        enableSorting: true
+    },
+    {
+        header: ({ column }) => <ColumnHeader column={column} title="Chart" />,
+        id: "chart",
+        cell: ({ row }) => (
+            <div>
+                <BarChart
+                    chartData={[
+                        { browser: "PA Turnout", visitors: parseFloat(row.getValue("PP Turnout Percentage")), fill: "hsl(var(--chart-1))" },
+                        { browser: "NA Turnout", visitors: parseFloat(row.getValue("turnout_percent")), fill: "hsl(var(--chart-2))" }
+                      ]} 
+                />
+            </div>
         ),
         enableSorting: true
     }/*,
@@ -200,11 +215,12 @@ export default function DataTableDemo() {
         onSortingChange: setSorting,
         onColumnFiltersChange: setColumnFilters,
         getCoreRowModel: getCoreRowModel(),
-        //getPaginationRowModel: getPaginationRowModel(),
+        getPaginationRowModel: getPaginationRowModel(),
         getSortedRowModel: getSortedRowModel(),
         getFilteredRowModel: getFilteredRowModel(),
         onColumnVisibilityChange: setColumnVisibility,
         onRowSelectionChange: setRowSelection,
+        enableMultiSort : true,
         state: {
             sorting,
             columnFilters,
@@ -277,7 +293,7 @@ export default function DataTableDemo() {
                 </Table>
             </div>
             <div className="flex items-center justify-end space-x-2 py-4">
-                {/*<Paginator table={table} />*/}
+                <Paginator table={table} />
             </div>
         </div>
     )

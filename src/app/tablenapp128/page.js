@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react'
 import LocationAggregatorMap from '@/components/seatsMap'
-import DataTable from '@/shadComponents/table'
+import DataTable from '@/shadComponents/table128comp'
 
 import {
     Card,
@@ -15,6 +15,7 @@ import {
 
 import PollingStationChart from '@/shadComponents/pollingStationChart'
 import AvgTurnoutChart from '@/shadComponents/avgTurnoutChart'
+import PolllingStationPie from '@/shadComponents/pollingStationPieChart'
 
 const HomePage = () => {
 
@@ -22,11 +23,7 @@ const HomePage = () => {
         <div className="w-100 p-8">
             <Card>
                 <CardHeader className="pb-3 gap-3">
-                    {/*<CardTitle className="text-2xl">Polling Station Votes Breakdown</CardTitle>
-                    <div className='flex gap-4'>
-                        <PollingStationChart chartKey="pti" title="Polling Stations Results According to PTI"/>
-                        <AvgTurnoutChart title="Average National vs Provincial Turnout"/>
-                    </div>*/}
+                    <CardTitle className="text-2xl">Polling Station Turnout Comparison</CardTitle>
                 </CardHeader>
                 <CardContent>
                     <DataTable />
