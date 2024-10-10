@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react'
 import LocationAggregatorMap from '@/components/seatsMap'
-import DataTable from '@/shadComponents/table128comp'
+import DataTable from '@/shadComponents/table130comp'
 
 import {
     Card,
