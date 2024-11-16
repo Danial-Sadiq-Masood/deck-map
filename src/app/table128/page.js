@@ -28,8 +28,8 @@ const HomePage = () => {
                         <PolllingStationPie
                             title="Polling Stations Won By Candidates"
                             chartData={[
-                                { candidate: "Salman Akram Raja", data: 263, fill: "hsl(var(--chart-1))" },
-                                { candidate: "Muhammad Aun Saqlain Chaudhry", data: 170, fill: "hsl(var(--chart-2))" }
+                                { candidate: "Salman Akram Raja", data: 262, fill: "hsl(var(--chart-1))" },
+                                { candidate: "Muhammad Aun Saqlain Chaudhry", data: 171, fill: "hsl(var(--chart-2))" }
                             ]}
                             chartConfig={
                                 {
@@ -48,7 +48,7 @@ const HomePage = () => {
                             title="Votes Won By Candidates"
                             chartData={[
                                 { candidate: "Salman Akram Raja", data: 158344, fill: "hsl(var(--chart-1))" },
-                                { candidate: "Muhammad Aun Saqlain Chaudhry", data: 176333, fill: "hsl(var(--chart-2))" }
+                                { candidate: "Muhammad Aun Saqlain Chaudhry", data: 176833, fill: "hsl(var(--chart-2))" }
                             ]}
                             chartConfig={
                                 {
