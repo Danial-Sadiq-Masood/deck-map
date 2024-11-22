@@ -47,8 +47,8 @@ const HomePage = () => {
                             <PolllingStationPie
                             title="Votes Won By Candidates"
                             chartData={[
-                                { candidate: "Yasmin Rashid", data: 107063, fill: "hsl(var(--chart-1))" },
-                                { candidate: "Nawaz Sharif", data: 168180, fill: "hsl(var(--chart-2))" }
+                                { candidate: "Yasmin Rashid", data: 107217, fill: "hsl(var(--chart-1))" },
+                                { candidate: "Nawaz Sharif", data: 169353, fill: "hsl(var(--chart-2))" }
                             ]}
                             chartConfig={
                                 {

@@ -47,7 +47,7 @@ import data from './turnout.json'
 
 import pattan from './pattan.json'
 
-import na130tbl from './na130pp.json'
+import na130tbl from './130tblfixed.json'
 
 import BarChart from './turnoutCompBarChart'
 

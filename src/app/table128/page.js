@@ -47,8 +47,8 @@ const HomePage = () => {
                             <PolllingStationPie
                             title="Votes Won By Candidates"
                             chartData={[
-                                { candidate: "Salman Akram Raja", data: 158344, fill: "hsl(var(--chart-1))" },
-                                { candidate: "Muhammad Aun Saqlain Chaudhry", data: 176833, fill: "hsl(var(--chart-2))" }
+                                { candidate: "Salman Akram Raja", data: 158740, fill: "hsl(var(--chart-1))" },
+                                { candidate: "Muhammad Aun Saqlain Chaudhry", data: 177333, fill: "hsl(var(--chart-2))" }
                             ]}
                             chartConfig={
                                 {
