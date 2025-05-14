@@ -5,8 +5,6 @@ import { PrimeReactProvider, PrimeReactContext } from 'primereact/api';
 
 import { cn } from "@/lib/utils"
 
-const inter = Inter({ subsets: ["latin"] });
-
 const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
@@ -23,7 +21,7 @@ export default function RootLayout({ children }) {
       <html>
         <head />
 
-        <body className={cn("min-h-screen bg-[#fbfbfb9e] font-sans antialiased", fontSans.variable)}>
+        <body className={cn("min-h-screen bg-[#fbfbfb9e] font-sans antialiased", fontSans.className)}>
 
           <main className="">
             {children}
