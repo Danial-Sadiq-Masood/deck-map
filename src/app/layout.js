@@ -17,11 +17,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <PrimeReactProvider value={{ unstyled: true }}>
       <html>
         <head />
 
-        <body className={cn("min-h-screen bg-[#fbfbfb9e] font-sans antialiased", fontSans.className)}>
+        <body className={cn("min-h-screen bg-[#fbfbfb9e] antialiased", fontSans.className)}>
 
           <main className="">
             {children}
@@ -29,6 +28,5 @@ export default function RootLayout({ children }) {
 
         </body>
       </html>
-    </PrimeReactProvider>
   );
 }
