@@ -43,11 +43,20 @@ import {
     TableRow,
 } from "@/components/ui/table"
 
-import na130tbl from './data_242.json'
+import data from './turnout.json'
 
-import BarChart from './turnoutCompBarChart'
+import pattan from './pattan.json'
 
-/*const tableData = data.map((d, i) => (
+import data238 from './data_233.json'
+
+import BarChart from './barChart'
+
+const pattanMap = pattan.reduce((acc,d)=>{
+    acc[d.psno] = d
+    return acc;
+}, {});
+
+const tableData = data.map((d, i) => (
     {
         ...d,
         ecpPercentageTurnout: ((d.ecp_turnout/ d.registered) * 100),
@@ -66,66 +75,114 @@ tableData.forEach(d => {
 });
 
 console.log(pattanMap);
-*/
-
-console.log(na130tbl)
 
 export const columns = [
     {
-        accessorKey: "psnum_na",
-        header: ({ column }) => <ColumnHeader column={column} title="PS Number" />,
-        id: "psno",
-        cell: ({ row }) => (
-            <div className="capitalize">{row.getValue("psno")}</div>
-        ),
-        enableSorting: true
-    },
+            accessorKey: "psno_ecp",
+            header: ({ column }) => <ColumnHeader column={column} title="PS Number" />,
+            id: "psno",
+            cell: ({ row }) => (
+                <div className="capitalize">{row.getValue("psno")}</div>
+            ),
+            enableSorting: true
+        },
+        {
+            accessorKey: "Name",
+            id: "ps",
+            size: 300,
+            header: ({ column }) => <ColumnHeader column={column} title="Polling Station Name" />,
+            cell: ({ row }) => <div className="capitalize">{row.getValue("ps")}</div>,
+            enableSorting: false
+        },
+        {
+            accessorKey: "Total",
+            id: "registered",
+            header: ({ column }) => <ColumnHeader column={column} title="Registered Voters" />,
+            cell: ({ row }) => {
+                const amount = parseInt(row.getValue("registered"))
+    
+                return <div className="font-medium">{amount}</div>
+            },
+            enableSorting: true
+        },
+        {
+            accessorKey: "turnout_ecp",
+            id: "turnout",
+            header: ({ column }) => <ColumnHeader column={column} title="NA Turnout" />,
+            cell: ({ row }) => {
+                const amount = parseInt(row.getValue("turnout"))
+    
+                return <div className="font-medium">{amount}</div>
+            },
+            enableSorting: true
+        },
+        {
+            accessorKey: "turnout_official",
+            id: "ecpPercentageTurnout",
+            header: ({ column }) => <ColumnHeader column={column} title="Turnout Percentage" />,
+            cell: ({ row }) => {
+                const amount = parseFloat(row.getValue("ecpPercentageTurnout")) *100
+    
+                return <div className="font-medium">{amount.toFixed(2)} %</div>
+            },
+            enableSorting: true
+        },
+        {
+            accessorKey: "ecp_winner",
+            header: ({ column }) => <ColumnHeader column={column} title="ECP Winner" />,
+            id: "ecp_winner",
+            cell: ({ row }) => (
+                <div className="capitalize">{row.getValue("ecp_winner")}</div>
+            ),
+            enableSorting: true
+        }/*,
     {
-        accessorKey: "turnout_acc_ecp",
-        id: "turnout_percent",
-        header: ({ column }) => <ColumnHeader column={column} title="NA Turnout %" />,
+        accessorKey: "pti_turnout",
+        id: "pti_turnout",
+        header: ({ column }) => <ColumnHeader column={column} title="PTI Turnout" />,
         cell: ({ row }) => {
-            const amount = parseFloat(row.getValue("turnout_percent"))
+            const amount = parseInt(row.getValue("pti_turnout"))
 
-            return <div className="font-medium">{(amount * 100).toFixed(2)}</div>
+            return <div className="font-medium">{amount}</div>
         },
         enableSorting: true
     },
     {
-        accessorKey: "turnout_percentage_ps",
-        id: "PP Turnout Percentage",
-        header: ({ column }) => <ColumnHeader column={column} title="PA Turnout %" />,
+        accessorKey: "ptiPercentageTurnout",
+        id: "ptiPercentageTurnout",
+        header: ({ column }) => <ColumnHeader column={column} title="PTI Turnout Percentage" />,
         cell: ({ row }) => {
-            const amount = parseFloat(row.getValue("PP Turnout Percentage"))
+            const amount = parseInt(row.getValue("ptiPercentageTurnout"))
 
-            return <div className="font-medium">{(amount * 100).toFixed(2)}</div>
+            return <div className="font-medium">{amount.toFixed(2)} %</div>
         },
         enableSorting: true
     },
     {
-        accessorKey: "ecp_winner",
-        header: ({ column }) => <ColumnHeader column={column} title="ECP Winner" />,
-        id: "ecp_winner",
+        accessorKey: "pti_winner",
+        header: ({ column }) => <ColumnHeader column={column} title="PTI Winner" />,
+        id: "pti_winner",
         cell: ({ row }) => (
-            <div className="capitalize">{row.getValue("ecp_winner")}</div>
-        ),
-        enableSorting: true
-    },
-    {
-        header: ({ column }) => <ColumnHeader column={column}  title="Chart" />,
-        id: "chart",
-        cell: ({ row }) => (
-            <div className="max-w-[300px]">
-                <BarChart
-                    chartData={[
-                        { browser: "PA Turnout", visitors: parseFloat(row.getValue("PP Turnout Percentage")), fill: "hsl(var(--chart-1))" },
-                        { browser: "NA Turnout", visitors: parseFloat(row.getValue("turnout_percent")), fill: "hsl(var(--chart-2))" }
-                      ]} 
-                />
-            </div>
+            <div className="capitalize">{row.getValue("pti_winner")}</div>
         ),
         enableSorting: true
     }
+    /*{
+        header: () => <div className="">Votes Breakdown</div>,
+        id: "barChart",
+        cell: ({row}) => {
+            console.log(row)
+            return (
+                <div className="font-medium">
+                    <BarChart
+                        data={row.original.barData}
+                        dataKeys={['votes', 'riggedVotes']}
+                        yKey="party"
+                    />
+                </div>
+            )
+        },
+    }*/
 ]
 
 export default function DataTableDemo() {
@@ -138,17 +195,16 @@ export default function DataTableDemo() {
     const [rowSelection, setRowSelection] = React.useState({})
 
     const table = useReactTable({
-        data : na130tbl,
+        data : data238,
         columns,
         onSortingChange: setSorting,
         onColumnFiltersChange: setColumnFilters,
         getCoreRowModel: getCoreRowModel(),
-        getPaginationRowModel: getPaginationRowModel(),
+        //getPaginationRowModel: getPaginationRowModel(),
         getSortedRowModel: getSortedRowModel(),
         getFilteredRowModel: getFilteredRowModel(),
         onColumnVisibilityChange: setColumnVisibility,
         onRowSelectionChange: setRowSelection,
-        enableMultiSort : true,
         state: {
             sorting,
             columnFilters,
@@ -221,7 +277,7 @@ export default function DataTableDemo() {
                 </Table>
             </div>
             <div className="flex items-center justify-end space-x-2 py-4">
-                <Paginator table={table} />
+                {/*<Paginator table={table} />*/}
             </div>
         </div>
     )

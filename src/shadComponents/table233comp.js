@@ -43,7 +43,7 @@ import {
     TableRow,
 } from "@/components/ui/table"
 
-import na130tbl from './data_242.json'
+import na130tbl from './data_233.json'
 
 import BarChart from './turnoutCompBarChart'
 
@@ -72,7 +72,7 @@ console.log(na130tbl)
 
 export const columns = [
     {
-        accessorKey: "psnum_na",
+        accessorKey: "psno_ecp",
         header: ({ column }) => <ColumnHeader column={column} title="PS Number" />,
         id: "psno",
         cell: ({ row }) => (
@@ -81,7 +81,7 @@ export const columns = [
         enableSorting: true
     },
     {
-        accessorKey: "turnout_acc_ecp",
+        accessorKey: "turnout_official",
         id: "turnout_percent",
         header: ({ column }) => <ColumnHeader column={column} title="NA Turnout %" />,
         cell: ({ row }) => {
